@@ -16,6 +16,8 @@ interface StreamResponse {
   message_id?: string;
 }
 
+const API_BASE_URL = "http://localhost:8000";
+
 const App: React.FC = () => {
   const [conversations, setConversations] = useState(() => {
     const id = Math.random().toString(36).substring(2, 15);
@@ -44,7 +46,7 @@ const App: React.FC = () => {
 
   const fetchTokenStats = async () => {
     try {
-      const response = await fetch('http://localhost:8000/api/usage/tokens');
+      const response = await fetch(`${API_BASE_URL}/api/usage/tokens`);
       if (response.ok) {
         const stats = await response.json();
         setTokenStats(stats);
@@ -118,7 +120,7 @@ const App: React.FC = () => {
     addMessage(userMessage, 'user');
   
     try {
-      const response = await fetch('http://localhost:8000/api/chat', {
+      const response = await fetch(`${API_BASE_URL}/api/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -178,9 +180,14 @@ const App: React.FC = () => {
                 } else if (data.type === 'done') {
                   setIsLoading(false);
                   return;
+                } else if (data.type === 'error') {
+                  console.error('Server error:', data.content);
+                  addMessage(`Server error: ${data.content || 'Unknown error occurred'}`, 'assistant');
+                  setIsLoading(false);
+                  return;
                 }
               } catch (parseError) {
-                console.error('Error parsing SSE data:', parseError);
+                console.error('Error parsing SSE data:', parseError, 'Line:', line);
               }
             }
           }
@@ -192,11 +199,21 @@ const App: React.FC = () => {
     } catch (error) {
       console.error('Error sending message:', error);
       
-      // Check if it's a rate limit error
-      if (error instanceof Error && error.message.includes('429')) {
-        addMessage('🚦 Whoa, slow down there! You\'ve hit the rate limit (10 messages per minute). Take a coffee break and try again in a minute! ☕', 'assistant');
+      // More detailed error handling
+      if (error instanceof Error) {
+        if (error.message.includes('429')) {
+          addMessage('🚦 Whoa, slow down there! You\'ve hit the rate limit (10 messages per minute). Take a coffee break and try again in a minute! ☕', 'assistant');
+        } else if (error.message.includes('503')) {
+          addMessage('🔧 The service is temporarily unavailable. Please try again in a moment.', 'assistant');
+        } else if (error.message.includes('500')) {
+          addMessage('⚠️ Internal server error. The backend team has been notified.', 'assistant');
+        } else if (error.name === 'TypeError' && error.message.includes('fetch')) {
+          addMessage('🌐 Network connection error. Please check your internet connection and try again.', 'assistant');
+        } else {
+          addMessage(`❌ Connection error: ${error.message}. Please try again.`, 'assistant');
+        }
       } else {
-        addMessage('Sorry, I encountered a connection error. Please try again.', 'assistant');
+        addMessage('❌ An unexpected error occurred. Please try again.', 'assistant');
       }
       
       setIsLoading(false);
@@ -219,13 +236,18 @@ const App: React.FC = () => {
   const clearConversation = async () => {
     try {
       // Call backend to clear conversation
-      await fetch(`http://localhost:8000/api/conversations/${activeConversationId}`, {
+      const response = await fetch(`${API_BASE_URL}/api/conversations/${activeConversationId}`, {
         method: 'DELETE'
       });
+      
+      if (!response.ok) {
+        console.warn('Failed to clear conversation on backend, status:', response.status);
+      }
     } catch (error) {
       console.warn('Failed to clear conversation on backend:', error);
     }
     
+    // Clear conversation locally regardless of backend response
     setConversationMessages(prev => ({
       ...prev,
       [activeConversationId]: []
@@ -234,7 +256,7 @@ const App: React.FC = () => {
   
   const exportConversation = async (format: string) => {
     try {
-      const response = await fetch(`http://localhost:8000/api/conversations/${activeConversationId}/export?format=${format}`);
+      const response = await fetch(`${API_BASE_URL}/api/conversations/${activeConversationId}/export?format=${format}`);
       if (response.ok) {
         const blob = await response.blob();
         const url = window.URL.createObjectURL(blob);
@@ -245,9 +267,13 @@ const App: React.FC = () => {
         a.click();
         window.URL.revokeObjectURL(url);
         document.body.removeChild(a);
+      } else {
+        console.error('Export failed with status:', response.status);
+        addMessage('⚠️ Export failed. Please try again.', 'assistant');
       }
     } catch (error) {
       console.error('Export failed:', error);
+      addMessage('⚠️ Export failed due to network error.', 'assistant');
     }
   };
 
@@ -323,6 +349,7 @@ const App: React.FC = () => {
             onChange={(e) => e.target.value && exportConversation(e.target.value)}
             className="export-select"
             disabled={currentMessages.length === 0}
+            value=""
           >
             <option value="">📤 Export...</option>
             <option value="txt">📝 Text</option>

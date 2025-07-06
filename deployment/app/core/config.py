@@ -4,15 +4,21 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     """Application settings with environment variable support."""
+    
+    model_config = {
+        "extra": "allow",
+        "env_file": ".env",
+        "env_file_encoding": "utf-8"
+    }
 
     # API Configuration
     app_name: str = "PDF Chat Application"
     app_version: str = "1.0.0"
     debug: bool = True
 
-    # Anthropic Configuration (changed from OpenAI)
+    # Anthropic Configuration
     anthropic_api_key: str = ""
-    anthropic_model: str = "claude-3-haiku-20240307"  # Cost-effective model
+    anthropic_model: str = "claude-4-sonnet-20250514"
     max_tokens: int = 1500
     temperature: float = 0.7
 
@@ -29,10 +35,6 @@ class Settings(BaseSettings):
     # Server Configuration
     host: str = "0.0.0.0"
     port: int = 8000
-
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
 
 # Global settings instance
 settings = Settings()
