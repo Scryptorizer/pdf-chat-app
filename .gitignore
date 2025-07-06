@@ -1,6 +1,21 @@
+# Virtual environments
 backend/venv/
-backend/__pycache__/
-backend/.env
+backend/app/venv/
+venv/
+env/
+
+# Node modules
 frontend/node_modules/
-frontend/.env
+node_modules/
+
+# Environment files
+.env
+*.env
+backend/.env
 backend/app/.env
+frontend/.env
+
+# Cache files
+.cache/
+__pycache__/
+*.pyc
