@@ -1,0 +1,1462 @@
+2025-07-05 16:45:49,825 - __main__ - INFO - Starting application server...
+2025-07-05 16:45:51,578 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 16:45:51,578 - main - INFO - Initializing PDF processor...
+2025-07-05 16:45:51,579 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 16:45:51,579 - core.pdf_processor - ERROR - Failed to load PDF /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf: No /Root object! - Is this really a PDF?
+2025-07-05 16:45:51,579 - core.pdf_processor - ERROR - Failed to initialize PDF processor
+2025-07-05 16:45:51,579 - main - ERROR - Failed to initialize PDF processor
+2025-07-05 16:45:51,579 - main - ERROR - Startup failed: PDF processor initialization failed
+2025-07-05 16:45:51,774 - watchfiles.main - INFO - 1 change detected
+2025-07-05 16:49:51,367 - __main__ - INFO - Starting application server...
+2025-07-05 16:49:51,953 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 16:49:51,954 - main - INFO - Initializing PDF processor...
+2025-07-05 16:49:51,954 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 16:49:51,973 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 16:49:51,973 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 16:49:51,973 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 16:49:51,973 - main - INFO - Validating AI setup...
+2025-07-05 16:49:51,973 - core.ai_client - ERROR - AI setup validation failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-07-05 16:49:51,973 - main - ERROR - AI setup validation failed
+2025-07-05 16:49:51,973 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-05 16:49:52,186 - watchfiles.main - INFO - 1 change detected
+2025-07-05 16:51:14,958 - __main__ - INFO - Starting application server...
+2025-07-05 16:51:15,408 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 16:51:15,408 - main - INFO - Initializing PDF processor...
+2025-07-05 16:51:15,409 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 16:51:15,423 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 16:51:15,423 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 16:51:15,423 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 16:51:15,423 - main - INFO - Validating AI setup...
+2025-07-05 16:51:15,423 - core.ai_client - ERROR - AI setup validation failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-07-05 16:51:15,424 - main - ERROR - AI setup validation failed
+2025-07-05 16:51:15,424 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-05 16:51:15,606 - watchfiles.main - INFO - 1 change detected
+2025-07-05 16:53:52,660 - __main__ - INFO - Starting application server...
+2025-07-05 16:53:53,114 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 16:53:53,114 - main - INFO - Initializing PDF processor...
+2025-07-05 16:53:53,114 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 16:53:53,128 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 16:53:53,128 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 16:53:53,128 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 16:53:53,128 - main - INFO - Validating AI setup...
+2025-07-05 16:53:53,128 - core.ai_client - ERROR - AI setup validation failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-07-05 16:53:53,128 - main - ERROR - AI setup validation failed
+2025-07-05 16:53:53,128 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-05 16:53:53,317 - watchfiles.main - INFO - 1 change detected
+2025-07-05 16:55:53,178 - watchfiles.main - INFO - 1 change detected
+2025-07-05 16:55:53,662 - watchfiles.main - INFO - 1 change detected
+2025-07-05 16:55:54,085 - watchfiles.main - INFO - 4 changes detected
+2025-07-05 16:55:54,573 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 16:55:54,573 - main - INFO - Initializing PDF processor...
+2025-07-05 16:55:54,574 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 16:55:54,587 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 16:55:54,587 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 16:55:54,587 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 16:55:54,587 - main - INFO - Validating AI setup...
+2025-07-05 16:55:54,587 - core.ai_client - ERROR - AI setup validation failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-07-05 16:55:54,587 - main - ERROR - AI setup validation failed
+2025-07-05 16:55:54,587 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-05 16:55:54,768 - watchfiles.main - INFO - 1 change detected
+2025-07-05 16:55:59,234 - __main__ - INFO - Starting application server...
+2025-07-05 16:55:59,639 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 16:55:59,639 - main - INFO - Initializing PDF processor...
+2025-07-05 16:55:59,639 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 16:55:59,652 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 16:55:59,652 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 16:55:59,652 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 16:55:59,652 - main - INFO - Validating AI setup...
+2025-07-05 16:55:59,652 - core.ai_client - ERROR - AI setup validation failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-07-05 16:55:59,652 - main - ERROR - AI setup validation failed
+2025-07-05 16:55:59,652 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-05 16:55:59,827 - watchfiles.main - INFO - 1 change detected
+2025-07-05 17:00:05,065 - __main__ - INFO - Starting application server...
+2025-07-05 17:00:05,671 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 17:00:05,671 - main - INFO - Initializing PDF processor...
+2025-07-05 17:00:05,671 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 17:00:05,685 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 17:00:05,685 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 17:00:05,685 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 17:00:05,685 - main - INFO - Validating AI setup...
+2025-07-05 17:00:05,717 - core.ai_client - INFO - AI client initialized
+2025-07-05 17:00:07,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:00:07,969 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 17:00:07,969 - main - INFO - Initializing chat service...
+2025-07-05 17:00:07,969 - services.chat_service - INFO - Chat service initialized
+2025-07-05 17:00:07,970 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 17:00:07,970 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 17:01:53,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:37:20,079 - __main__ - INFO - Starting application server...
+2025-07-05 17:37:20,667 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 17:37:20,667 - main - INFO - Initializing PDF processor...
+2025-07-05 17:37:20,668 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 17:37:20,683 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 17:37:20,683 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 17:37:20,683 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 17:37:20,683 - main - INFO - Validating AI setup...
+2025-07-05 17:37:20,719 - core.ai_client - INFO - AI client initialized
+2025-07-05 17:37:22,538 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:37:22,547 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 17:37:22,547 - main - INFO - Initializing chat service...
+2025-07-05 17:37:22,548 - services.chat_service - INFO - Chat service initialized
+2025-07-05 17:37:22,548 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 17:37:22,548 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 17:38:38,889 - api.chat - INFO - Processing chat request: What is ADA?... (conversation: 5j7ofhxsnw4)
+2025-07-05 17:38:38,927 - services.chat_service - INFO - Created new conversation: 5j7ofhxsnw4
+2025-07-05 17:38:38,927 - services.chat_service - INFO - Added user message to conversation 5j7ofhxsnw4: What is ADA?...
+2025-07-05 17:38:38,927 - core.ai_client - INFO - Generating streaming response for: What is ADA?...
+2025-07-05 17:38:40,517 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:38:42,699 - core.ai_client - INFO - Completed streaming response: 382 characters
+2025-07-05 17:38:42,699 - services.chat_service - INFO - Completed streaming response for 5j7ofhxsnw4: 382 chars in 3.77s
+2025-07-05 17:38:42,700 - api.chat - INFO - Chat response completed in 3.81s
+2025-07-05 17:39:00,506 - api.chat - INFO - Processing chat request: What is ADA?... (conversation: 5j7ofhxsnw4)
+2025-07-05 17:39:00,523 - services.chat_service - INFO - Added user message to conversation 5j7ofhxsnw4: What is ADA?...
+2025-07-05 17:39:00,528 - core.ai_client - INFO - Generating streaming response for: What is ADA?...
+2025-07-05 17:39:02,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:39:04,581 - core.ai_client - INFO - Completed streaming response: 382 characters
+2025-07-05 17:39:04,581 - services.chat_service - INFO - Completed streaming response for 5j7ofhxsnw4: 382 chars in 4.05s
+2025-07-05 17:39:04,582 - api.chat - INFO - Chat response completed in 4.08s
+2025-07-05 17:44:15,354 - __main__ - INFO - Starting application server...
+2025-07-05 17:44:15,806 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 17:44:15,806 - main - INFO - Initializing PDF processor...
+2025-07-05 17:44:15,806 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 17:44:15,819 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 17:44:15,819 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 17:44:15,819 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 17:44:15,819 - main - INFO - Validating AI setup...
+2025-07-05 17:44:15,845 - core.ai_client - INFO - AI client initialized
+2025-07-05 17:44:17,011 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:44:17,017 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 17:44:17,017 - main - INFO - Initializing chat service...
+2025-07-05 17:44:17,017 - services.chat_service - INFO - Chat service initialized
+2025-07-05 17:44:17,017 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 17:44:17,017 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 17:44:44,022 - api.chat - INFO - Processing chat request: What is ADA?... (conversation: pz44pj5egcl)
+2025-07-05 17:44:44,031 - services.chat_service - INFO - Created new conversation: pz44pj5egcl
+2025-07-05 17:44:44,032 - services.chat_service - INFO - Added user message to conversation pz44pj5egcl: What is ADA?...
+2025-07-05 17:44:44,032 - core.ai_client - INFO - Generating streaming response for: What is ADA?...
+2025-07-05 17:44:45,672 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:44:47,013 - core.ai_client - INFO - Completed streaming response: 280 characters
+2025-07-05 17:44:47,013 - services.chat_service - INFO - Completed streaming response for pz44pj5egcl: 280 chars in 2.98s
+2025-07-05 17:44:47,014 - api.chat - INFO - Chat response completed in 2.99s
+2025-07-05 17:50:41,743 - __main__ - INFO - Starting application server...
+2025-07-05 17:50:42,189 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 17:50:42,189 - main - INFO - Initializing PDF processor...
+2025-07-05 17:50:42,189 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 17:50:42,202 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 17:50:42,202 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 17:50:42,202 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 17:50:42,202 - main - INFO - Validating AI setup...
+2025-07-05 17:50:42,231 - core.ai_client - INFO - AI client initialized
+2025-07-05 17:50:43,911 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:50:43,917 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 17:50:43,917 - main - INFO - Initializing chat service...
+2025-07-05 17:50:43,917 - services.chat_service - INFO - Chat service initialized
+2025-07-05 17:50:43,917 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 17:50:43,917 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 17:51:08,857 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: 89qhwnzc9io)
+2025-07-05 17:51:08,872 - services.chat_service - INFO - Created new conversation: 89qhwnzc9io
+2025-07-05 17:51:08,872 - services.chat_service - INFO - Added user message to conversation 89qhwnzc9io: What is the ADA?...
+2025-07-05 17:51:08,873 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 17:51:09,970 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:51:12,862 - core.ai_client - INFO - Completed streaming response: 378 characters
+2025-07-05 17:51:12,863 - services.chat_service - INFO - Completed streaming response for 89qhwnzc9io: 378 chars in 3.99s
+2025-07-05 17:51:12,863 - api.chat - INFO - Chat response completed in 4.01s
+2025-07-05 17:53:12,014 - services.chat_service - INFO - Cleared conversation: 89qhwnzc9io
+2025-07-05 17:53:17,511 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: 89qhwnzc9io)
+2025-07-05 17:53:17,522 - services.chat_service - INFO - Added user message to conversation 89qhwnzc9io: What is the ADA?...
+2025-07-05 17:53:17,525 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 17:53:18,715 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:53:20,309 - core.ai_client - INFO - Completed streaming response: 366 characters
+2025-07-05 17:53:20,314 - services.chat_service - INFO - Completed streaming response for 89qhwnzc9io: 366 chars in 2.79s
+2025-07-05 17:53:20,317 - api.chat - INFO - Chat response completed in 2.81s
+2025-07-05 17:53:37,271 - __main__ - INFO - Starting application server...
+2025-07-05 17:53:37,841 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 17:53:37,842 - main - INFO - Initializing PDF processor...
+2025-07-05 17:53:37,842 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 17:53:37,854 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 17:53:37,854 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 17:53:37,854 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 17:53:37,854 - main - INFO - Validating AI setup...
+2025-07-05 17:53:37,878 - core.ai_client - INFO - AI client initialized
+2025-07-05 17:53:38,770 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:53:38,781 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 17:53:38,781 - main - INFO - Initializing chat service...
+2025-07-05 17:53:38,781 - services.chat_service - INFO - Chat service initialized
+2025-07-05 17:53:38,782 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 17:53:38,782 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 17:54:32,290 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: iacxsipo6f)
+2025-07-05 17:54:32,338 - services.chat_service - INFO - Created new conversation: iacxsipo6f
+2025-07-05 17:54:32,339 - services.chat_service - INFO - Added user message to conversation iacxsipo6f: What is the ADA?...
+2025-07-05 17:54:32,339 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 17:54:33,622 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:54:35,596 - core.ai_client - INFO - Completed streaming response: 339 characters
+2025-07-05 17:54:35,599 - services.chat_service - INFO - Completed streaming response for iacxsipo6f: 339 chars in 3.26s
+2025-07-05 17:54:35,599 - api.chat - INFO - Chat response completed in 3.31s
+2025-07-05 17:58:33,300 - __main__ - INFO - Starting application server...
+2025-07-05 17:58:33,726 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 17:58:33,726 - main - INFO - Initializing PDF processor...
+2025-07-05 17:58:33,726 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 17:58:33,739 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 17:58:33,739 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 17:58:33,740 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 17:58:33,740 - main - INFO - Validating AI setup...
+2025-07-05 17:58:33,762 - core.ai_client - INFO - AI client initialized
+2025-07-05 17:58:35,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:58:35,260 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 17:58:35,260 - main - INFO - Initializing chat service...
+2025-07-05 17:58:35,261 - services.chat_service - INFO - Chat service initialized
+2025-07-05 17:58:35,261 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 17:58:35,261 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 17:58:51,374 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: nsdeyallhrd)
+2025-07-05 17:58:51,382 - services.chat_service - INFO - Created new conversation: nsdeyallhrd
+2025-07-05 17:58:51,382 - services.chat_service - INFO - Added user message to conversation nsdeyallhrd: What is the ADA?...
+2025-07-05 17:58:51,383 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 17:58:52,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 17:58:54,526 - core.ai_client - INFO - Completed streaming response: 330 characters
+2025-07-05 17:58:54,527 - services.chat_service - INFO - Completed streaming response for nsdeyallhrd: 330 chars in 3.14s
+2025-07-05 17:58:54,527 - api.chat - INFO - Chat response completed in 3.15s
+2025-07-05 18:15:15,429 - __main__ - INFO - Starting application server...
+2025-07-05 18:15:15,900 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:15:15,900 - main - INFO - Initializing PDF processor...
+2025-07-05 18:15:15,900 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:15:15,915 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:15:15,915 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:15:15,915 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:15:15,915 - main - INFO - Validating AI setup...
+2025-07-05 18:15:15,959 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:15:17,244 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:15:17,250 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:15:17,250 - main - INFO - Initializing chat service...
+2025-07-05 18:15:17,250 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:15:17,250 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:15:17,250 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:16:11,366 - api.chat - INFO - Processing chat request: "List 3 key benefits of the ADA according to the document"... (conversation: wqp588p886n)
+2025-07-05 18:16:11,382 - services.chat_service - INFO - Created new conversation: wqp588p886n
+2025-07-05 18:16:11,386 - services.chat_service - INFO - Added user message to conversation wqp588p886n: "List 3 key benefits of the ADA according to the document"...
+2025-07-05 18:16:11,388 - core.ai_client - INFO - Generating streaming response for: "List 3 key benefits of the ADA according to the document"...
+2025-07-05 18:16:12,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:16:14,451 - core.ai_client - INFO - Completed streaming response: 304 characters
+2025-07-05 18:16:14,452 - services.chat_service - INFO - Completed streaming response for wqp588p886n: 304 chars in 3.07s
+2025-07-05 18:16:14,452 - api.chat - INFO - Chat response completed in 3.09s
+2025-07-05 18:17:28,723 - api.chat - INFO - Processing chat request: "Give me a numbered list of 3 ADA requirements"... (conversation: wqp588p886n)
+2025-07-05 18:17:28,730 - services.chat_service - INFO - Added user message to conversation wqp588p886n: "Give me a numbered list of 3 ADA requirements"...
+2025-07-05 18:17:28,737 - core.ai_client - INFO - Generating streaming response for: "Give me a numbered list of 3 ADA requirements"...
+2025-07-05 18:17:29,995 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:17:32,234 - core.ai_client - INFO - Completed streaming response: 299 characters
+2025-07-05 18:17:32,234 - services.chat_service - INFO - Completed streaming response for wqp588p886n: 299 chars in 3.50s
+2025-07-05 18:17:32,235 - api.chat - INFO - Chat response completed in 3.51s
+2025-07-05 18:19:11,502 - api.chat - INFO - Processing chat request: "Tell me about Canada's accessibility standards and format your response with bullet points"... (conversation: wqp588p886n)
+2025-07-05 18:19:11,519 - services.chat_service - INFO - Added user message to conversation wqp588p886n: "Tell me about Canada's accessibility standards and format your response with bullet points"...
+2025-07-05 18:19:11,530 - core.ai_client - INFO - Generating streaming response for: "Tell me about Canada's accessibility standards and format your response with bullet points"...
+2025-07-05 18:19:13,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:19:14,061 - core.ai_client - INFO - Completed streaming response: 225 characters
+2025-07-05 18:19:14,061 - services.chat_service - INFO - Completed streaming response for wqp588p886n: 225 chars in 2.53s
+2025-07-05 18:19:14,062 - api.chat - INFO - Chat response completed in 2.56s
+2025-07-05 18:19:28,741 - api.chat - INFO - Processing chat request: Tell me about Canada's accessibility standards and format your response with bullet points... (conversation: wqp588p886n)
+2025-07-05 18:19:28,748 - services.chat_service - INFO - Added user message to conversation wqp588p886n: Tell me about Canada's accessibility standards and format your response with bullet points...
+2025-07-05 18:19:28,749 - core.ai_client - INFO - Generating streaming response for: Tell me about Canada's accessibility standards and format your response with bullet points...
+2025-07-05 18:19:30,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:19:31,077 - core.ai_client - INFO - Completed streaming response: 216 characters
+2025-07-05 18:19:31,077 - services.chat_service - INFO - Completed streaming response for wqp588p886n: 216 chars in 2.33s
+2025-07-05 18:19:31,077 - api.chat - INFO - Chat response completed in 2.34s
+2025-07-05 18:19:49,840 - main - INFO - Shutting down application...
+2025-07-05 18:19:49,840 - main - INFO - 👋 Application shutdown complete
+2025-07-05 18:19:53,226 - __main__ - INFO - Starting application server...
+2025-07-05 18:19:53,672 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:19:53,673 - main - INFO - Initializing PDF processor...
+2025-07-05 18:19:53,673 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:19:53,687 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:19:53,688 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:19:53,688 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:19:53,688 - main - INFO - Validating AI setup...
+2025-07-05 18:19:53,736 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:19:55,153 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:19:55,155 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:19:55,156 - main - INFO - Initializing chat service...
+2025-07-05 18:19:55,156 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:19:55,156 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:19:55,156 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:20:09,980 - api.chat - INFO - Processing chat request: Tell me about Canada's accessibility standards and format your response with bullet points... (conversation: p4yxlt08vjb)
+2025-07-05 18:20:09,990 - services.chat_service - INFO - Created new conversation: p4yxlt08vjb
+2025-07-05 18:20:09,990 - services.chat_service - INFO - Added user message to conversation p4yxlt08vjb: Tell me about Canada's accessibility standards and format your response with bullet points...
+2025-07-05 18:20:09,990 - core.ai_client - INFO - Generating streaming response for: Tell me about Canada's accessibility standards and format your response with bullet points...
+2025-07-05 18:20:11,134 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:20:13,235 - core.ai_client - INFO - Completed streaming response: 458 characters
+2025-07-05 18:20:13,236 - services.chat_service - INFO - Completed streaming response for p4yxlt08vjb: 458 chars in 3.25s
+2025-07-05 18:20:13,236 - api.chat - INFO - Chat response completed in 3.26s
+2025-07-05 18:20:59,976 - api.chat - INFO - Processing chat request: Give me a numbered list of 3 ADA requirements... (conversation: p4yxlt08vjb)
+2025-07-05 18:20:59,983 - services.chat_service - INFO - Added user message to conversation p4yxlt08vjb: Give me a numbered list of 3 ADA requirements...
+2025-07-05 18:20:59,983 - core.ai_client - INFO - Generating streaming response for: Give me a numbered list of 3 ADA requirements...
+2025-07-05 18:21:01,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:21:03,309 - core.ai_client - INFO - Completed streaming response: 448 characters
+2025-07-05 18:21:03,310 - services.chat_service - INFO - Completed streaming response for p4yxlt08vjb: 448 chars in 3.33s
+2025-07-05 18:21:03,310 - api.chat - INFO - Chat response completed in 3.33s
+2025-07-05 18:27:07,435 - __main__ - INFO - Starting application server...
+2025-07-05 18:27:07,861 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:27:07,861 - main - INFO - Initializing PDF processor...
+2025-07-05 18:27:07,861 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:27:07,874 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:27:07,874 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:27:07,874 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:27:07,874 - main - INFO - Validating AI setup...
+2025-07-05 18:27:07,900 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:27:08,850 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:27:08,858 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:27:08,858 - main - INFO - Initializing chat service...
+2025-07-05 18:27:08,858 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:27:08,858 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:27:08,858 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:27:24,751 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: vl4m1kxq3ee)
+2025-07-05 18:27:24,762 - services.chat_service - INFO - Created new conversation: vl4m1kxq3ee
+2025-07-05 18:27:24,762 - services.chat_service - INFO - Added user message to conversation vl4m1kxq3ee: What is the ADA?...
+2025-07-05 18:27:24,762 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:27:25,735 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:27:27,207 - core.ai_client - INFO - Completed streaming response: 333 characters
+2025-07-05 18:27:27,208 - services.chat_service - INFO - Completed streaming response for vl4m1kxq3ee: 333 chars in 2.45s
+2025-07-05 18:27:27,208 - api.chat - INFO - Chat response completed in 2.46s
+2025-07-05 18:27:35,863 - api.chat - INFO - Processing chat request: how can you help me ?... (conversation: vl4m1kxq3ee)
+2025-07-05 18:27:35,880 - services.chat_service - INFO - Added user message to conversation vl4m1kxq3ee: how can you help me ?...
+2025-07-05 18:27:35,884 - core.ai_client - INFO - Generating streaming response for: how can you help me ?...
+2025-07-05 18:27:37,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:27:39,973 - core.ai_client - INFO - Completed streaming response: 468 characters
+2025-07-05 18:27:39,973 - services.chat_service - INFO - Completed streaming response for vl4m1kxq3ee: 468 chars in 4.09s
+2025-07-05 18:27:39,974 - api.chat - INFO - Chat response completed in 4.11s
+2025-07-05 18:28:27,629 - services.chat_service - INFO - Cleared conversation: vl4m1kxq3ee
+2025-07-05 18:28:56,671 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: vl4m1kxq3ee)
+2025-07-05 18:28:56,697 - services.chat_service - INFO - Added user message to conversation vl4m1kxq3ee: What is the ADA?...
+2025-07-05 18:28:56,714 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:28:58,470 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:29:00,046 - core.ai_client - INFO - Completed streaming response: 314 characters
+2025-07-05 18:29:00,046 - services.chat_service - INFO - Completed streaming response for vl4m1kxq3ee: 314 chars in 3.35s
+2025-07-05 18:29:00,046 - api.chat - INFO - Chat response completed in 3.38s
+2025-07-05 18:29:59,777 - api.chat - INFO - Processing chat request: what is ada... (conversation: vl4m1kxq3ee)
+2025-07-05 18:29:59,807 - services.chat_service - INFO - Added user message to conversation vl4m1kxq3ee: what is ada...
+2025-07-05 18:29:59,809 - core.ai_client - INFO - Generating streaming response for: what is ada...
+2025-07-05 18:30:01,116 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:30:03,723 - core.ai_client - INFO - Completed streaming response: 361 characters
+2025-07-05 18:30:03,724 - services.chat_service - INFO - Completed streaming response for vl4m1kxq3ee: 361 chars in 3.91s
+2025-07-05 18:30:03,725 - api.chat - INFO - Chat response completed in 3.95s
+2025-07-05 18:32:45,601 - api.chat - INFO - Processing chat request: what is ada... (conversation: vl4m1kxq3ee)
+2025-07-05 18:32:45,633 - services.chat_service - INFO - Added user message to conversation vl4m1kxq3ee: what is ada...
+2025-07-05 18:32:45,637 - core.ai_client - INFO - Generating streaming response for: what is ada...
+2025-07-05 18:32:46,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:32:47,845 - core.ai_client - INFO - Completed streaming response: 316 characters
+2025-07-05 18:32:47,845 - services.chat_service - INFO - Completed streaming response for vl4m1kxq3ee: 316 chars in 2.21s
+2025-07-05 18:32:47,845 - api.chat - INFO - Chat response completed in 2.24s
+2025-07-05 18:36:41,784 - __main__ - INFO - Starting application server...
+2025-07-05 18:36:42,222 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:36:42,222 - main - INFO - Initializing PDF processor...
+2025-07-05 18:36:42,222 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:36:42,237 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:36:42,237 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:36:42,237 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:36:42,237 - main - INFO - Validating AI setup...
+2025-07-05 18:36:42,267 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:36:43,726 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:36:43,733 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:36:43,733 - main - INFO - Initializing chat service...
+2025-07-05 18:36:43,733 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:36:43,733 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:36:43,733 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:37:02,477 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: bwu0xo75d7)
+2025-07-05 18:37:02,493 - services.chat_service - INFO - Created new conversation: bwu0xo75d7
+2025-07-05 18:37:02,494 - services.chat_service - INFO - Added user message to conversation bwu0xo75d7: What is the ADA?...
+2025-07-05 18:37:02,495 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:37:03,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:37:04,747 - core.ai_client - INFO - Completed streaming response: 322 characters
+2025-07-05 18:37:04,748 - services.chat_service - INFO - Completed streaming response for bwu0xo75d7: 322 chars in 2.25s
+2025-07-05 18:37:04,748 - api.chat - INFO - Chat response completed in 2.27s
+2025-07-05 18:37:09,473 - api.chat - INFO - Processing chat request: how are you doing... (conversation: bwu0xo75d7)
+2025-07-05 18:37:09,477 - services.chat_service - INFO - Added user message to conversation bwu0xo75d7: how are you doing...
+2025-07-05 18:37:09,478 - core.ai_client - INFO - Generating streaming response for: how are you doing...
+2025-07-05 18:37:10,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:37:11,580 - core.ai_client - INFO - Completed streaming response: 119 characters
+2025-07-05 18:37:11,580 - services.chat_service - INFO - Completed streaming response for bwu0xo75d7: 119 chars in 2.10s
+2025-07-05 18:37:11,580 - api.chat - INFO - Chat response completed in 2.11s
+2025-07-05 18:37:22,892 - api.chat - INFO - Processing chat request: what model are you ?... (conversation: bwu0xo75d7)
+2025-07-05 18:37:22,901 - services.chat_service - INFO - Added user message to conversation bwu0xo75d7: what model are you ?...
+2025-07-05 18:37:22,902 - core.ai_client - INFO - Generating streaming response for: what model are you ?...
+2025-07-05 18:37:23,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:37:25,272 - core.ai_client - INFO - Completed streaming response: 234 characters
+2025-07-05 18:37:25,272 - services.chat_service - INFO - Completed streaming response for bwu0xo75d7: 234 chars in 2.37s
+2025-07-05 18:37:25,272 - api.chat - INFO - Chat response completed in 2.38s
+2025-07-05 18:37:51,955 - api.chat - INFO - Processing chat request: what is the purpose of this cha ?... (conversation: bwu0xo75d7)
+2025-07-05 18:37:51,965 - services.chat_service - INFO - Added user message to conversation bwu0xo75d7: what is the purpose of this cha ?...
+2025-07-05 18:37:51,966 - core.ai_client - INFO - Generating streaming response for: what is the purpose of this cha ?...
+2025-07-05 18:37:52,751 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:37:53,855 - core.ai_client - INFO - Completed streaming response: 249 characters
+2025-07-05 18:37:53,855 - services.chat_service - INFO - Completed streaming response for bwu0xo75d7: 249 chars in 1.89s
+2025-07-05 18:37:53,856 - api.chat - INFO - Chat response completed in 1.90s
+2025-07-05 18:38:03,846 - api.chat - INFO - Processing chat request: what is the purpose of this chat ?... (conversation: bwu0xo75d7)
+2025-07-05 18:38:03,850 - services.chat_service - INFO - Added user message to conversation bwu0xo75d7: what is the purpose of this chat ?...
+2025-07-05 18:38:03,850 - core.ai_client - INFO - Generating streaming response for: what is the purpose of this chat ?...
+2025-07-05 18:38:04,794 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:38:05,740 - core.ai_client - INFO - Completed streaming response: 225 characters
+2025-07-05 18:38:05,740 - services.chat_service - INFO - Completed streaming response for bwu0xo75d7: 225 chars in 1.89s
+2025-07-05 18:38:05,741 - api.chat - INFO - Chat response completed in 1.90s
+2025-07-05 18:41:05,477 - watchfiles.main - INFO - 1 change detected
+2025-07-05 18:41:05,737 - main - INFO - Shutting down application...
+2025-07-05 18:41:05,745 - main - INFO - 👋 Application shutdown complete
+2025-07-05 18:41:06,538 - watchfiles.main - INFO - 1 change detected
+2025-07-05 18:41:06,949 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:41:06,949 - main - INFO - Initializing PDF processor...
+2025-07-05 18:41:06,949 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:41:06,962 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:41:06,962 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:41:06,962 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:41:06,962 - main - INFO - Validating AI setup...
+2025-07-05 18:41:06,990 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:41:07,012 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 18:41:07,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:41:07,980 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:41:07,980 - main - INFO - Initializing chat service...
+2025-07-05 18:41:07,980 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:41:07,980 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:41:07,980 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:42:15,371 - watchfiles.main - INFO - 1 change detected
+2025-07-05 18:42:15,589 - main - INFO - Shutting down application...
+2025-07-05 18:42:15,590 - main - INFO - 👋 Application shutdown complete
+2025-07-05 18:42:16,133 - watchfiles.main - INFO - 2 changes detected
+2025-07-05 18:42:16,630 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:42:16,630 - main - INFO - Initializing PDF processor...
+2025-07-05 18:42:16,630 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:42:16,643 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:42:16,643 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:42:16,643 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:42:16,643 - main - INFO - Validating AI setup...
+2025-07-05 18:42:16,688 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:42:16,716 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 18:42:18,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:42:18,025 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:42:18,025 - main - INFO - Initializing chat service...
+2025-07-05 18:42:18,025 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:42:18,025 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:42:18,025 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:45:36,294 - watchfiles.main - INFO - 1 change detected
+2025-07-05 18:45:36,571 - main - INFO - Shutting down application...
+2025-07-05 18:45:36,572 - main - INFO - 👋 Application shutdown complete
+2025-07-05 18:45:37,564 - watchfiles.main - INFO - 1 change detected
+2025-07-05 18:45:38,303 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:45:38,303 - main - INFO - Initializing PDF processor...
+2025-07-05 18:45:38,303 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:45:38,316 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:45:38,316 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:45:38,316 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:45:38,316 - main - INFO - Validating AI setup...
+2025-07-05 18:45:38,350 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:45:38,376 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 18:45:39,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:45:39,609 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:45:39,610 - main - INFO - Initializing chat service...
+2025-07-05 18:45:39,610 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:45:39,610 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:45:39,610 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:45:49,603 - watchfiles.main - INFO - 1 change detected
+2025-07-05 18:45:49,741 - main - INFO - Shutting down application...
+2025-07-05 18:45:49,741 - main - INFO - 👋 Application shutdown complete
+2025-07-05 18:45:50,228 - watchfiles.main - INFO - 2 changes detected
+2025-07-05 18:45:51,144 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 18:45:51,171 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:45:51,171 - main - INFO - Initializing PDF processor...
+2025-07-05 18:45:51,171 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:45:51,187 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:45:51,187 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:45:51,187 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:45:51,187 - main - INFO - Validating AI setup...
+2025-07-05 18:45:51,257 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:45:51,992 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:45:51,995 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:45:51,995 - main - INFO - Initializing chat service...
+2025-07-05 18:45:51,995 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:45:51,996 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:45:51,996 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:48:30,036 - watchfiles.main - INFO - 1 change detected
+2025-07-05 18:48:30,276 - main - INFO - Shutting down application...
+2025-07-05 18:48:30,280 - main - INFO - 👋 Application shutdown complete
+2025-07-05 18:48:31,420 - watchfiles.main - INFO - 2 changes detected
+2025-07-05 18:48:31,919 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:48:31,920 - main - INFO - Initializing PDF processor...
+2025-07-05 18:48:31,920 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:48:31,932 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:48:31,932 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:48:31,932 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:48:31,932 - main - INFO - Validating AI setup...
+2025-07-05 18:48:31,950 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 18:48:31,977 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:48:33,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:48:33,056 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:48:33,056 - main - INFO - Initializing chat service...
+2025-07-05 18:48:33,057 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:48:33,057 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:48:33,057 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:48:38,729 - main - INFO - Shutting down application...
+2025-07-05 18:48:38,730 - main - INFO - 👋 Application shutdown complete
+2025-07-05 18:48:48,482 - __main__ - INFO - Starting application server...
+2025-07-05 18:48:48,891 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 18:48:48,891 - main - INFO - Initializing PDF processor...
+2025-07-05 18:48:48,891 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 18:48:48,904 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 18:48:48,904 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 18:48:48,904 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 18:48:48,904 - main - INFO - Validating AI setup...
+2025-07-05 18:48:48,923 - core.ai_client - INFO - AI client initialized
+2025-07-05 18:48:50,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:48:50,157 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 18:48:50,157 - main - INFO - Initializing chat service...
+2025-07-05 18:48:50,157 - services.chat_service - INFO - Chat service initialized
+2025-07-05 18:48:50,157 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 18:48:50,157 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 18:49:04,947 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:04,965 - services.chat_service - INFO - Created new conversation: hdm1b4si0kt
+2025-07-05 18:49:04,965 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:04,966 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:06,458 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:08,096 - core.ai_client - INFO - Completed streaming response: 312 characters
+2025-07-05 18:49:08,098 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 312 chars in 3.13s
+2025-07-05 18:49:08,099 - api.chat - INFO - Chat response completed in 3.15s
+2025-07-05 18:49:11,284 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:11,286 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:11,286 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:12,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:14,343 - core.ai_client - INFO - Completed streaming response: 310 characters
+2025-07-05 18:49:14,343 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 310 chars in 3.06s
+2025-07-05 18:49:14,344 - api.chat - INFO - Chat response completed in 3.06s
+2025-07-05 18:49:16,633 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:16,634 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:16,635 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:17,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:19,213 - core.ai_client - INFO - Completed streaming response: 320 characters
+2025-07-05 18:49:19,214 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 320 chars in 2.58s
+2025-07-05 18:49:19,214 - api.chat - INFO - Chat response completed in 2.58s
+2025-07-05 18:49:21,382 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:21,391 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:21,393 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:22,200 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:23,568 - core.ai_client - INFO - Completed streaming response: 306 characters
+2025-07-05 18:49:23,568 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 306 chars in 2.17s
+2025-07-05 18:49:23,568 - api.chat - INFO - Chat response completed in 2.19s
+2025-07-05 18:49:25,615 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:25,616 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:25,616 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:26,401 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:28,051 - core.ai_client - INFO - Completed streaming response: 315 characters
+2025-07-05 18:49:28,051 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 315 chars in 2.44s
+2025-07-05 18:49:28,052 - api.chat - INFO - Chat response completed in 2.44s
+2025-07-05 18:49:29,848 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:29,849 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:29,849 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:30,496 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:32,262 - core.ai_client - INFO - Completed streaming response: 349 characters
+2025-07-05 18:49:32,263 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 349 chars in 2.41s
+2025-07-05 18:49:32,263 - api.chat - INFO - Chat response completed in 2.42s
+2025-07-05 18:49:34,450 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:34,453 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:34,453 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:35,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:36,508 - core.ai_client - INFO - Completed streaming response: 354 characters
+2025-07-05 18:49:36,508 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 354 chars in 2.06s
+2025-07-05 18:49:36,509 - api.chat - INFO - Chat response completed in 2.06s
+2025-07-05 18:49:38,849 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:38,853 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:38,854 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:39,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:41,362 - core.ai_client - INFO - Completed streaming response: 375 characters
+2025-07-05 18:49:41,362 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 375 chars in 2.51s
+2025-07-05 18:49:41,363 - api.chat - INFO - Chat response completed in 2.51s
+2025-07-05 18:49:44,283 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:44,284 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:44,284 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:45,578 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:47,820 - core.ai_client - INFO - Completed streaming response: 334 characters
+2025-07-05 18:49:47,820 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 334 chars in 3.54s
+2025-07-05 18:49:47,820 - api.chat - INFO - Chat response completed in 3.54s
+2025-07-05 18:49:51,698 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:49:51,700 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:49:51,700 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:49:52,513 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:49:54,766 - core.ai_client - INFO - Completed streaming response: 361 characters
+2025-07-05 18:49:54,766 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 361 chars in 3.07s
+2025-07-05 18:49:54,767 - api.chat - INFO - Chat response completed in 3.07s
+2025-07-05 18:50:06,275 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:50:06,280 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:50:06,281 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:50:07,248 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:50:09,269 - core.ai_client - INFO - Completed streaming response: 349 characters
+2025-07-05 18:50:09,269 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 349 chars in 2.99s
+2025-07-05 18:50:09,269 - api.chat - INFO - Chat response completed in 2.99s
+2025-07-05 18:58:06,666 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:06,743 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:06,754 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:08,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:10,319 - core.ai_client - INFO - Completed streaming response: 355 characters
+2025-07-05 18:58:10,319 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 355 chars in 3.57s
+2025-07-05 18:58:10,321 - api.chat - INFO - Chat response completed in 3.66s
+2025-07-05 18:58:13,442 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:13,444 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:13,444 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:14,491 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:16,417 - core.ai_client - INFO - Completed streaming response: 351 characters
+2025-07-05 18:58:16,417 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 351 chars in 2.97s
+2025-07-05 18:58:16,418 - api.chat - INFO - Chat response completed in 2.98s
+2025-07-05 18:58:17,866 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:17,867 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:17,868 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:18,793 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:20,606 - core.ai_client - INFO - Completed streaming response: 349 characters
+2025-07-05 18:58:20,607 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 349 chars in 2.74s
+2025-07-05 18:58:20,607 - api.chat - INFO - Chat response completed in 2.74s
+2025-07-05 18:58:22,119 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:22,123 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:22,124 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:23,502 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:25,442 - core.ai_client - INFO - Completed streaming response: 368 characters
+2025-07-05 18:58:25,442 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 368 chars in 3.32s
+2025-07-05 18:58:25,442 - api.chat - INFO - Chat response completed in 3.32s
+2025-07-05 18:58:27,043 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:27,045 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:27,045 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:28,715 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:30,575 - core.ai_client - INFO - Completed streaming response: 398 characters
+2025-07-05 18:58:30,576 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 398 chars in 3.53s
+2025-07-05 18:58:30,576 - api.chat - INFO - Chat response completed in 3.53s
+2025-07-05 18:58:32,391 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:32,392 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:32,392 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:33,028 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:35,699 - core.ai_client - INFO - Completed streaming response: 377 characters
+2025-07-05 18:58:35,701 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 377 chars in 3.31s
+2025-07-05 18:58:35,701 - api.chat - INFO - Chat response completed in 3.31s
+2025-07-05 18:58:37,662 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:37,663 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:37,663 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:38,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:40,738 - core.ai_client - INFO - Completed streaming response: 390 characters
+2025-07-05 18:58:40,740 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 390 chars in 3.08s
+2025-07-05 18:58:40,741 - api.chat - INFO - Chat response completed in 3.08s
+2025-07-05 18:58:43,358 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:43,359 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:43,359 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:43,974 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:45,765 - core.ai_client - INFO - Completed streaming response: 370 characters
+2025-07-05 18:58:45,766 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 370 chars in 2.41s
+2025-07-05 18:58:45,766 - api.chat - INFO - Chat response completed in 2.41s
+2025-07-05 18:58:47,390 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:47,391 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:47,392 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:48,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:50,754 - core.ai_client - INFO - Completed streaming response: 400 characters
+2025-07-05 18:58:50,755 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 400 chars in 3.36s
+2025-07-05 18:58:50,756 - api.chat - INFO - Chat response completed in 3.37s
+2025-07-05 18:58:52,160 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: hdm1b4si0kt)
+2025-07-05 18:58:52,161 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: What is the ADA?...
+2025-07-05 18:58:52,161 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 18:58:53,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:58:55,046 - core.ai_client - INFO - Completed streaming response: 381 characters
+2025-07-05 18:58:55,046 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 381 chars in 2.88s
+2025-07-05 18:58:55,046 - api.chat - INFO - Chat response completed in 2.89s
+2025-07-05 18:59:49,500 - api.chat - INFO - Processing chat request: you think others would perfomr as well as i did ?... (conversation: hdm1b4si0kt)
+2025-07-05 18:59:49,516 - services.chat_service - INFO - Added user message to conversation hdm1b4si0kt: you think others would perfomr as well as i did ?...
+2025-07-05 18:59:49,521 - core.ai_client - INFO - Generating streaming response for: you think others would perfomr as well as i did ?...
+2025-07-05 18:59:50,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 18:59:51,736 - core.ai_client - INFO - Completed streaming response: 252 characters
+2025-07-05 18:59:51,737 - services.chat_service - INFO - Completed streaming response for hdm1b4si0kt: 252 chars in 2.22s
+2025-07-05 18:59:51,737 - api.chat - INFO - Chat response completed in 2.24s
+2025-07-05 19:06:29,932 - __main__ - INFO - Starting application server...
+2025-07-05 19:06:30,374 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 19:06:30,374 - main - INFO - Initializing PDF processor...
+2025-07-05 19:06:30,374 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 19:06:30,387 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 19:06:30,387 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 19:06:30,387 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 19:06:30,387 - main - INFO - Validating AI setup...
+2025-07-05 19:06:30,411 - core.ai_client - INFO - AI client initialized
+2025-07-05 19:06:32,010 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:06:32,017 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 19:06:32,018 - main - INFO - Initializing chat service...
+2025-07-05 19:06:32,018 - services.chat_service - INFO - Chat service initialized
+2025-07-05 19:06:32,018 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 19:06:32,018 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 19:06:48,586 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: 9teociphh3q)
+2025-07-05 19:06:48,600 - services.chat_service - INFO - Created new conversation: 9teociphh3q
+2025-07-05 19:06:48,601 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: What is the ADA?...
+2025-07-05 19:06:48,601 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 19:06:49,618 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:06:51,572 - core.ai_client - INFO - Completed streaming response: 366 characters
+2025-07-05 19:06:51,572 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 366 chars in 2.97s
+2025-07-05 19:06:51,572 - api.chat - INFO - Chat response completed in 2.99s
+2025-07-05 19:06:57,372 - api.chat - INFO - Processing chat request: yes... (conversation: 9teociphh3q)
+2025-07-05 19:06:57,377 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: yes...
+2025-07-05 19:06:57,378 - core.ai_client - INFO - Generating streaming response for: yes...
+2025-07-05 19:06:58,118 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:06:58,813 - core.ai_client - INFO - Completed streaming response: 102 characters
+2025-07-05 19:06:58,813 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 102 chars in 1.44s
+2025-07-05 19:06:58,813 - api.chat - INFO - Chat response completed in 1.44s
+2025-07-05 19:07:02,854 - api.chat - INFO - Processing chat request: yes... (conversation: 9teociphh3q)
+2025-07-05 19:07:02,857 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: yes...
+2025-07-05 19:07:02,857 - core.ai_client - INFO - Generating streaming response for: yes...
+2025-07-05 19:07:03,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:07:04,428 - core.ai_client - INFO - Completed streaming response: 139 characters
+2025-07-05 19:07:04,428 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 139 chars in 1.57s
+2025-07-05 19:07:04,429 - api.chat - INFO - Chat response completed in 1.58s
+2025-07-05 19:07:06,473 - api.chat - INFO - Processing chat request: yes... (conversation: 9teociphh3q)
+2025-07-05 19:07:06,474 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: yes...
+2025-07-05 19:07:06,475 - core.ai_client - INFO - Generating streaming response for: yes...
+2025-07-05 19:07:07,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:07:08,567 - core.ai_client - INFO - Completed streaming response: 132 characters
+2025-07-05 19:07:08,568 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 132 chars in 2.09s
+2025-07-05 19:07:08,568 - api.chat - INFO - Chat response completed in 2.09s
+2025-07-05 19:07:10,078 - api.chat - INFO - Processing chat request: yes... (conversation: 9teociphh3q)
+2025-07-05 19:07:10,079 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: yes...
+2025-07-05 19:07:10,080 - core.ai_client - INFO - Generating streaming response for: yes...
+2025-07-05 19:07:11,638 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:07:12,562 - core.ai_client - INFO - Completed streaming response: 165 characters
+2025-07-05 19:07:12,563 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 165 chars in 2.48s
+2025-07-05 19:07:12,563 - api.chat - INFO - Chat response completed in 2.48s
+2025-07-05 19:07:14,313 - api.chat - INFO - Processing chat request: yes... (conversation: 9teociphh3q)
+2025-07-05 19:07:14,314 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: yes...
+2025-07-05 19:07:14,314 - core.ai_client - INFO - Generating streaming response for: yes...
+2025-07-05 19:07:15,028 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:07:16,009 - core.ai_client - INFO - Completed streaming response: 246 characters
+2025-07-05 19:07:16,010 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 246 chars in 1.70s
+2025-07-05 19:07:16,011 - api.chat - INFO - Chat response completed in 1.70s
+2025-07-05 19:07:19,292 - api.chat - INFO - Processing chat request: yes... (conversation: 9teociphh3q)
+2025-07-05 19:07:19,293 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: yes...
+2025-07-05 19:07:19,293 - core.ai_client - INFO - Generating streaming response for: yes...
+2025-07-05 19:07:20,135 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:07:21,680 - core.ai_client - INFO - Completed streaming response: 304 characters
+2025-07-05 19:07:21,681 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 304 chars in 2.39s
+2025-07-05 19:07:21,683 - api.chat - INFO - Chat response completed in 2.39s
+2025-07-05 19:07:23,454 - api.chat - INFO - Processing chat request: yes... (conversation: 9teociphh3q)
+2025-07-05 19:07:23,461 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: yes...
+2025-07-05 19:07:23,463 - core.ai_client - INFO - Generating streaming response for: yes...
+2025-07-05 19:07:24,053 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:07:25,734 - core.ai_client - INFO - Completed streaming response: 334 characters
+2025-07-05 19:07:25,735 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 334 chars in 2.27s
+2025-07-05 19:07:25,735 - api.chat - INFO - Chat response completed in 2.28s
+2025-07-05 19:07:27,323 - api.chat - INFO - Processing chat request: yes... (conversation: 9teociphh3q)
+2025-07-05 19:07:27,324 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: yes...
+2025-07-05 19:07:27,325 - core.ai_client - INFO - Generating streaming response for: yes...
+2025-07-05 19:07:28,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:07:30,252 - core.ai_client - INFO - Completed streaming response: 358 characters
+2025-07-05 19:07:30,252 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 358 chars in 2.93s
+2025-07-05 19:07:30,252 - api.chat - INFO - Chat response completed in 2.93s
+2025-07-05 19:07:31,815 - api.chat - INFO - Processing chat request: yes... (conversation: 9teociphh3q)
+2025-07-05 19:07:31,816 - services.chat_service - INFO - Added user message to conversation 9teociphh3q: yes...
+2025-07-05 19:07:31,816 - core.ai_client - INFO - Generating streaming response for: yes...
+2025-07-05 19:07:32,938 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:07:34,748 - core.ai_client - INFO - Completed streaming response: 382 characters
+2025-07-05 19:07:34,748 - services.chat_service - INFO - Completed streaming response for 9teociphh3q: 382 chars in 2.93s
+2025-07-05 19:07:34,749 - api.chat - INFO - Chat response completed in 2.93s
+2025-07-05 19:07:50,440 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: sqnrst17qv)
+2025-07-05 19:07:50,458 - services.chat_service - INFO - Created new conversation: sqnrst17qv
+2025-07-05 19:07:50,460 - services.chat_service - INFO - Added user message to conversation sqnrst17qv: What is the ADA?...
+2025-07-05 19:07:50,461 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 19:07:51,574 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:07:53,014 - core.ai_client - INFO - Completed streaming response: 375 characters
+2025-07-05 19:07:53,015 - services.chat_service - INFO - Completed streaming response for sqnrst17qv: 375 chars in 2.55s
+2025-07-05 19:07:53,015 - api.chat - INFO - Chat response completed in 2.58s
+2025-07-05 19:08:08,750 - api.chat - INFO - Processing chat request: do you have context of the previosu other window we have opened ?... (conversation: sqnrst17qv)
+2025-07-05 19:08:08,754 - services.chat_service - INFO - Added user message to conversation sqnrst17qv: do you have context of the previosu other window we have opened ?...
+2025-07-05 19:08:08,755 - core.ai_client - INFO - Generating streaming response for: do you have context of the previosu other window we have opened ?...
+2025-07-05 19:08:09,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:08:10,736 - core.ai_client - INFO - Completed streaming response: 256 characters
+2025-07-05 19:08:10,737 - services.chat_service - INFO - Completed streaming response for sqnrst17qv: 256 chars in 1.98s
+2025-07-05 19:08:10,737 - api.chat - INFO - Chat response completed in 1.99s
+2025-07-05 19:08:24,059 - api.chat - INFO - Processing chat request: do you have context with in this own window ?... (conversation: sqnrst17qv)
+2025-07-05 19:08:24,066 - services.chat_service - INFO - Added user message to conversation sqnrst17qv: do you have context with in this own window ?...
+2025-07-05 19:08:24,067 - core.ai_client - INFO - Generating streaming response for: do you have context with in this own window ?...
+2025-07-05 19:08:25,573 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:08:26,902 - core.ai_client - INFO - Completed streaming response: 256 characters
+2025-07-05 19:08:26,903 - services.chat_service - INFO - Completed streaming response for sqnrst17qv: 256 chars in 2.84s
+2025-07-05 19:08:26,903 - api.chat - INFO - Chat response completed in 2.84s
+2025-07-05 19:08:35,394 - api.chat - INFO - Processing chat request: what was my first question ?... (conversation: sqnrst17qv)
+2025-07-05 19:08:35,395 - services.chat_service - INFO - Added user message to conversation sqnrst17qv: what was my first question ?...
+2025-07-05 19:08:35,395 - core.ai_client - INFO - Generating streaming response for: what was my first question ?...
+2025-07-05 19:08:36,078 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:08:36,353 - core.ai_client - INFO - Completed streaming response: 58 characters
+2025-07-05 19:08:36,353 - services.chat_service - INFO - Completed streaming response for sqnrst17qv: 58 chars in 0.96s
+2025-07-05 19:08:36,353 - api.chat - INFO - Chat response completed in 0.96s
+2025-07-05 19:33:31,679 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:33:32,045 - main - INFO - Shutting down application...
+2025-07-05 19:33:32,047 - main - INFO - 👋 Application shutdown complete
+2025-07-05 19:33:33,498 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:33:33,863 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 19:33:34,167 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 19:33:34,167 - main - INFO - Initializing PDF processor...
+2025-07-05 19:33:34,167 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 19:33:34,181 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 19:33:34,181 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 19:33:34,181 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 19:33:34,181 - main - INFO - Validating AI setup...
+2025-07-05 19:33:34,221 - core.ai_client - INFO - AI client initialized
+2025-07-05 19:33:34,418 - openai._base_client - INFO - Retrying request to /chat/completions in 0.783009 seconds
+2025-07-05 19:33:35,342 - openai._base_client - INFO - Retrying request to /chat/completions in 1.602353 seconds
+2025-07-05 19:33:37,099 - core.ai_client - ERROR - OpenAI connection validation failed: Connection error.
+2025-07-05 19:33:37,099 - main - ERROR - AI setup validation failed
+2025-07-05 19:33:37,099 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-05 19:33:37,322 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:38:17,433 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:38:32,669 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:38:33,093 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:38:33,450 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:38:33,811 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:38:58,144 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:40:05,114 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:40:05,751 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:40:06,116 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:40:06,478 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:40:06,854 - watchfiles.main - INFO - 1 change detected
+2025-07-05 19:41:17,294 - __main__ - INFO - Starting application server...
+2025-07-05 19:41:17,734 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 19:41:17,735 - main - INFO - Initializing PDF processor...
+2025-07-05 19:41:17,735 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 19:41:17,748 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 19:41:17,748 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 19:41:17,748 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 19:41:17,749 - main - INFO - Validating AI setup...
+2025-07-05 19:41:17,792 - core.ai_client - INFO - AI client initialized
+2025-07-05 19:41:19,686 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:41:19,691 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 19:41:19,691 - main - INFO - Initializing chat service...
+2025-07-05 19:41:19,691 - services.chat_service - INFO - Chat service initialized
+2025-07-05 19:41:19,691 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 19:41:19,691 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 19:41:41,059 - api.chat - INFO - Processing chat request: testing if you are working... (conversation: haqsqnc3di5)
+2025-07-05 19:41:41,081 - services.chat_service - INFO - Created new conversation: haqsqnc3di5
+2025-07-05 19:41:41,085 - services.chat_service - INFO - Added user message to conversation haqsqnc3di5: testing if you are working...
+2025-07-05 19:41:41,085 - core.ai_client - INFO - Generating streaming response for: testing if you are working...
+2025-07-05 19:41:42,239 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:41:42,736 - core.ai_client - INFO - Completed streaming response: 54 characters
+2025-07-05 19:41:42,736 - services.chat_service - INFO - Completed streaming response for haqsqnc3di5: 54 chars in 1.65s
+2025-07-05 19:41:42,736 - api.chat - INFO - Chat response completed in 1.68s
+2025-07-05 19:41:51,256 - api.chat - INFO - Processing chat request: what can you help me with ?... (conversation: haqsqnc3di5)
+2025-07-05 19:41:51,259 - services.chat_service - INFO - Added user message to conversation haqsqnc3di5: what can you help me with ?...
+2025-07-05 19:41:51,259 - core.ai_client - INFO - Generating streaming response for: what can you help me with ?...
+2025-07-05 19:41:52,433 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:41:55,040 - core.ai_client - INFO - Completed streaming response: 474 characters
+2025-07-05 19:41:55,041 - services.chat_service - INFO - Completed streaming response for haqsqnc3di5: 474 chars in 3.78s
+2025-07-05 19:41:55,041 - api.chat - INFO - Chat response completed in 3.79s
+2025-07-05 19:42:02,320 - api.chat - INFO - Processing chat request: what is ada... (conversation: haqsqnc3di5)
+2025-07-05 19:42:02,323 - services.chat_service - INFO - Added user message to conversation haqsqnc3di5: what is ada...
+2025-07-05 19:42:02,324 - core.ai_client - INFO - Generating streaming response for: what is ada...
+2025-07-05 19:42:03,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:42:05,869 - core.ai_client - INFO - Completed streaming response: 391 characters
+2025-07-05 19:42:05,870 - services.chat_service - INFO - Completed streaming response for haqsqnc3di5: 391 chars in 3.55s
+2025-07-05 19:42:05,870 - api.chat - INFO - Chat response completed in 3.55s
+2025-07-05 19:42:13,528 - api.chat - INFO - Processing chat request: whats ada in bullet points... (conversation: haqsqnc3di5)
+2025-07-05 19:42:13,530 - services.chat_service - INFO - Added user message to conversation haqsqnc3di5: whats ada in bullet points...
+2025-07-05 19:42:13,530 - core.ai_client - INFO - Generating streaming response for: whats ada in bullet points...
+2025-07-05 19:42:14,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:42:17,781 - core.ai_client - INFO - Completed streaming response: 534 characters
+2025-07-05 19:42:17,781 - services.chat_service - INFO - Completed streaming response for haqsqnc3di5: 534 chars in 4.25s
+2025-07-05 19:42:17,782 - api.chat - INFO - Chat response completed in 4.25s
+2025-07-05 19:42:21,473 - api.chat - INFO - Processing chat request: are you ada... (conversation: haqsqnc3di5)
+2025-07-05 19:42:21,475 - services.chat_service - INFO - Added user message to conversation haqsqnc3di5: are you ada...
+2025-07-05 19:42:21,476 - core.ai_client - INFO - Generating streaming response for: are you ada...
+2025-07-05 19:42:22,083 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:42:23,704 - core.ai_client - INFO - Completed streaming response: 325 characters
+2025-07-05 19:42:23,704 - services.chat_service - INFO - Completed streaming response for haqsqnc3di5: 325 chars in 2.23s
+2025-07-05 19:42:23,705 - api.chat - INFO - Chat response completed in 2.23s
+2025-07-05 19:46:09,586 - api.chat - INFO - Processing chat request: How many people globally have disabilities?... (conversation: sz7cz8ijeyp)
+2025-07-05 19:46:09,599 - services.chat_service - INFO - Created new conversation: sz7cz8ijeyp
+2025-07-05 19:46:09,607 - services.chat_service - INFO - Added user message to conversation sz7cz8ijeyp: How many people globally have disabilities?...
+2025-07-05 19:46:09,621 - core.ai_client - INFO - Generating streaming response for: How many people globally have disabilities?...
+2025-07-05 19:46:10,817 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:46:11,866 - core.ai_client - INFO - Completed streaming response: 181 characters
+2025-07-05 19:46:11,867 - services.chat_service - INFO - Completed streaming response for sz7cz8ijeyp: 181 chars in 2.26s
+2025-07-05 19:46:11,867 - api.chat - INFO - Chat response completed in 2.28s
+2025-07-05 19:46:31,043 - api.chat - INFO - Processing chat request: how mahy tabs can i open with you?... (conversation: sz7cz8ijeyp)
+2025-07-05 19:46:31,048 - services.chat_service - INFO - Added user message to conversation sz7cz8ijeyp: how mahy tabs can i open with you?...
+2025-07-05 19:46:31,048 - core.ai_client - INFO - Generating streaming response for: how mahy tabs can i open with you?...
+2025-07-05 19:46:32,031 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:46:32,995 - core.ai_client - INFO - Completed streaming response: 167 characters
+2025-07-05 19:46:32,996 - services.chat_service - INFO - Completed streaming response for sz7cz8ijeyp: 167 chars in 1.95s
+2025-07-05 19:46:32,996 - api.chat - INFO - Chat response completed in 1.95s
+2025-07-05 19:56:11,329 - api.chat - INFO - Processing chat request: What specific page mentions transportation accessibility?... (conversation: sb4ou6yqxle)
+2025-07-05 19:56:11,363 - services.chat_service - INFO - Created new conversation: sb4ou6yqxle
+2025-07-05 19:56:11,366 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: What specific page mentions transportation accessibility?...
+2025-07-05 19:56:11,373 - core.ai_client - INFO - Generating streaming response for: What specific page mentions transportation accessibility?...
+2025-07-05 19:56:12,458 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:56:13,769 - core.ai_client - INFO - Completed streaming response: 267 characters
+2025-07-05 19:56:13,769 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 267 chars in 2.40s
+2025-07-05 19:56:13,769 - api.chat - INFO - Chat response completed in 2.44s
+2025-07-05 19:56:25,659 - api.chat - INFO - Processing chat request: Compare ADA requirements vs Canadian accessibility laws... (conversation: sb4ou6yqxle)
+2025-07-05 19:56:25,667 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: Compare ADA requirements vs Canadian accessibility laws...
+2025-07-05 19:56:25,668 - core.ai_client - INFO - Generating streaming response for: Compare ADA requirements vs Canadian accessibility laws...
+2025-07-05 19:56:27,120 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:56:28,199 - core.ai_client - INFO - Completed streaming response: 351 characters
+2025-07-05 19:56:28,199 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 351 chars in 2.53s
+2025-07-05 19:56:28,199 - api.chat - INFO - Chat response completed in 2.54s
+2025-07-05 19:57:02,063 - api.chat - INFO - Processing chat request: List all countries mentioned in the document with their laws... (conversation: sb4ou6yqxle)
+2025-07-05 19:57:02,068 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: List all countries mentioned in the document with their laws...
+2025-07-05 19:57:02,069 - core.ai_client - INFO - Generating streaming response for: List all countries mentioned in the document with their laws...
+2025-07-05 19:57:03,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:57:08,374 - core.ai_client - INFO - Completed streaming response: 882 characters
+2025-07-05 19:57:08,376 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 882 chars in 6.31s
+2025-07-05 19:57:08,376 - api.chat - INFO - Chat response completed in 6.31s
+2025-07-05 19:57:19,531 - api.chat - INFO - Processing chat request: What does the document say about Costa Rica specifically?... (conversation: sb4ou6yqxle)
+2025-07-05 19:57:19,534 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: What does the document say about Costa Rica specifically?...
+2025-07-05 19:57:19,536 - core.ai_client - INFO - Generating streaming response for: What does the document say about Costa Rica specifically?...
+2025-07-05 19:57:20,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:57:21,001 - core.ai_client - INFO - Completed streaming response: 114 characters
+2025-07-05 19:57:21,001 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 114 chars in 1.47s
+2025-07-05 19:57:21,001 - api.chat - INFO - Chat response completed in 1.47s
+2025-07-05 19:57:35,897 - api.chat - INFO - Processing chat request: How many pages discuss North America?... (conversation: sb4ou6yqxle)
+2025-07-05 19:57:35,900 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: How many pages discuss North America?...
+2025-07-05 19:57:35,901 - core.ai_client - INFO - Generating streaming response for: How many pages discuss North America?...
+2025-07-05 19:57:37,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:57:38,783 - core.ai_client - INFO - Completed streaming response: 183 characters
+2025-07-05 19:57:38,784 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 183 chars in 2.88s
+2025-07-05 19:57:38,784 - api.chat - INFO - Chat response completed in 2.89s
+2025-07-05 19:58:00,607 - api.chat - INFO - Processing chat request: answer all of this at once 
+
+"What specific page mentions transportation accessibility?"
+"Compare AD... (conversation: sb4ou6yqxle)
+2025-07-05 19:58:00,618 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: answer all of this at once 
+
+"What specific page mentions transportation accessibility?"
+"Compare AD...
+2025-07-05 19:58:00,618 - core.ai_client - INFO - Generating streaming response for: answer all of this at once 
+
+"What specific page mentions transportation accessibility?"
+"Compare AD...
+2025-07-05 19:58:01,638 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:58:07,618 - core.ai_client - INFO - Completed streaming response: 1407 characters
+2025-07-05 19:58:07,619 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 1407 chars in 7.00s
+2025-07-05 19:58:07,619 - api.chat - INFO - Chat response completed in 7.01s
+2025-07-05 19:59:07,755 - api.chat - INFO - Processing chat request: "If I'm traveling from US to Mexico, what should I know about accessibility differences?"
+"Rank the ... (conversation: sb4ou6yqxle)
+2025-07-05 19:59:07,762 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: "If I'm traveling from US to Mexico, what should I know about accessibility differences?"
+"Rank the ...
+2025-07-05 19:59:07,763 - core.ai_client - INFO - Generating streaming response for: "If I'm traveling from US to Mexico, what should I know about accessibility differences?"
+"Rank the ...
+2025-07-05 19:59:09,534 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 19:59:20,805 - core.ai_client - INFO - Completed streaming response: 1936 characters
+2025-07-05 19:59:20,807 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 1936 chars in 13.04s
+2025-07-05 19:59:20,807 - api.chat - INFO - Chat response completed in 13.05s
+2025-07-05 19:59:58,906 - api.chat - INFO - Processing chat request: Write me a 500-word essay comparing accessibility laws in every country mentioned, including specifi... (conversation: sb4ou6yqxle)
+2025-07-05 19:59:58,910 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: Write me a 500-word essay comparing accessibility laws in every country mentioned, including specifi...
+2025-07-05 19:59:58,910 - core.ai_client - INFO - Generating streaming response for: Write me a 500-word essay comparing accessibility laws in every country mentioned, including specifi...
+2025-07-05 20:00:00,502 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:00:03,367 - core.ai_client - INFO - Completed streaming response: 373 characters
+2025-07-05 20:00:03,368 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 373 chars in 4.46s
+2025-07-05 20:00:03,368 - api.chat - INFO - Chat response completed in 4.46s
+2025-07-05 20:00:15,317 - api.chat - INFO - Processing chat request: What does this document say about wheelchair accessibility in Tokyo airports?... (conversation: sb4ou6yqxle)
+2025-07-05 20:00:15,322 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: What does this document say about wheelchair accessibility in Tokyo airports?...
+2025-07-05 20:00:15,323 - core.ai_client - INFO - Generating streaming response for: What does this document say about wheelchair accessibility in Tokyo airports?...
+2025-07-05 20:00:16,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:00:17,231 - core.ai_client - INFO - Completed streaming response: 104 characters
+2025-07-05 20:00:17,231 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 104 chars in 1.91s
+2025-07-05 20:00:17,231 - api.chat - INFO - Chat response completed in 1.91s
+2025-07-05 20:00:32,237 - api.chat - INFO - Processing chat request: Send 5 rapid messages in 10 seconds... (conversation: sb4ou6yqxle)
+2025-07-05 20:00:32,241 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: Send 5 rapid messages in 10 seconds...
+2025-07-05 20:00:32,241 - core.ai_client - INFO - Generating streaming response for: Send 5 rapid messages in 10 seconds...
+2025-07-05 20:00:33,441 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:00:34,832 - core.ai_client - INFO - Completed streaming response: 201 characters
+2025-07-05 20:00:34,833 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 201 chars in 2.59s
+2025-07-05 20:00:34,833 - api.chat - INFO - Chat response completed in 2.60s
+2025-07-05 20:01:02,212 - api.chat - INFO - Processing chat request: Create a new conversation tab and ask: "What was my first question?"... (conversation: sb4ou6yqxle)
+2025-07-05 20:01:02,218 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: Create a new conversation tab and ask: "What was my first question?"...
+2025-07-05 20:01:02,218 - core.ai_client - INFO - Generating streaming response for: Create a new conversation tab and ask: "What was my first question?"...
+2025-07-05 20:01:03,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:01:04,843 - core.ai_client - INFO - Completed streaming response: 261 characters
+2025-07-05 20:01:04,844 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 261 chars in 2.63s
+2025-07-05 20:01:04,844 - api.chat - INFO - Chat response completed in 2.63s
+2025-07-05 20:02:52,784 - api.chat - INFO - Processing chat request: Send 11 rapid messages in 10 seconds... (conversation: sb4ou6yqxle)
+2025-07-05 20:02:52,792 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: Send 11 rapid messages in 10 seconds...
+2025-07-05 20:02:52,794 - core.ai_client - INFO - Generating streaming response for: Send 11 rapid messages in 10 seconds...
+2025-07-05 20:02:53,700 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:02:58,624 - core.ai_client - INFO - Completed streaming response: 832 characters
+2025-07-05 20:02:58,624 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 832 chars in 5.83s
+2025-07-05 20:02:58,625 - api.chat - INFO - Chat response completed in 5.84s
+2025-07-05 20:03:33,516 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:03:33,522 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:03:33,525 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:03:34,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:03:35,943 - core.ai_client - INFO - Completed streaming response: 335 characters
+2025-07-05 20:03:35,944 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 335 chars in 2.42s
+2025-07-05 20:03:35,945 - api.chat - INFO - Chat response completed in 2.43s
+2025-07-05 20:03:37,395 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:03:37,397 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:03:37,397 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:03:38,211 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:03:40,231 - core.ai_client - INFO - Completed streaming response: 329 characters
+2025-07-05 20:03:40,232 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 329 chars in 2.83s
+2025-07-05 20:03:40,232 - api.chat - INFO - Chat response completed in 2.84s
+2025-07-05 20:03:41,750 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:03:41,751 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:03:41,751 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:03:42,531 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:03:45,034 - core.ai_client - INFO - Completed streaming response: 349 characters
+2025-07-05 20:03:45,034 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 349 chars in 3.28s
+2025-07-05 20:03:45,035 - api.chat - INFO - Chat response completed in 3.28s
+2025-07-05 20:03:46,556 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:03:46,557 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:03:46,557 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:03:47,177 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:03:49,161 - core.ai_client - INFO - Completed streaming response: 322 characters
+2025-07-05 20:03:49,161 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 322 chars in 2.60s
+2025-07-05 20:03:49,162 - api.chat - INFO - Chat response completed in 2.61s
+2025-07-05 20:03:50,853 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:03:50,855 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:03:50,856 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:03:51,451 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:03:54,342 - core.ai_client - INFO - Completed streaming response: 331 characters
+2025-07-05 20:03:54,343 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 331 chars in 3.49s
+2025-07-05 20:03:54,343 - api.chat - INFO - Chat response completed in 3.49s
+2025-07-05 20:03:55,830 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:03:55,847 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:03:55,848 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:03:56,981 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:03:58,517 - core.ai_client - INFO - Completed streaming response: 334 characters
+2025-07-05 20:03:58,517 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 334 chars in 2.67s
+2025-07-05 20:03:58,518 - api.chat - INFO - Chat response completed in 2.69s
+2025-07-05 20:03:59,997 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:03:59,998 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:03:59,998 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:04:01,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:04:03,269 - core.ai_client - INFO - Completed streaming response: 346 characters
+2025-07-05 20:04:03,270 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 346 chars in 3.27s
+2025-07-05 20:04:03,270 - api.chat - INFO - Chat response completed in 3.27s
+2025-07-05 20:04:04,776 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:04:04,778 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:04:04,778 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:04:05,471 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:04:07,200 - core.ai_client - INFO - Completed streaming response: 340 characters
+2025-07-05 20:04:07,202 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 340 chars in 2.42s
+2025-07-05 20:04:07,203 - api.chat - INFO - Chat response completed in 2.43s
+2025-07-05 20:04:08,635 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:04:08,636 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:04:08,637 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:04:09,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:04:11,019 - core.ai_client - INFO - Completed streaming response: 364 characters
+2025-07-05 20:04:11,020 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 364 chars in 2.38s
+2025-07-05 20:04:11,020 - api.chat - INFO - Chat response completed in 2.39s
+2025-07-05 20:04:12,586 - api.chat - INFO - Processing chat request: whats ada... (conversation: sb4ou6yqxle)
+2025-07-05 20:04:12,587 - services.chat_service - INFO - Added user message to conversation sb4ou6yqxle: whats ada...
+2025-07-05 20:04:12,587 - core.ai_client - INFO - Generating streaming response for: whats ada...
+2025-07-05 20:04:13,468 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:04:15,137 - core.ai_client - INFO - Completed streaming response: 350 characters
+2025-07-05 20:04:15,137 - services.chat_service - INFO - Completed streaming response for sb4ou6yqxle: 350 chars in 2.55s
+2025-07-05 20:04:15,138 - api.chat - INFO - Chat response completed in 2.55s
+2025-07-05 20:12:04,579 - api.chat - INFO - Processing chat request: Compare US and Mexico accessibility... (conversation: 2logkaydpxp)
+2025-07-05 20:12:04,632 - services.chat_service - INFO - Created new conversation: 2logkaydpxp
+2025-07-05 20:12:04,640 - services.chat_service - INFO - Added user message to conversation 2logkaydpxp: Compare US and Mexico accessibility...
+2025-07-05 20:12:04,647 - core.ai_client - INFO - Generating streaming response for: Compare US and Mexico accessibility...
+2025-07-05 20:12:05,678 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:12:09,550 - core.ai_client - INFO - Completed streaming response: 736 characters
+2025-07-05 20:12:09,558 - services.chat_service - INFO - Completed streaming response for 2logkaydpxp: 736 chars in 4.92s
+2025-07-05 20:12:09,560 - api.chat - INFO - Chat response completed in 4.98s
+2025-07-05 20:12:21,320 - api.chat - INFO - Processing chat request: List all the laws mentioned... (conversation: 2logkaydpxp)
+2025-07-05 20:12:21,324 - services.chat_service - INFO - Added user message to conversation 2logkaydpxp: List all the laws mentioned...
+2025-07-05 20:12:21,326 - core.ai_client - INFO - Generating streaming response for: List all the laws mentioned...
+2025-07-05 20:12:22,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:12:25,157 - core.ai_client - INFO - Completed streaming response: 538 characters
+2025-07-05 20:12:25,158 - services.chat_service - INFO - Completed streaming response for 2logkaydpxp: 538 chars in 3.83s
+2025-07-05 20:12:25,159 - api.chat - INFO - Chat response completed in 3.84s
+2025-07-05 20:12:34,538 - api.chat - INFO - Processing chat request: Summarize the document themes... (conversation: 2logkaydpxp)
+2025-07-05 20:12:34,541 - services.chat_service - INFO - Added user message to conversation 2logkaydpxp: Summarize the document themes...
+2025-07-05 20:12:34,542 - core.ai_client - INFO - Generating streaming response for: Summarize the document themes...
+2025-07-05 20:12:35,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:12:41,654 - core.ai_client - INFO - Completed streaming response: 1254 characters
+2025-07-05 20:12:41,655 - services.chat_service - INFO - Completed streaming response for 2logkaydpxp: 1254 chars in 7.11s
+2025-07-05 20:12:41,656 - api.chat - INFO - Chat response completed in 7.12s
+2025-07-05 20:13:01,280 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: 2logkaydpxp)
+2025-07-05 20:13:01,285 - services.chat_service - INFO - Added user message to conversation 2logkaydpxp: What is the ADA?...
+2025-07-05 20:13:01,286 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 20:13:02,318 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:13:04,140 - core.ai_client - INFO - Completed streaming response: 313 characters
+2025-07-05 20:13:04,140 - services.chat_service - INFO - Completed streaming response for 2logkaydpxp: 313 chars in 2.86s
+2025-07-05 20:13:04,141 - api.chat - INFO - Chat response completed in 2.86s
+2025-07-05 20:18:52,919 - watchfiles.main - INFO - 1 change detected
+2025-07-05 20:18:53,336 - main - INFO - Shutting down application...
+2025-07-05 20:18:53,340 - main - INFO - 👋 Application shutdown complete
+2025-07-05 20:18:54,615 - watchfiles.main - INFO - 1 change detected
+2025-07-05 20:23:09,795 - watchfiles.main - INFO - 1 change detected
+2025-07-05 20:23:10,473 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 20:23:10,723 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 20:23:10,723 - main - INFO - Initializing PDF processor...
+2025-07-05 20:23:10,724 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 20:23:10,738 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 20:23:10,738 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 20:23:10,738 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 20:23:10,738 - main - INFO - Validating AI setup...
+2025-07-05 20:23:10,765 - core.ai_client - INFO - AI client initialized
+2025-07-05 20:23:11,865 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:23:11,868 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 20:23:11,868 - main - INFO - Initializing chat service...
+2025-07-05 20:23:11,868 - services.chat_service - INFO - Chat service initialized
+2025-07-05 20:23:11,868 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 20:23:11,868 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 20:23:49,686 - main - INFO - Shutting down application...
+2025-07-05 20:23:49,686 - main - INFO - 👋 Application shutdown complete
+2025-07-05 20:23:53,579 - __main__ - INFO - Starting application server...
+2025-07-05 20:23:54,084 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 20:23:54,084 - main - INFO - Initializing PDF processor...
+2025-07-05 20:23:54,084 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 20:23:54,097 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 20:23:54,097 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 20:23:54,097 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 20:23:54,097 - main - INFO - Validating AI setup...
+2025-07-05 20:23:54,122 - core.ai_client - INFO - AI client initialized
+2025-07-05 20:23:55,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:23:55,109 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 20:23:55,109 - main - INFO - Initializing chat service...
+2025-07-05 20:23:55,110 - services.chat_service - INFO - Chat service initialized
+2025-07-05 20:23:55,110 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 20:23:55,110 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 20:24:10,324 - api.chat - INFO - Processing chat request: who are you ?... (conversation: cjcya5tzvea)
+2025-07-05 20:24:10,349 - services.chat_service - INFO - Created new conversation: cjcya5tzvea
+2025-07-05 20:24:10,350 - services.chat_service - INFO - Added user message to conversation cjcya5tzvea: who are you ?...
+2025-07-05 20:24:10,351 - core.ai_client - INFO - Generating streaming response for: who are you ?...
+2025-07-05 20:24:11,800 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:24:12,322 - core.ai_client - INFO - Completed streaming response: 145 characters
+2025-07-05 20:24:12,322 - services.chat_service - INFO - Completed streaming response for cjcya5tzvea: 145 chars in 1.97s
+2025-07-05 20:24:12,323 - api.chat - INFO - Chat response completed in 2.00s
+2025-07-05 20:24:39,532 - api.chat - INFO - Processing chat request: What AI model are you?... (conversation: cjcya5tzvea)
+2025-07-05 20:24:39,537 - services.chat_service - INFO - Added user message to conversation cjcya5tzvea: What AI model are you?...
+2025-07-05 20:24:39,538 - core.ai_client - INFO - Generating streaming response for: What AI model are you?...
+2025-07-05 20:24:40,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:24:41,418 - core.ai_client - INFO - Completed streaming response: 202 characters
+2025-07-05 20:24:41,419 - services.chat_service - INFO - Completed streaming response for cjcya5tzvea: 202 chars in 1.88s
+2025-07-05 20:24:41,419 - api.chat - INFO - Chat response completed in 1.89s
+2025-07-05 20:25:02,294 - api.chat - INFO - Processing chat request: Are you ChatGPT?... (conversation: cjcya5tzvea)
+2025-07-05 20:25:02,300 - services.chat_service - INFO - Added user message to conversation cjcya5tzvea: Are you ChatGPT?...
+2025-07-05 20:25:02,301 - core.ai_client - INFO - Generating streaming response for: Are you ChatGPT?...
+2025-07-05 20:25:03,822 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:25:04,913 - core.ai_client - INFO - Completed streaming response: 203 characters
+2025-07-05 20:25:04,914 - services.chat_service - INFO - Completed streaming response for cjcya5tzvea: 203 chars in 2.61s
+2025-07-05 20:25:04,914 - api.chat - INFO - Chat response completed in 2.62s
+2025-07-05 20:25:31,833 - api.chat - INFO - Processing chat request: Who created you?... (conversation: cjcya5tzvea)
+2025-07-05 20:25:31,836 - services.chat_service - INFO - Added user message to conversation cjcya5tzvea: Who created you?...
+2025-07-05 20:25:31,836 - core.ai_client - INFO - Generating streaming response for: Who created you?...
+2025-07-05 20:25:32,700 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:25:33,199 - core.ai_client - INFO - Completed streaming response: 123 characters
+2025-07-05 20:25:33,200 - services.chat_service - INFO - Completed streaming response for cjcya5tzvea: 123 chars in 1.36s
+2025-07-05 20:25:33,201 - api.chat - INFO - Chat response completed in 1.37s
+2025-07-05 20:33:47,940 - __main__ - INFO - Starting application server...
+2025-07-05 20:33:48,371 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 20:33:48,371 - main - INFO - Initializing PDF processor...
+2025-07-05 20:33:48,371 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 20:33:48,384 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 20:33:48,384 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 20:33:48,384 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 20:33:48,384 - main - INFO - Validating AI setup...
+2025-07-05 20:33:48,415 - core.ai_client - INFO - AI client initialized
+2025-07-05 20:33:49,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:33:49,733 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 20:33:49,733 - main - INFO - Initializing chat service...
+2025-07-05 20:33:49,733 - services.chat_service - INFO - Chat service initialized
+2025-07-05 20:33:49,733 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 20:33:49,733 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 20:34:10,497 - api.chat - INFO - Processing chat request: Tell me about accessibility laws in Canada... (conversation: m86dmvgejxr)
+2025-07-05 20:34:10,511 - services.chat_service - INFO - Created new conversation: m86dmvgejxr
+2025-07-05 20:34:10,512 - services.chat_service - INFO - Added user message to conversation m86dmvgejxr: Tell me about accessibility laws in Canada...
+2025-07-05 20:34:10,512 - core.ai_client - INFO - Generating streaming response for: Tell me about accessibility laws in Canada...
+2025-07-05 20:34:11,872 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:34:14,394 - core.ai_client - INFO - Completed streaming response: 520 characters
+2025-07-05 20:34:14,394 - services.chat_service - INFO - Completed streaming response for m86dmvgejxr: 520 chars in 3.88s
+2025-07-05 20:34:14,394 - api.chat - INFO - Chat response completed in 3.90s
+2025-07-05 20:37:40,655 - __main__ - INFO - Starting application server...
+2025-07-05 20:37:41,102 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 20:37:41,102 - main - INFO - Initializing PDF processor...
+2025-07-05 20:37:41,102 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 20:37:41,114 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 20:37:41,115 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 20:37:41,115 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 20:37:41,115 - main - INFO - Validating AI setup...
+2025-07-05 20:37:41,140 - core.ai_client - INFO - AI client initialized
+2025-07-05 20:37:42,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:37:42,639 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 20:37:42,639 - main - INFO - Initializing chat service...
+2025-07-05 20:37:42,639 - services.chat_service - INFO - Chat service initialized
+2025-07-05 20:37:42,639 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 20:37:42,639 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 20:38:16,215 - api.chat - INFO - Processing chat request: What does the document say about transportation?... (conversation: wcklm6nyukg)
+2025-07-05 20:38:16,226 - services.chat_service - INFO - Created new conversation: wcklm6nyukg
+2025-07-05 20:38:16,227 - services.chat_service - INFO - Added user message to conversation wcklm6nyukg: What does the document say about transportation?...
+2025-07-05 20:38:16,227 - core.ai_client - INFO - Generating streaming response for: What does the document say about transportation?...
+2025-07-05 20:38:17,223 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:38:19,256 - core.ai_client - INFO - Completed streaming response: 491 characters
+2025-07-05 20:38:19,257 - services.chat_service - INFO - Completed streaming response for wcklm6nyukg: 491 chars in 3.03s
+2025-07-05 20:38:19,257 - api.chat - INFO - Chat response completed in 3.04s
+2025-07-05 20:44:06,558 - __main__ - INFO - Starting application server...
+2025-07-05 20:44:07,029 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 20:44:07,029 - main - INFO - Initializing PDF processor...
+2025-07-05 20:44:07,030 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 20:44:07,042 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 20:44:07,042 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 20:44:07,043 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 20:44:07,043 - main - INFO - Validating AI setup...
+2025-07-05 20:44:07,072 - core.ai_client - INFO - AI client initialized
+2025-07-05 20:44:08,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:44:08,076 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 20:44:08,077 - main - INFO - Initializing chat service...
+2025-07-05 20:44:08,077 - services.chat_service - INFO - Chat service initialized
+2025-07-05 20:44:08,077 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 20:44:08,077 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 20:44:21,066 - api.chat - INFO - Processing chat request: Tell me about accessibility laws in Canada... (conversation: 8j2b4evu6q8)
+2025-07-05 20:44:21,105 - services.chat_service - INFO - Created new conversation: 8j2b4evu6q8
+2025-07-05 20:44:21,105 - services.chat_service - INFO - Added user message to conversation 8j2b4evu6q8: Tell me about accessibility laws in Canada...
+2025-07-05 20:44:21,105 - core.ai_client - INFO - Generating streaming response for: Tell me about accessibility laws in Canada...
+2025-07-05 20:44:22,279 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:44:24,211 - core.ai_client - INFO - Completed streaming response: 412 characters
+2025-07-05 20:44:24,211 - services.chat_service - INFO - Completed streaming response for 8j2b4evu6q8: 412 chars in 3.11s
+2025-07-05 20:44:24,212 - api.chat - INFO - Chat response completed in 3.15s
+2025-07-05 20:44:58,197 - api.chat - INFO - Processing chat request: hi... (conversation: 8j2b4evu6q8)
+2025-07-05 20:44:58,202 - services.chat_service - INFO - Added user message to conversation 8j2b4evu6q8: hi...
+2025-07-05 20:44:58,205 - core.ai_client - INFO - Generating streaming response for: hi...
+2025-07-05 20:44:59,335 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:44:59,597 - core.ai_client - INFO - Completed streaming response: 34 characters
+2025-07-05 20:44:59,597 - services.chat_service - INFO - Completed streaming response for 8j2b4evu6q8: 34 chars in 1.39s
+2025-07-05 20:44:59,601 - api.chat - INFO - Chat response completed in 1.40s
+2025-07-05 20:45:04,464 - api.chat - INFO - Processing chat request: who are you... (conversation: 8j2b4evu6q8)
+2025-07-05 20:45:04,466 - services.chat_service - INFO - Added user message to conversation 8j2b4evu6q8: who are you...
+2025-07-05 20:45:04,466 - core.ai_client - INFO - Generating streaming response for: who are you...
+2025-07-05 20:45:05,210 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:45:05,934 - core.ai_client - INFO - Completed streaming response: 90 characters
+2025-07-05 20:45:05,934 - services.chat_service - INFO - Completed streaming response for 8j2b4evu6q8: 90 chars in 1.47s
+2025-07-05 20:45:05,935 - api.chat - INFO - Chat response completed in 1.47s
+2025-07-05 20:46:01,744 - api.chat - INFO - Processing chat request: How many people globally have disabilities?... (conversation: l4drq55hdyl)
+2025-07-05 20:46:01,751 - services.chat_service - INFO - Created new conversation: l4drq55hdyl
+2025-07-05 20:46:01,753 - services.chat_service - INFO - Added user message to conversation l4drq55hdyl: How many people globally have disabilities?...
+2025-07-05 20:46:01,753 - core.ai_client - INFO - Generating streaming response for: How many people globally have disabilities?...
+2025-07-05 20:46:02,926 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:46:03,598 - core.ai_client - INFO - Completed streaming response: 154 characters
+2025-07-05 20:46:03,599 - services.chat_service - INFO - Completed streaming response for l4drq55hdyl: 154 chars in 1.85s
+2025-07-05 20:46:03,600 - api.chat - INFO - Chat response completed in 1.86s
+2025-07-05 20:47:05,345 - api.chat - INFO - Processing chat request: hi... (conversation: jnnoe6yw3rd)
+2025-07-05 20:47:05,352 - services.chat_service - INFO - Created new conversation: jnnoe6yw3rd
+2025-07-05 20:47:05,353 - services.chat_service - INFO - Added user message to conversation jnnoe6yw3rd: hi...
+2025-07-05 20:47:05,354 - core.ai_client - INFO - Generating streaming response for: hi...
+2025-07-05 20:47:06,762 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:47:07,178 - core.ai_client - INFO - Completed streaming response: 34 characters
+2025-07-05 20:47:07,178 - services.chat_service - INFO - Completed streaming response for jnnoe6yw3rd: 34 chars in 1.82s
+2025-07-05 20:47:07,178 - api.chat - INFO - Chat response completed in 1.83s
+2025-07-05 20:47:27,129 - __main__ - INFO - Starting application server...
+2025-07-05 20:47:27,562 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 20:47:27,563 - main - INFO - Initializing PDF processor...
+2025-07-05 20:47:27,563 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 20:47:27,575 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 20:47:27,575 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 20:47:27,575 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 20:47:27,575 - main - INFO - Validating AI setup...
+2025-07-05 20:47:27,597 - core.ai_client - INFO - AI client initialized
+2025-07-05 20:47:28,938 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:47:28,945 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 20:47:28,946 - main - INFO - Initializing chat service...
+2025-07-05 20:47:28,946 - services.chat_service - INFO - Chat service initialized
+2025-07-05 20:47:28,946 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 20:47:28,946 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 20:57:14,151 - __main__ - INFO - Starting application server...
+2025-07-05 20:57:14,588 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 20:57:14,588 - main - INFO - Initializing PDF processor...
+2025-07-05 20:57:14,588 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 20:57:14,600 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 20:57:14,600 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 20:57:14,600 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 20:57:14,600 - main - INFO - Validating AI setup...
+2025-07-05 20:57:14,624 - core.ai_client - INFO - AI client initialized
+2025-07-05 20:57:15,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:57:15,739 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 20:57:15,739 - main - INFO - Initializing chat service...
+2025-07-05 20:57:15,739 - services.chat_service - INFO - Chat service initialized
+2025-07-05 20:57:15,739 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 20:57:15,739 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 20:57:34,714 - api.chat - INFO - Processing chat request: Hi im Will... (conversation: 39cbw2yz3kr)
+2025-07-05 20:57:34,734 - services.chat_service - INFO - Created new conversation: 39cbw2yz3kr
+2025-07-05 20:57:34,735 - services.chat_service - INFO - Added user message to conversation 39cbw2yz3kr: Hi im Will...
+2025-07-05 20:57:34,736 - core.ai_client - INFO - Generating streaming response for: Hi im Will...
+2025-07-05 20:57:36,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:57:36,477 - core.ai_client - INFO - Completed streaming response: 40 characters
+2025-07-05 20:57:36,477 - services.chat_service - INFO - Completed streaming response for 39cbw2yz3kr: 40 chars in 1.74s
+2025-07-05 20:57:36,477 - api.chat - INFO - Chat response completed in 1.76s
+2025-07-05 20:57:46,223 - api.chat - INFO - Processing chat request: who are you /... (conversation: 39cbw2yz3kr)
+2025-07-05 20:57:46,225 - services.chat_service - INFO - Added user message to conversation 39cbw2yz3kr: who are you /...
+2025-07-05 20:57:46,226 - core.ai_client - INFO - Generating streaming response for: who are you /...
+2025-07-05 20:57:47,191 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 20:57:48,018 - core.ai_client - INFO - Completed streaming response: 181 characters
+2025-07-05 20:57:48,019 - services.chat_service - INFO - Completed streaming response for 39cbw2yz3kr: 181 chars in 1.79s
+2025-07-05 20:57:48,020 - api.chat - INFO - Chat response completed in 1.80s
+2025-07-05 21:06:28,771 - main - INFO - Shutting down application...
+2025-07-05 21:06:28,773 - main - INFO - 👋 Application shutdown complete
+2025-07-05 21:06:33,385 - __main__ - INFO - Starting application server...
+2025-07-05 21:06:33,847 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 21:06:33,847 - main - INFO - Initializing PDF processor...
+2025-07-05 21:06:33,847 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 21:06:33,861 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 21:06:33,861 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 21:06:33,862 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 21:06:33,862 - main - INFO - Validating AI setup...
+2025-07-05 21:06:33,891 - core.ai_client - INFO - AI client initialized
+2025-07-05 21:06:35,556 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:06:35,564 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 21:06:35,564 - main - INFO - Initializing chat service...
+2025-07-05 21:06:35,564 - services.chat_service - INFO - Chat service initialized
+2025-07-05 21:06:35,564 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 21:06:35,564 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 21:07:03,341 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: cu4sukb6dym)
+2025-07-05 21:07:03,361 - services.chat_service - INFO - Created new conversation: cu4sukb6dym
+2025-07-05 21:07:03,362 - services.chat_service - INFO - Added user message to conversation cu4sukb6dym: What is the ADA?...
+2025-07-05 21:07:03,363 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 21:07:04,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:07:06,796 - core.ai_client - INFO - Completed streaming response: 372 characters
+2025-07-05 21:07:06,797 - services.chat_service - INFO - Completed streaming response for cu4sukb6dym: 372 chars in 3.43s
+2025-07-05 21:07:06,797 - api.chat - INFO - Chat response completed in 3.46s
+2025-07-05 21:07:16,475 - api.chat - INFO - Processing chat request: How many people globally have disabilities?... (conversation: xqgyl9h99l)
+2025-07-05 21:07:16,476 - services.chat_service - INFO - Created new conversation: xqgyl9h99l
+2025-07-05 21:07:16,476 - services.chat_service - INFO - Added user message to conversation xqgyl9h99l: How many people globally have disabilities?...
+2025-07-05 21:07:16,476 - core.ai_client - INFO - Generating streaming response for: How many people globally have disabilities?...
+2025-07-05 21:07:17,931 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:07:19,027 - core.ai_client - INFO - Completed streaming response: 143 characters
+2025-07-05 21:07:19,028 - services.chat_service - INFO - Completed streaming response for xqgyl9h99l: 143 chars in 2.55s
+2025-07-05 21:07:19,028 - api.chat - INFO - Chat response completed in 2.55s
+2025-07-05 21:07:32,943 - api.chat - INFO - Processing chat request: What does the document say about transportation?... (conversation: geedgs4zzyv)
+2025-07-05 21:07:32,946 - services.chat_service - INFO - Created new conversation: geedgs4zzyv
+2025-07-05 21:07:32,946 - services.chat_service - INFO - Added user message to conversation geedgs4zzyv: What does the document say about transportation?...
+2025-07-05 21:07:32,946 - core.ai_client - INFO - Generating streaming response for: What does the document say about transportation?...
+2025-07-05 21:07:34,573 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:07:36,579 - core.ai_client - INFO - Completed streaming response: 399 characters
+2025-07-05 21:07:36,579 - services.chat_service - INFO - Completed streaming response for geedgs4zzyv: 399 chars in 3.63s
+2025-07-05 21:07:36,580 - api.chat - INFO - Chat response completed in 3.64s
+2025-07-05 21:10:30,270 - __main__ - INFO - Starting application server...
+2025-07-05 21:10:30,704 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 21:10:30,704 - main - INFO - Initializing PDF processor...
+2025-07-05 21:10:30,704 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 21:10:30,717 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 21:10:30,717 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 21:10:30,717 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 21:10:30,717 - main - INFO - Validating AI setup...
+2025-07-05 21:10:30,795 - core.ai_client - INFO - AI client initialized
+2025-07-05 21:10:32,636 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:10:32,641 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 21:10:32,641 - main - INFO - Initializing chat service...
+2025-07-05 21:10:32,641 - services.chat_service - INFO - Chat service initialized
+2025-07-05 21:10:32,641 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 21:10:32,641 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 21:11:07,852 - __main__ - INFO - Starting application server...
+2025-07-05 21:11:08,283 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 21:11:08,283 - main - INFO - Initializing PDF processor...
+2025-07-05 21:11:08,283 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 21:11:08,296 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 21:11:08,296 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 21:11:08,296 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 21:11:08,296 - main - INFO - Validating AI setup...
+2025-07-05 21:11:08,318 - core.ai_client - INFO - AI client initialized
+2025-07-05 21:11:09,585 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:11:09,591 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 21:11:09,591 - main - INFO - Initializing chat service...
+2025-07-05 21:11:09,592 - services.chat_service - INFO - Chat service initialized
+2025-07-05 21:11:09,592 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 21:11:09,592 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 21:12:54,106 - api.chat - INFO - Processing chat request: What does the document say about transportation?... (conversation: xrnuwvlpw)
+2025-07-05 21:12:54,130 - services.chat_service - INFO - Created new conversation: xrnuwvlpw
+2025-07-05 21:12:54,131 - services.chat_service - INFO - Added user message to conversation xrnuwvlpw: What does the document say about transportation?...
+2025-07-05 21:12:54,131 - core.ai_client - INFO - Generating streaming response for: What does the document say about transportation?...
+2025-07-05 21:12:55,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:12:57,053 - core.ai_client - INFO - Completed streaming response: 366 characters
+2025-07-05 21:12:57,053 - services.chat_service - INFO - Completed streaming response for xrnuwvlpw: 366 chars in 2.92s
+2025-07-05 21:12:57,054 - api.chat - INFO - Chat response completed in 2.95s
+2025-07-05 21:42:10,596 - watchfiles.main - INFO - 1 change detected
+2025-07-05 21:42:10,875 - main - INFO - Shutting down application...
+2025-07-05 21:42:10,877 - main - INFO - 👋 Application shutdown complete
+2025-07-05 21:42:11,754 - watchfiles.main - INFO - 1 change detected
+2025-07-05 21:42:12,061 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 21:42:12,061 - main - INFO - Initializing PDF processor...
+2025-07-05 21:42:12,061 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 21:42:12,074 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 21:42:12,074 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 21:42:12,074 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 21:42:12,074 - main - INFO - Validating AI setup...
+2025-07-05 21:42:12,101 - core.ai_client - INFO - AI client initialized
+2025-07-05 21:42:12,111 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 21:42:13,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:42:13,503 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 21:42:13,504 - main - INFO - Initializing chat service...
+2025-07-05 21:42:13,504 - services.chat_service - INFO - Chat service initialized
+2025-07-05 21:42:13,504 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 21:42:13,504 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 21:43:37,203 - watchfiles.main - INFO - 1 change detected
+2025-07-05 21:43:37,356 - main - INFO - Shutting down application...
+2025-07-05 21:43:37,356 - main - INFO - 👋 Application shutdown complete
+2025-07-05 21:43:37,824 - watchfiles.main - INFO - 1 change detected
+2025-07-05 21:43:38,014 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 21:43:38,014 - main - INFO - Initializing PDF processor...
+2025-07-05 21:43:38,014 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 21:43:38,028 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 21:43:38,028 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 21:43:38,028 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 21:43:38,028 - main - INFO - Validating AI setup...
+2025-07-05 21:43:38,050 - core.ai_client - INFO - AI client initialized
+2025-07-05 21:43:38,189 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 21:43:38,979 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:43:38,982 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 21:43:38,982 - main - INFO - Initializing chat service...
+2025-07-05 21:43:38,982 - services.chat_service - INFO - Chat service initialized
+2025-07-05 21:43:38,982 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 21:43:38,982 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 21:45:07,763 - watchfiles.main - INFO - 1 change detected
+2025-07-05 21:45:07,924 - main - INFO - Shutting down application...
+2025-07-05 21:45:07,925 - main - INFO - 👋 Application shutdown complete
+2025-07-05 21:45:08,410 - watchfiles.main - INFO - 1 change detected
+2025-07-05 21:45:08,588 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 21:45:08,588 - main - INFO - Initializing PDF processor...
+2025-07-05 21:45:08,588 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 21:45:08,601 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 21:45:08,604 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 21:45:08,605 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 21:45:08,605 - main - INFO - Validating AI setup...
+2025-07-05 21:45:08,640 - core.ai_client - INFO - AI client initialized
+2025-07-05 21:45:08,771 - watchfiles.main - INFO - 3 changes detected
+2025-07-05 21:45:13,902 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:45:13,904 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 21:45:13,904 - main - INFO - Initializing chat service...
+2025-07-05 21:45:13,904 - services.chat_service - INFO - Chat service initialized
+2025-07-05 21:45:13,904 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 21:45:13,904 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 21:50:46,663 - __main__ - INFO - Starting application server...
+2025-07-05 21:50:47,074 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-05 21:50:47,074 - main - INFO - Initializing PDF processor...
+2025-07-05 21:50:47,074 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-05 21:50:47,087 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-05 21:50:47,087 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-05 21:50:47,087 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-05 21:50:47,087 - main - INFO - Validating AI setup...
+2025-07-05 21:50:47,117 - core.ai_client - INFO - AI client initialized
+2025-07-05 21:50:48,250 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:50:48,254 - main - INFO - ✅ AI setup validated successfully
+2025-07-05 21:50:48,254 - main - INFO - Initializing chat service...
+2025-07-05 21:50:48,254 - services.chat_service - INFO - Chat service initialized
+2025-07-05 21:50:48,254 - main - INFO - ✅ Chat service initialized successfully
+2025-07-05 21:50:48,254 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-05 21:52:21,069 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: a4np649uvem)
+2025-07-05 21:52:21,107 - services.chat_service - INFO - Created new conversation: a4np649uvem
+2025-07-05 21:52:21,108 - services.chat_service - INFO - Added user message to conversation a4np649uvem: What is the ADA?...
+2025-07-05 21:52:21,108 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-05 21:52:22,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:52:24,364 - core.ai_client - INFO - Completed streaming response: 325 characters
+2025-07-05 21:52:24,365 - services.chat_service - INFO - Completed streaming response for a4np649uvem: 325 chars in 3.26s
+2025-07-05 21:52:24,365 - api.chat - INFO - Chat response completed in 3.30s
+2025-07-05 21:56:13,796 - api.chat - INFO - Processing chat request: How many people globally have disabilities according to the document?... (conversation: a4np649uvem)
+2025-07-05 21:56:13,828 - services.chat_service - INFO - Added user message to conversation a4np649uvem: How many people globally have disabilities according to the document?...
+2025-07-05 21:56:13,829 - core.ai_client - INFO - Generating streaming response for: How many people globally have disabilities according to the document?...
+2025-07-05 21:56:14,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:56:15,836 - core.ai_client - INFO - Completed streaming response: 139 characters
+2025-07-05 21:56:15,836 - services.chat_service - INFO - Completed streaming response for a4np649uvem: 139 chars in 2.01s
+2025-07-05 21:56:15,836 - api.chat - INFO - Chat response completed in 2.04s
+2025-07-05 21:56:23,349 - api.chat - INFO - Processing chat request: Tell me about accessibility laws in North America... (conversation: a4np649uvem)
+2025-07-05 21:56:23,353 - services.chat_service - INFO - Added user message to conversation a4np649uvem: Tell me about accessibility laws in North America...
+2025-07-05 21:56:23,353 - core.ai_client - INFO - Generating streaming response for: Tell me about accessibility laws in North America...
+2025-07-05 21:56:24,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:56:26,490 - core.ai_client - INFO - Completed streaming response: 541 characters
+2025-07-05 21:56:26,490 - services.chat_service - INFO - Completed streaming response for a4np649uvem: 541 chars in 3.14s
+2025-07-05 21:56:26,491 - api.chat - INFO - Chat response completed in 3.14s
+2025-07-05 21:56:48,035 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:57:44,951 - api.chat - INFO - Processing chat request: Hi who are you ?... (conversation: sxqd3pj04q)
+2025-07-05 21:57:44,955 - services.chat_service - INFO - Created new conversation: sxqd3pj04q
+2025-07-05 21:57:44,957 - services.chat_service - INFO - Added user message to conversation sxqd3pj04q: Hi who are you ?...
+2025-07-05 21:57:44,957 - core.ai_client - INFO - Generating streaming response for: Hi who are you ?...
+2025-07-05 21:57:45,829 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:57:46,948 - core.ai_client - INFO - Completed streaming response: 195 characters
+2025-07-05 21:57:46,948 - services.chat_service - INFO - Completed streaming response for sxqd3pj04q: 195 chars in 1.99s
+2025-07-05 21:57:46,950 - api.chat - INFO - Chat response completed in 2.00s
