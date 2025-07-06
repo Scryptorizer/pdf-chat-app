@@ -1460,3 +1460,603 @@
 2025-07-05 21:57:46,948 - core.ai_client - INFO - Completed streaming response: 195 characters
 2025-07-05 21:57:46,948 - services.chat_service - INFO - Completed streaming response for sxqd3pj04q: 195 chars in 1.99s
 2025-07-05 21:57:46,950 - api.chat - INFO - Chat response completed in 2.00s
+2025-07-06 00:12:52,789 - __main__ - INFO - Starting application server...
+2025-07-06 00:12:53,267 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:12:53,267 - main - INFO - Initializing PDF processor...
+2025-07-06 00:12:53,268 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:12:53,281 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:12:53,281 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:12:53,281 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:12:53,281 - main - INFO - Validating AI setup...
+2025-07-06 00:12:53,310 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:12:53,911 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:12:53,914 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:12:53,914 - main - ERROR - AI setup validation failed
+2025-07-06 00:12:53,914 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:12:54,102 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:15:51,940 - __main__ - INFO - Starting application server...
+2025-07-06 00:15:52,436 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:15:52,436 - main - INFO - Initializing PDF processor...
+2025-07-06 00:15:52,436 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:15:52,450 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:15:52,450 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:15:52,450 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:15:52,451 - main - INFO - Validating AI setup...
+2025-07-06 00:15:52,474 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:15:53,063 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:15:53,065 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:15:53,066 - main - ERROR - AI setup validation failed
+2025-07-06 00:15:53,066 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:15:53,304 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:19:34,758 - __main__ - INFO - Starting application server...
+2025-07-06 00:19:35,210 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:19:35,210 - main - INFO - Initializing PDF processor...
+2025-07-06 00:19:35,211 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:19:35,227 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:19:35,227 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:19:35,227 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:19:35,228 - main - INFO - Validating AI setup...
+2025-07-06 00:19:35,254 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:19:35,738 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:19:35,742 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:19:35,742 - main - ERROR - AI setup validation failed
+2025-07-06 00:19:35,742 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:19:35,950 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:20:57,983 - __main__ - INFO - Starting application server...
+2025-07-06 00:20:58,421 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:20:58,421 - main - INFO - Initializing PDF processor...
+2025-07-06 00:20:58,421 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:20:58,434 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:20:58,434 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:20:58,434 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:20:58,434 - main - INFO - Validating AI setup...
+2025-07-06 00:20:58,458 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:20:59,014 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:20:59,017 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:20:59,018 - main - ERROR - AI setup validation failed
+2025-07-06 00:20:59,018 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:20:59,220 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:21:51,607 - __main__ - INFO - Starting application server...
+2025-07-06 00:21:52,042 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:21:52,043 - main - INFO - Initializing PDF processor...
+2025-07-06 00:21:52,043 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:21:52,057 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:21:52,058 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:21:52,058 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:21:52,058 - main - INFO - Validating AI setup...
+2025-07-06 00:21:52,081 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:21:52,152 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 00:21:52,400 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:21:52,403 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:21:52,403 - main - ERROR - AI setup validation failed
+2025-07-06 00:21:52,403 - main - WARNING - AI setup validation failed - continuing anyway
+2025-07-06 00:21:52,403 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 00:21:52,403 - main - INFO - Initializing chat service...
+2025-07-06 00:21:52,404 - services.chat_service - INFO - Chat service initialized
+2025-07-06 00:21:52,404 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 00:21:52,404 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 00:27:01,118 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: g3gzzign7jp)
+2025-07-06 00:27:01,336 - services.chat_service - INFO - Created new conversation: g3gzzign7jp
+2025-07-06 00:27:01,346 - services.chat_service - INFO - Added user message to conversation g3gzzign7jp: What is the ADA?...
+2025-07-06 00:27:01,352 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 00:27:01,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:27:01,958 - core.ai_client - ERROR - OpenAI API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:27:01,973 - services.chat_service - INFO - Completed streaming response for g3gzzign7jp: 58 chars in 0.62s
+2025-07-06 00:27:01,975 - api.chat - INFO - Chat response completed in 0.87s
+2025-07-06 00:27:09,714 - api.chat - INFO - Processing chat request: who are you ?... (conversation: g3gzzign7jp)
+2025-07-06 00:27:09,716 - services.chat_service - INFO - Added user message to conversation g3gzzign7jp: who are you ?...
+2025-07-06 00:27:09,717 - core.ai_client - INFO - Generating streaming response for: who are you ?...
+2025-07-06 00:27:10,156 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:27:10,158 - core.ai_client - ERROR - OpenAI API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:27:10,159 - services.chat_service - INFO - Completed streaming response for g3gzzign7jp: 58 chars in 0.44s
+2025-07-06 00:27:10,159 - api.chat - INFO - Chat response completed in 0.45s
+2025-07-06 00:32:18,702 - main - INFO - Shutting down application...
+2025-07-06 00:32:18,703 - main - INFO - 👋 Application shutdown complete
+2025-07-06 00:38:48,758 - __main__ - INFO - Starting application server...
+2025-07-06 00:38:49,219 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:38:49,219 - main - INFO - Initializing PDF processor...
+2025-07-06 00:38:49,219 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:38:49,233 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:38:49,234 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:38:49,234 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:38:49,234 - main - INFO - Validating AI setup...
+2025-07-06 00:38:49,267 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:38:49,301 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 00:38:50,164 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:38:50,166 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:38:50,166 - main - ERROR - AI setup validation failed
+2025-07-06 00:38:50,166 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:38:50,406 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:47:19,257 - __main__ - INFO - Starting application server...
+2025-07-06 00:47:19,670 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:47:19,670 - main - INFO - Initializing PDF processor...
+2025-07-06 00:47:19,670 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:47:19,684 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:47:19,684 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:47:19,684 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:47:19,684 - main - INFO - Validating AI setup...
+2025-07-06 00:47:19,745 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:47:20,439 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:47:20,441 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:47:20,442 - main - ERROR - AI setup validation failed
+2025-07-06 00:47:20,442 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:47:20,662 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:52:07,789 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:52:08,514 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:52:08,514 - main - INFO - Initializing PDF processor...
+2025-07-06 00:52:08,514 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:52:08,530 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:52:08,530 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:52:08,530 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:52:08,530 - main - INFO - Validating AI setup...
+2025-07-06 00:52:08,568 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:52:08,611 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 00:52:09,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:52:09,303 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:52:09,303 - main - ERROR - AI setup validation failed
+2025-07-06 00:52:09,303 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:52:09,518 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:53:39,168 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:53:39,563 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:53:39,931 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:53:40,361 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:53:40,361 - main - INFO - Initializing PDF processor...
+2025-07-06 00:53:40,361 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:53:40,375 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:53:40,375 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:53:40,375 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:53:40,375 - main - INFO - Validating AI setup...
+2025-07-06 00:53:40,401 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:53:40,461 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 00:53:40,963 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:53:40,964 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:53:40,964 - main - ERROR - AI setup validation failed
+2025-07-06 00:53:40,964 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:53:41,147 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:53:50,819 - __main__ - INFO - Starting application server...
+2025-07-06 00:53:51,416 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:53:51,416 - main - INFO - Initializing PDF processor...
+2025-07-06 00:53:51,416 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:53:51,439 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:53:51,439 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:53:51,439 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:53:51,439 - main - INFO - Validating AI setup...
+2025-07-06 00:53:51,475 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:53:51,987 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:53:51,990 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:53:51,991 - main - ERROR - AI setup validation failed
+2025-07-06 00:53:51,991 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:53:52,170 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:55:40,642 - __main__ - INFO - Starting application server...
+2025-07-06 00:55:41,065 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:55:41,065 - main - INFO - Initializing PDF processor...
+2025-07-06 00:55:41,065 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:55:41,078 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:55:41,078 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:55:41,078 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:55:41,078 - main - INFO - Validating AI setup...
+2025-07-06 00:55:41,103 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:55:41,757 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:55:41,759 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:55:41,759 - main - ERROR - AI setup validation failed
+2025-07-06 00:55:41,760 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:55:41,988 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:56:58,590 - watchfiles.main - INFO - 1 change detected
+2025-07-06 00:56:59,240 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 00:56:59,240 - main - INFO - Initializing PDF processor...
+2025-07-06 00:56:59,240 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 00:56:59,253 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 00:56:59,253 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 00:56:59,253 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 00:56:59,253 - main - INFO - Validating AI setup...
+2025-07-06 00:56:59,281 - core.ai_client - INFO - AI client initialized
+2025-07-06 00:57:00,079 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-06 00:57:00,081 - core.ai_client - ERROR - OpenAI connection validation failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-svcac***********************************************************************************************************************************************************w70A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-06 00:57:00,081 - main - ERROR - AI setup validation failed
+2025-07-06 00:57:00,081 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 00:57:00,323 - watchfiles.main - INFO - 1 change detected
+2025-07-06 01:40:37,655 - __main__ - INFO - Starting application server...
+2025-07-06 01:40:38,207 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 01:40:38,207 - main - INFO - Initializing PDF processor...
+2025-07-06 01:40:38,207 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 01:40:38,227 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 01:40:38,251 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 01:40:38,271 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 01:40:38,271 - main - INFO - Validating AI setup...
+2025-07-06 01:40:38,330 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 01:40:38,330 - core.ai_client - ERROR - Claude connection validation failed: Missing required arguments; Expected either ('max_tokens_to_sample', 'model' and 'prompt') or ('max_tokens_to_sample', 'model', 'prompt' and 'stream') arguments to be given
+2025-07-06 01:40:38,330 - main - ERROR - AI setup validation failed
+2025-07-06 01:40:38,330 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 01:49:23,986 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 01:49:23,986 - main - INFO - Initializing PDF processor...
+2025-07-06 01:49:23,986 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 01:49:24,007 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 01:49:24,007 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 01:49:24,008 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 01:49:24,008 - main - INFO - Validating AI setup...
+2025-07-06 01:49:24,074 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 01:49:24,074 - core.ai_client - ERROR - Claude setup validation failed: 'AIClient' object has no attribute 'validate_connection'
+2025-07-06 01:49:24,074 - main - ERROR - AI setup validation failed
+2025-07-06 01:49:24,074 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 01:51:51,398 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 01:51:51,398 - main - INFO - Initializing PDF processor...
+2025-07-06 01:51:51,399 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 01:51:51,427 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 01:51:51,428 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 01:51:51,428 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 01:51:51,428 - main - INFO - Validating AI setup...
+2025-07-06 01:51:51,477 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 01:51:51,564 - core.ai_client - ERROR - Claude connection validation failed: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-07-06 01:51:51,565 - main - ERROR - AI setup validation failed
+2025-07-06 01:51:51,565 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 01:53:47,396 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 01:53:47,396 - main - INFO - Initializing PDF processor...
+2025-07-06 01:53:47,397 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 01:53:47,420 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 01:53:47,421 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 01:53:47,421 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 01:53:47,421 - main - INFO - Validating AI setup...
+2025-07-06 01:53:47,421 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 01:53:47,421 - main - INFO - Initializing chat service...
+2025-07-06 01:53:47,468 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 01:53:47,468 - services.chat_service - INFO - Chat service initialized
+2025-07-06 01:53:47,468 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 01:53:47,468 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 01:53:47,672 - main - INFO - Shutting down application...
+2025-07-06 01:53:47,672 - main - INFO - 👋 Application shutdown complete
+2025-07-06 01:53:48,045 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 01:53:48,046 - main - INFO - Initializing PDF processor...
+2025-07-06 01:53:48,046 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 01:53:48,069 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 01:53:48,069 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 01:53:48,070 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 01:53:48,070 - main - INFO - Validating AI setup...
+2025-07-06 01:53:48,070 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 01:53:48,070 - main - INFO - Initializing chat service...
+2025-07-06 01:53:48,090 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 01:53:48,091 - services.chat_service - INFO - Chat service initialized
+2025-07-06 01:53:48,091 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 01:53:48,091 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 01:56:46,314 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: fauipus8k8j)
+2025-07-06 01:56:46,385 - services.chat_service - INFO - Created new conversation: fauipus8k8j
+2025-07-06 01:56:46,387 - services.chat_service - INFO - Added user message to conversation fauipus8k8j: What is the ADA?...
+2025-07-06 01:56:46,391 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 01:56:46,588 - core.ai_client - ERROR - Unexpected error in streaming response: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-07-06 01:56:46,595 - services.chat_service - INFO - Completed streaming response for fauipus8k8j: 52 chars in 0.21s
+2025-07-06 01:56:46,596 - api.chat - INFO - Chat response completed in 0.28s
+2025-07-06 02:03:26,755 - main - INFO - Shutting down application...
+2025-07-06 02:03:26,757 - main - INFO - 👋 Application shutdown complete
+2025-07-06 02:03:27,465 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:03:27,465 - main - INFO - Initializing PDF processor...
+2025-07-06 02:03:27,465 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:03:27,485 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:03:27,485 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:03:27,485 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:03:27,485 - main - INFO - Validating AI setup...
+2025-07-06 02:03:27,485 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:03:27,485 - main - INFO - Initializing chat service...
+2025-07-06 02:03:27,520 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:03:27,520 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:03:27,521 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:03:27,521 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:16:38,786 - __main__ - INFO - Starting application server...
+2025-07-06 02:16:39,134 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:16:39,134 - main - INFO - Initializing PDF processor...
+2025-07-06 02:16:39,134 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:16:39,157 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:16:39,157 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:16:39,157 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:16:39,157 - main - INFO - Validating AI setup...
+2025-07-06 02:16:39,157 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:16:39,157 - main - INFO - Initializing chat service...
+2025-07-06 02:16:39,200 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:16:39,200 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:16:39,200 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:16:39,200 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:18:18,231 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: lknc2qk3ou)
+2025-07-06 02:18:18,258 - services.chat_service - INFO - Created new conversation: lknc2qk3ou
+2025-07-06 02:18:18,261 - services.chat_service - INFO - Added user message to conversation lknc2qk3ou: What is the ADA?...
+2025-07-06 02:18:18,263 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 02:18:18,306 - core.ai_client - ERROR - Unexpected error in streaming response: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-07-06 02:18:18,310 - services.chat_service - INFO - Completed streaming response for lknc2qk3ou: 52 chars in 0.05s
+2025-07-06 02:18:18,310 - api.chat - INFO - Chat response completed in 0.08s
+2025-07-06 02:22:04,314 - main - INFO - Shutting down application...
+2025-07-06 02:22:04,316 - main - INFO - 👋 Application shutdown complete
+2025-07-06 02:22:04,899 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:22:04,899 - main - INFO - Initializing PDF processor...
+2025-07-06 02:22:04,899 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:22:04,920 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:22:04,921 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:22:04,921 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:22:04,921 - main - INFO - Validating AI setup...
+2025-07-06 02:22:04,921 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:22:04,921 - main - INFO - Initializing chat service...
+2025-07-06 02:22:04,957 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:22:04,957 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:22:04,957 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:22:04,957 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:22:24,054 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: lknc2qk3ou)
+2025-07-06 02:22:24,074 - services.chat_service - INFO - Created new conversation: lknc2qk3ou
+2025-07-06 02:22:24,074 - services.chat_service - INFO - Added user message to conversation lknc2qk3ou: What is the ADA?...
+2025-07-06 02:22:24,074 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 02:22:24,136 - core.ai_client - ERROR - Unexpected error in streaming response: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-07-06 02:22:24,137 - services.chat_service - INFO - Completed streaming response for lknc2qk3ou: 52 chars in 0.06s
+2025-07-06 02:22:24,138 - api.chat - INFO - Chat response completed in 0.08s
+2025-07-06 02:23:00,022 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:23:00,022 - main - INFO - Initializing PDF processor...
+2025-07-06 02:23:00,022 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:23:00,050 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:23:00,050 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:23:00,050 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:23:00,051 - main - INFO - Validating AI setup...
+2025-07-06 02:23:00,051 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:23:00,051 - main - INFO - Initializing chat service...
+2025-07-06 02:23:00,211 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:23:00,211 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:23:00,211 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:23:00,211 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:23:24,005 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: 4kgclxsiuyj)
+2025-07-06 02:23:24,128 - services.chat_service - INFO - Created new conversation: 4kgclxsiuyj
+2025-07-06 02:23:24,128 - services.chat_service - INFO - Added user message to conversation 4kgclxsiuyj: What is the ADA?...
+2025-07-06 02:23:24,133 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 02:23:24,443 - core.ai_client - ERROR - Unexpected error in streaming response: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-07-06 02:23:24,444 - services.chat_service - INFO - Completed streaming response for 4kgclxsiuyj: 52 chars in 0.32s
+2025-07-06 02:23:24,445 - api.chat - INFO - Chat response completed in 0.44s
+2025-07-06 02:25:17,687 - main - INFO - Shutting down application...
+2025-07-06 02:25:17,688 - main - INFO - 👋 Application shutdown complete
+2025-07-06 02:25:18,741 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:25:18,741 - main - INFO - Initializing PDF processor...
+2025-07-06 02:25:18,741 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:25:18,761 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:25:18,761 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:25:18,761 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:25:18,761 - main - INFO - Validating AI setup...
+2025-07-06 02:25:18,761 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:25:18,761 - main - INFO - Initializing chat service...
+2025-07-06 02:25:18,793 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:25:18,794 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:25:18,794 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:25:18,794 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:25:50,958 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:25:50,958 - main - INFO - Initializing PDF processor...
+2025-07-06 02:25:50,958 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:25:50,978 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:25:50,978 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:25:50,978 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:25:50,978 - main - INFO - Validating AI setup...
+2025-07-06 02:25:50,978 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:25:50,978 - main - INFO - Initializing chat service...
+2025-07-06 02:25:51,006 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:25:51,006 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:25:51,006 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:25:51,006 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:26:22,837 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: t64sn7bumkq)
+2025-07-06 02:26:22,889 - services.chat_service - INFO - Created new conversation: t64sn7bumkq
+2025-07-06 02:26:22,889 - services.chat_service - INFO - Added user message to conversation t64sn7bumkq: What is the ADA?...
+2025-07-06 02:26:22,889 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 02:26:24,520 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 02:26:24,545 - core.ai_client - ERROR - Unexpected error in streaming response: 'RawMessageStartEvent' object has no attribute 'delta'
+2025-07-06 02:26:24,545 - services.chat_service - INFO - Completed streaming response for t64sn7bumkq: 52 chars in 1.66s
+2025-07-06 02:26:24,546 - api.chat - INFO - Chat response completed in 1.71s
+2025-07-06 02:28:08,368 - main - INFO - Shutting down application...
+2025-07-06 02:28:08,369 - main - INFO - 👋 Application shutdown complete
+2025-07-06 02:28:09,128 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:28:09,128 - main - INFO - Initializing PDF processor...
+2025-07-06 02:28:09,128 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:28:09,148 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:28:09,148 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:28:09,148 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:28:09,148 - main - INFO - Validating AI setup...
+2025-07-06 02:28:09,148 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:28:09,148 - main - INFO - Initializing chat service...
+2025-07-06 02:28:09,208 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:28:09,208 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:28:09,208 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:28:09,208 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:28:13,992 - main - INFO - Shutting down application...
+2025-07-06 02:28:13,992 - main - INFO - 👋 Application shutdown complete
+2025-07-06 02:28:18,137 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:28:18,138 - main - INFO - Initializing PDF processor...
+2025-07-06 02:28:18,138 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:28:18,158 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:28:18,158 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:28:18,158 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:28:18,158 - main - INFO - Validating AI setup...
+2025-07-06 02:28:18,158 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:28:18,158 - main - INFO - Initializing chat service...
+2025-07-06 02:28:18,185 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:28:18,185 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:28:18,185 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:28:18,185 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:28:30,919 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: 3vjxecr7thd)
+2025-07-06 02:28:30,949 - services.chat_service - INFO - Created new conversation: 3vjxecr7thd
+2025-07-06 02:28:30,949 - services.chat_service - INFO - Added user message to conversation 3vjxecr7thd: What is the ADA?...
+2025-07-06 02:28:30,949 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 02:28:32,639 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 02:28:32,662 - core.ai_client - ERROR - Unexpected error in streaming response: 'RawMessageStartEvent' object has no attribute 'delta'
+2025-07-06 02:28:32,663 - services.chat_service - INFO - Completed streaming response for 3vjxecr7thd: 61 chars in 1.71s
+2025-07-06 02:28:32,664 - api.chat - INFO - Chat response completed in 1.74s
+2025-07-06 02:29:59,759 - main - INFO - Shutting down application...
+2025-07-06 02:29:59,760 - main - INFO - 👋 Application shutdown complete
+2025-07-06 02:30:00,671 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:30:00,671 - main - INFO - Initializing PDF processor...
+2025-07-06 02:30:00,671 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:30:00,692 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:30:00,693 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:30:00,693 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:30:00,693 - main - INFO - Validating AI setup...
+2025-07-06 02:30:00,693 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:30:00,693 - main - INFO - Initializing chat service...
+2025-07-06 02:30:00,724 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:30:00,724 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:30:00,724 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:30:00,724 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:30:33,866 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: zjxyb4hao4)
+2025-07-06 02:30:33,881 - services.chat_service - INFO - Created new conversation: zjxyb4hao4
+2025-07-06 02:30:33,882 - services.chat_service - INFO - Added user message to conversation zjxyb4hao4: What is the ADA?...
+2025-07-06 02:30:33,882 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 02:30:35,443 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 02:30:38,408 - core.ai_client - INFO - Completed streaming Claude response
+2025-07-06 02:30:38,409 - services.chat_service - WARNING - Empty response generated for conversation zjxyb4hao4
+2025-07-06 02:30:38,410 - api.chat - INFO - Chat response completed in 4.54s
+2025-07-06 02:32:42,629 - main - INFO - Shutting down application...
+2025-07-06 02:32:42,630 - main - INFO - 👋 Application shutdown complete
+2025-07-06 02:32:43,791 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:32:43,791 - main - INFO - Initializing PDF processor...
+2025-07-06 02:32:43,791 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:32:43,811 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:32:43,811 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:32:43,811 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:32:43,811 - main - INFO - Validating AI setup...
+2025-07-06 02:32:43,811 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:32:43,811 - main - INFO - Initializing chat service...
+2025-07-06 02:32:43,861 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:32:43,862 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:32:43,862 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:32:43,862 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 02:32:54,499 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: 1z093pgdifo)
+2025-07-06 02:32:54,524 - services.chat_service - INFO - Created new conversation: 1z093pgdifo
+2025-07-06 02:32:54,524 - services.chat_service - INFO - Added user message to conversation 1z093pgdifo: What is the ADA?...
+2025-07-06 02:32:54,524 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 02:32:56,242 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 02:32:59,272 - core.ai_client - INFO - Completed streaming Claude response
+2025-07-06 02:32:59,272 - services.chat_service - WARNING - Empty response generated for conversation 1z093pgdifo
+2025-07-06 02:32:59,275 - api.chat - INFO - Chat response completed in 4.78s
+2025-07-06 02:37:26,044 - main - INFO - Shutting down application...
+2025-07-06 02:37:26,045 - main - INFO - 👋 Application shutdown complete
+2025-07-06 02:37:27,051 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 02:37:27,051 - main - INFO - Initializing PDF processor...
+2025-07-06 02:37:27,051 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 02:37:27,071 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 02:37:27,071 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 02:37:27,071 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 02:37:27,071 - main - INFO - Validating AI setup...
+2025-07-06 02:37:27,071 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 02:37:27,071 - main - INFO - Initializing chat service...
+2025-07-06 02:37:27,115 - core.ai_client - INFO - Claude AI client initialized
+2025-07-06 02:37:27,115 - services.chat_service - INFO - Chat service initialized
+2025-07-06 02:37:27,115 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 02:37:27,115 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 03:09:03,854 - __main__ - INFO - Starting application server...
+2025-07-06 03:09:04,328 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 03:09:04,328 - main - INFO - Initializing PDF processor...
+2025-07-06 03:09:04,328 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 03:09:04,342 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 03:09:04,342 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 03:09:04,342 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 03:09:04,342 - main - INFO - Validating AI setup...
+2025-07-06 03:09:04,389 - core.ai_client - INFO - AI client initialized
+2025-07-06 03:09:04,760 - openai._base_client - INFO - Retrying request to /chat/completions in 0.912056 seconds
+2025-07-06 03:09:05,814 - openai._base_client - INFO - Retrying request to /chat/completions in 1.732931 seconds
+2025-07-06 03:09:07,704 - core.ai_client - ERROR - OpenAI connection validation failed: Connection error.
+2025-07-06 03:09:07,704 - main - ERROR - AI setup validation failed
+2025-07-06 03:09:07,705 - main - ERROR - Startup failed: AI setup validation failed
+2025-07-06 03:09:07,906 - watchfiles.main - INFO - 1 change detected
+2025-07-06 03:20:16,966 - __main__ - INFO - Starting application server...
+2025-07-06 03:20:17,482 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 03:20:17,482 - main - INFO - Initializing PDF processor...
+2025-07-06 03:20:17,482 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 03:20:17,495 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 03:20:17,495 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 03:20:17,495 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 03:20:17,495 - main - INFO - Validating AI setup...
+2025-07-06 03:20:17,495 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 03:20:17,495 - main - INFO - Initializing chat service...
+2025-07-06 03:20:17,520 - core.ai_client - INFO - AI client initialized
+2025-07-06 03:20:17,520 - services.chat_service - INFO - Chat service initialized
+2025-07-06 03:20:17,520 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 03:20:17,521 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 03:23:27,710 - watchfiles.main - INFO - 1 change detected
+2025-07-06 03:23:28,060 - main - INFO - Shutting down application...
+2025-07-06 03:23:28,062 - main - INFO - 👋 Application shutdown complete
+2025-07-06 03:23:28,714 - watchfiles.main - INFO - 2 changes detected
+2025-07-06 03:23:29,142 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 03:24:14,714 - __main__ - INFO - Starting application server...
+2025-07-06 03:24:15,138 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 03:24:15,140 - main - INFO - Initializing PDF processor...
+2025-07-06 03:24:15,140 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 03:24:15,152 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 03:24:15,162 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 03:24:15,162 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 03:24:15,162 - main - INFO - Validating AI setup...
+2025-07-06 03:24:15,162 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 03:24:15,162 - main - INFO - Initializing chat service...
+2025-07-06 03:24:15,189 - core.ai_client - INFO - AI client initialized
+2025-07-06 03:24:15,189 - services.chat_service - INFO - Chat service initialized
+2025-07-06 03:24:15,189 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 03:24:15,189 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 03:24:57,377 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: ciuh1uc98b)
+2025-07-06 03:24:57,397 - services.chat_service - INFO - Created new conversation: ciuh1uc98b
+2025-07-06 03:24:57,397 - services.chat_service - INFO - Added user message to conversation ciuh1uc98b: What is the ADA?...
+2025-07-06 03:24:57,398 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 03:24:57,482 - core.ai_client - ERROR - Unexpected error in streaming response: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-07-06 03:24:57,483 - services.chat_service - INFO - Completed streaming response for ciuh1uc98b: 52 chars in 0.09s
+2025-07-06 03:24:57,483 - api.chat - INFO - Chat response completed in 0.11s
+2025-07-06 03:25:04,201 - api.chat - INFO - Processing chat request: who arfe you... (conversation: ciuh1uc98b)
+2025-07-06 03:25:04,203 - services.chat_service - INFO - Added user message to conversation ciuh1uc98b: who arfe you...
+2025-07-06 03:25:04,205 - core.ai_client - INFO - Generating streaming response for: who arfe you...
+2025-07-06 03:25:04,224 - core.ai_client - ERROR - Unexpected error in streaming response: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-07-06 03:25:04,228 - services.chat_service - INFO - Completed streaming response for ciuh1uc98b: 52 chars in 0.02s
+2025-07-06 03:25:04,228 - api.chat - INFO - Chat response completed in 0.03s
+2025-07-06 03:26:49,090 - main - INFO - Shutting down application...
+2025-07-06 03:26:49,090 - main - INFO - 👋 Application shutdown complete
+2025-07-06 03:28:46,738 - __main__ - INFO - Starting application server...
+2025-07-06 03:28:47,133 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-06 03:28:47,133 - main - INFO - Initializing PDF processor...
+2025-07-06 03:28:47,133 - core.pdf_processor - INFO - Loading PDF: /Users/willfernandez/pdf-chat-app/backend/documents/accessibility_guide.pdf
+2025-07-06 03:28:47,146 - core.pdf_processor - INFO - Successfully loaded PDF: 1 pages, 1077 total characters
+2025-07-06 03:28:47,146 - core.pdf_processor - INFO - PDF processor initialized successfully: {'total_pages': 1, 'total_words': 159, 'total_characters': 1077, 'avg_words_per_page': 159.0, 'metadata': {'total_pages': 1, 'title': 'Unknown', 'author': 'Unknown', 'creator': 'Unknown'}}
+2025-07-06 03:28:47,146 - main - INFO - ✅ PDF processor initialized successfully
+2025-07-06 03:28:47,146 - main - INFO - Validating AI setup...
+2025-07-06 03:28:47,146 - main - INFO - ✅ AI setup validated successfully
+2025-07-06 03:28:47,146 - main - INFO - Initializing chat service...
+2025-07-06 03:28:47,174 - core.ai_client - INFO - AI client initialized
+2025-07-06 03:28:47,174 - services.chat_service - INFO - Chat service initialized
+2025-07-06 03:28:47,174 - main - INFO - ✅ Chat service initialized successfully
+2025-07-06 03:28:47,174 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-06 03:29:03,750 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: kw9sylrajnd)
+2025-07-06 03:29:03,772 - services.chat_service - INFO - Created new conversation: kw9sylrajnd
+2025-07-06 03:29:03,772 - services.chat_service - INFO - Added user message to conversation kw9sylrajnd: What is the ADA?...
+2025-07-06 03:29:03,772 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 03:29:05,366 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 03:29:09,061 - core.ai_client - INFO - Completed streaming response: 872 characters
+2025-07-06 03:29:09,062 - services.chat_service - INFO - Completed streaming response for kw9sylrajnd: 872 chars in 5.29s
+2025-07-06 03:29:09,062 - api.chat - INFO - Chat response completed in 5.31s
+2025-07-06 03:37:25,425 - api.chat - INFO - Processing chat request: What is the ADA?... (conversation: 2padntzv5wx)
+2025-07-06 03:37:25,456 - services.chat_service - INFO - Created new conversation: 2padntzv5wx
+2025-07-06 03:37:25,462 - services.chat_service - INFO - Added user message to conversation 2padntzv5wx: What is the ADA?...
+2025-07-06 03:37:25,468 - core.ai_client - INFO - Generating streaming response for: What is the ADA?...
+2025-07-06 03:37:27,526 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 03:37:31,891 - core.ai_client - INFO - Completed streaming response: 945 characters
+2025-07-06 03:37:31,892 - services.chat_service - INFO - Completed streaming response for 2padntzv5wx: 945 chars in 6.43s
+2025-07-06 03:37:31,892 - api.chat - INFO - Chat response completed in 6.47s
+2025-07-06 03:39:12,440 - services.chat_service - INFO - Cleared conversation: 2padntzv5wx
+2025-07-06 03:39:16,478 - api.chat - INFO - Processing chat request: Tell me about accessibility laws in Canada... (conversation: 2padntzv5wx)
+2025-07-06 03:39:16,482 - services.chat_service - INFO - Added user message to conversation 2padntzv5wx: Tell me about accessibility laws in Canada...
+2025-07-06 03:39:16,483 - core.ai_client - INFO - Generating streaming response for: Tell me about accessibility laws in Canada...
+2025-07-06 03:39:18,356 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 03:39:24,399 - core.ai_client - INFO - Completed streaming response: 1241 characters
+2025-07-06 03:39:24,401 - services.chat_service - INFO - Completed streaming response for 2padntzv5wx: 1241 chars in 7.92s
+2025-07-06 03:39:24,401 - api.chat - INFO - Chat response completed in 7.92s
+2025-07-06 03:39:36,549 - api.chat - INFO - Processing chat request: tell me about ada with bullet points... (conversation: 2padntzv5wx)
+2025-07-06 03:39:36,551 - services.chat_service - INFO - Added user message to conversation 2padntzv5wx: tell me about ada with bullet points...
+2025-07-06 03:39:36,552 - core.ai_client - INFO - Generating streaming response for: tell me about ada with bullet points...
+2025-07-06 03:39:38,219 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 03:39:43,658 - core.ai_client - INFO - Completed streaming response: 1067 characters
+2025-07-06 03:39:43,659 - services.chat_service - INFO - Completed streaming response for 2padntzv5wx: 1067 chars in 7.11s
+2025-07-06 03:39:43,659 - api.chat - INFO - Chat response completed in 7.11s
+2025-07-06 03:40:19,547 - api.chat - INFO - Processing chat request: who are you... (conversation: saee7kdbezn)
+2025-07-06 03:40:19,559 - services.chat_service - INFO - Created new conversation: saee7kdbezn
+2025-07-06 03:40:19,559 - services.chat_service - INFO - Added user message to conversation saee7kdbezn: who are you...
+2025-07-06 03:40:19,560 - core.ai_client - INFO - Generating streaming response for: who are you...
+2025-07-06 03:40:21,308 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 03:40:23,763 - core.ai_client - INFO - Completed streaming response: 756 characters
+2025-07-06 03:40:23,763 - services.chat_service - INFO - Completed streaming response for saee7kdbezn: 756 chars in 4.20s
+2025-07-06 03:40:23,764 - api.chat - INFO - Chat response completed in 4.22s
+2025-07-06 03:40:31,529 - api.chat - INFO - Processing chat request: what model are you... (conversation: saee7kdbezn)
+2025-07-06 03:40:31,531 - services.chat_service - INFO - Added user message to conversation saee7kdbezn: what model are you...
+2025-07-06 03:40:31,531 - core.ai_client - INFO - Generating streaming response for: what model are you...
+2025-07-06 03:40:33,596 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-06 03:40:35,908 - core.ai_client - INFO - Completed streaming response: 654 characters
+2025-07-06 03:40:35,909 - services.chat_service - INFO - Completed streaming response for saee7kdbezn: 654 chars in 4.38s
+2025-07-06 03:40:35,909 - api.chat - INFO - Chat response completed in 4.38s

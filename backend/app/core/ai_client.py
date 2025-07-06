@@ -1,7 +1,6 @@
 import logging
 from typing import List, Dict, Optional, AsyncGenerator
-import openai
-from openai import OpenAI
+from anthropic import AsyncAnthropic
 from core.config import get_settings
 from core.pdf_processor import get_pdf_processor
 
@@ -11,14 +10,14 @@ settings = get_settings()
 
 
 class AIClient:
-    """Professional OpenAI client with streaming support."""
+    """Professional Anthropic client with streaming support."""
     
     def __init__(self):
-        """Initialize OpenAI client."""
-        self.client = OpenAI(
-            api_key=settings.openai_api_key
+        """Initialize Anthropic client."""
+        self.client = AsyncAnthropic(
+            api_key=settings.anthropic_api_key
         )
-        self.model = settings.openai_model
+        self.model = settings.anthropic_model
         self.max_tokens = settings.max_tokens
         self.temperature = settings.temperature
         
@@ -39,7 +38,7 @@ class AIClient:
 
         IMPORTANT IDENTITY:
         - You are "MCW Digital's AI Assistant" 
-        - Never mention OpenAI, GPT, or other AI providers
+        - Never mention Anthropic, Claude, or other AI providers
         - Present yourself as MCW Digital's proprietary technology
         - If asked about your model, say "I'm MCW Digital's AI assistant designed for document analysis"
 
@@ -66,8 +65,8 @@ class AIClient:
         - Acknowledge limitations honestly
         - Represent MCW Digital's commitment to quality and accuracy"""
 
-        # Start with system message
-        messages = [{"role": "system", "content": system_prompt}]
+        # Start with messages list
+        messages = []
         
         # Add conversation history if provided
         if conversation_history:
@@ -77,87 +76,72 @@ class AIClient:
         # Add current user message
         messages.append({"role": "user", "content": user_message})
         
-        return messages
+        return messages, system_prompt
     
     async def generate_response(self, user_message: str, conversation_history: List[Dict] = None) -> str:
         """Generate a non-streaming response."""
         try:
-            messages = self._build_context_prompt(user_message, conversation_history)
+            messages, system_prompt = self._build_context_prompt(user_message, conversation_history)
             
             logger.info(f"Generating response for message: {user_message[:100]}...")
             
-            response = self.client.chat.completions.create(
+            response = await self.client.messages.create(
                 model=self.model,
-                messages=messages,
                 max_tokens=self.max_tokens,
                 temperature=self.temperature,
-                stream=False
+                system=system_prompt,
+                messages=messages
             )
             
-            if response.choices and response.choices[0].message:
-                content = response.choices[0].message.content
+            if response.content and len(response.content) > 0:
+                content = response.content[0].text
                 logger.info(f"Generated response: {len(content)} characters")
                 return content
             else:
-                logger.error("No response content received from OpenAI")
+                logger.error("No response content received from Anthropic")
                 return "I apologize, but I couldn't generate a response. Please try again."
                 
-        except openai.RateLimitError as e:
-            logger.error(f"OpenAI rate limit exceeded: {e}")
-            return "I'm currently experiencing high demand. Please try again in a moment."
-        except openai.APIError as e:
-            logger.error(f"OpenAI API error: {e}")
-            return "I'm experiencing technical difficulties. Please try again."
         except Exception as e:
-            logger.error(f"Unexpected error generating response: {e}")
-            return "I encountered an unexpected error. Please try again."
+            logger.error(f"Anthropic API error: {e}")
+            return "I'm experiencing technical difficulties. Please try again."
     
     async def generate_streaming_response(self, user_message: str, conversation_history: List[Dict] = None) -> AsyncGenerator[str, None]:
         """Generate a streaming response for real-time display."""
         try:
-            messages = self._build_context_prompt(user_message, conversation_history)
+            messages, system_prompt = self._build_context_prompt(user_message, conversation_history)
             
             logger.info(f"Generating streaming response for: {user_message[:100]}...")
             
-            stream = self.client.chat.completions.create(
+            async with self.client.messages.stream(
                 model=self.model,
-                messages=messages,
                 max_tokens=self.max_tokens,
                 temperature=self.temperature,
-                stream=True
-            )
-            
-            full_response = ""
-            for chunk in stream:
-                if chunk.choices and chunk.choices[0].delta and chunk.choices[0].delta.content:
-                    content = chunk.choices[0].delta.content
-                    full_response += content
-                    yield content
+                system=system_prompt,
+                messages=messages
+            ) as stream:
+                full_response = ""
+                async for text in stream.text_stream:
+                    full_response += text
+                    yield text
             
             logger.info(f"Completed streaming response: {len(full_response)} characters")
                     
-        except openai.RateLimitError as e:
-            logger.error(f"OpenAI rate limit exceeded: {e}")
-            yield "I'm currently experiencing high demand. Please try again in a moment."
-        except openai.APIError as e:
-            logger.error(f"OpenAI API error: {e}")
-            yield "I'm experiencing technical difficulties. Please try again."
         except Exception as e:
             logger.error(f"Unexpected error in streaming response: {e}")
             yield "I encountered an unexpected error. Please try again."
     
-    def validate_connection(self) -> bool:
-        """Test the OpenAI connection."""
+    async def validate_connection(self) -> bool:
+        """Test the Anthropic connection."""
         try:
             # Simple test with minimal token usage
-            response = self.client.chat.completions.create(
+            response = await self.client.messages.create(
                 model=self.model,
-                messages=[{"role": "user", "content": "Hello"}],
-                max_tokens=5
+                max_tokens=5,
+                messages=[{"role": "user", "content": "Hello"}]
             )
-            return bool(response.choices)
+            return bool(response.content)
         except Exception as e:
-            logger.error(f"OpenAI connection validation failed: {e}")
+            logger.error(f"Anthropic connection validation failed: {e}")
             return False
     
     def get_model_info(self) -> Dict:
@@ -166,7 +150,7 @@ class AIClient:
             "model": self.model,
             "max_tokens": self.max_tokens,
             "temperature": self.temperature,
-            "api_key_configured": bool(settings.openai_api_key)
+            "api_key_configured": bool(settings.anthropic_api_key)
         }
 
 
@@ -185,11 +169,11 @@ def get_ai_client() -> AIClient:
     return _ai_client
 
 
-def validate_ai_setup() -> bool:
+async def validate_ai_setup() -> bool:
     """Validate that AI client is properly configured."""
     try:
         client = get_ai_client()
-        return client.validate_connection()
+        return await client.validate_connection()
     except Exception as e:
         logger.error(f"AI setup validation failed: {e}")
         return False
