@@ -16,7 +16,7 @@ interface StreamResponse {
   message_id?: string;
 }
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://pdf-chat-app-h0ew.onrender.com";
 
 const App: React.FC = () => {
   const [conversations, setConversations] = useState(() => {
