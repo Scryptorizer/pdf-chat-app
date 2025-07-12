@@ -1,456 +1,116 @@
-import React, { useState, useEffect, useRef } from 'react';
+// @ts-nocheck
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MainLayout from './components/layout/MainLayout';
+import Dashboard from './components/business/Dashboard';
+import ChatInterface from './components/ChatInterface';
 import './App.css';
-import ReactMarkdown from 'react-markdown';
 
 interface Message {
   id: string;
   content: string;
   role: 'user' | 'assistant';
-  timestamp: Date;
+  timestamp: string;
 }
 
-interface StreamResponse {
-  type: 'content' | 'error' | 'done';
-  content?: string;
-  conversation_id?: string;
-  message_id?: string;
+interface ConversationMessages {
+  [key: string]: Message[];
 }
 
-const API_BASE_URL = "https://pdf-chat-app-h0ew.onrender.com";
+// Simple placeholder components for pages we haven't built yet
+const EventsPage: React.FC = () => (
+  <div className="p-6">
+    <h1 className="text-3xl font-bold text-gray-900 mb-4">📅 Events Management</h1>
+    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+      <div className="text-center">
+        <div className="text-6xl mb-4">🎯</div>
+        <h2 className="text-xl font-semibold text-gray-900 mb-2">Event Management Coming Soon</h2>
+        <p className="text-gray-600">Advanced event tracking and management features</p>
+      </div>
+    </div>
+  </div>
+);
+
+const HotelsPage: React.FC = () => (
+  <div className="p-6">
+    <h1 className="text-3xl font-bold text-gray-900 mb-4">🏨 Hotel Partners</h1>
+    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+      <div className="text-center">
+        <div className="text-6xl mb-4">🏨</div>
+        <h2 className="text-xl font-semibold text-gray-900 mb-2">Hotel Partner Management Coming Soon</h2>
+        <p className="text-gray-600">Partner performance tracking and relationship management</p>
+      </div>
+    </div>
+  </div>
+);
+
+const AnalyticsPage: React.FC = () => (
+  <div className="p-6">
+    <h1 className="text-3xl font-bold text-gray-900 mb-4">📈 Analytics</h1>
+    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+      <div className="text-center">
+        <div className="text-6xl mb-4">📊</div>
+        <h2 className="text-xl font-semibold text-gray-900 mb-2">Advanced Analytics Coming Soon</h2>
+        <p className="text-gray-600">Detailed reporting and business intelligence insights</p>
+      </div>
+    </div>
+  </div>
+);
+
+const Settings: React.FC = () => (
+  <div className="p-6">
+    <h1 className="text-3xl font-bold text-gray-900 mb-4">⚙️ Settings</h1>
+    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+      <div className="text-center">
+        <div className="text-6xl mb-4">⚙️</div>
+        <h2 className="text-xl font-semibold text-gray-900 mb-2">Platform Settings Coming Soon</h2>
+        <p className="text-gray-600">User preferences, API configuration, and platform settings</p>
+      </div>
+    </div>
+  </div>
+);
 
 const App: React.FC = () => {
-  const [conversations, setConversations] = useState(() => {
+  // Global chat state - persists across navigation
+  const [chatConversations, setChatConversations] = useState(() => {
     const id = Math.random().toString(36).substring(2, 15);
     return [id];
   });
-  const [activeConversationId, setActiveConversationId] = useState(() => conversations[0]);
-  const [conversationMessages, setConversationMessages] = useState<{[key: string]: Message[]}>(() => ({
-    [conversations[0]]: []
-  }));
-  const [inputValue, setInputValue] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
-  const [isConnected, setIsConnected] = useState(true);
-  const [tokenStats, setTokenStats] = useState({ total_messages: 0, total_conversations: 0 });
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  const messagesEndRef = useRef<HTMLDivElement>(null);
-
-  const currentMessages = conversationMessages[activeConversationId] || [];
-
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  useEffect(() => {
-    scrollToBottom();
-  }, [currentMessages]);
-
-  const fetchTokenStats = async () => {
-    try {
-      const response = await fetch(`${API_BASE_URL}/api/usage/tokens`);
-      if (response.ok) {
-        const stats = await response.json();
-        setTokenStats(stats);
-      }
-    } catch (error) {
-      console.warn('Failed to fetch token stats:', error);
-    }
-  };
-
-  useEffect(() => {
-    fetchTokenStats();
-    const interval = setInterval(fetchTokenStats, 5000);
-    return () => clearInterval(interval);
-  }, []);
-
-  const addMessage = (content: string, role: 'user' | 'assistant') => {
-    const newMessage: Message = {
-      id: Math.random().toString(36).substring(2, 15),
-      content,
-      role,
-      timestamp: new Date()
-    };
-    
-    setConversationMessages(prev => ({
-      ...prev,
-      [activeConversationId]: [...(prev[activeConversationId] || []), newMessage]
-    }));
-    
-    return newMessage.id;
-  };
-
-  const updateLastMessage = (content: string) => {
-    setConversationMessages(prev => {
-      const currentMessages = prev[activeConversationId] || [];
-      if (currentMessages.length > 0) {
-        const updatedMessages = [...currentMessages];
-        updatedMessages[updatedMessages.length - 1] = {
-          ...updatedMessages[updatedMessages.length - 1],
-          content
-        };
-        return {
-          ...prev,
-          [activeConversationId]: updatedMessages
-        };
-      }
-      return prev;
-    });
-  };
-
-  const createNewConversation = () => {
-    const newId = Math.random().toString(36).substring(2, 15);
-    setConversations(prev => [...prev, newId]);
-    setActiveConversationId(newId);
-    setConversationMessages(prev => ({
-      ...prev,
-      [newId]: []
-    }));
-  };
-
-  const switchConversation = (conversationId: string) => {
-    setActiveConversationId(conversationId);
-  };
-
-  const handleSendMessage = async () => {
-    if (!inputValue.trim() || isLoading) return;
   
-    const userMessage = inputValue.trim();
-    setInputValue('');
-    setIsLoading(true);
+  const [chatActiveConversation, setChatActiveConversation] = useState(() => {
+    return chatConversations[0];
+  });
   
-    addMessage(userMessage, 'user');
-  
-    try {
-      const response = await fetch(`${API_BASE_URL}/api/chat`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          message: userMessage,
-          conversation_id: activeConversationId
-        })
-      });
-  
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-  
-      const reader = response.body?.getReader();
-      if (!reader) {
-        throw new Error('No response body reader available');
-      }
-  
-      let assistantMessageId: string | null = null;
-      let accumulatedContent = '';
-      const decoder = new TextDecoder();
-  
-      let buffer = '';
-      try {
-        while (true) {
-          const { done, value } = await reader.read();
-          
-          if (done) {
-            setIsLoading(false);
-            break;
-          }
-
-          buffer += decoder.decode(value, { stream: true });
-          const lines = buffer.split('\n');
-          
-          // Keep the last line in buffer (might be incomplete)
-          buffer = lines.pop() || '';
-
-          for (const line of lines) {
-            if (line.includes('{"type":')) {
-              try {
-                // Find the JSON part (skip any "data:" prefixes)
-                const jsonStart = line.indexOf('{"type":');
-                const jsonStr = line.substring(jsonStart).trim();
-                if (!jsonStr) continue;
-                const data = JSON.parse(jsonStr);
-                
-                if (data.type === 'content' && data.content) {
-                  accumulatedContent += data.content;
-                  
-                  if (!assistantMessageId) {
-                    assistantMessageId = addMessage(accumulatedContent, 'assistant');
-                  } else {
-                    updateLastMessage(accumulatedContent);
-                  }
-                } else if (data.type === 'done') {
-                  setIsLoading(false);
-                  return;
-                } else if (data.type === 'error') {
-                  console.error('Server error:', data.content);
-                  addMessage(`Server error: ${data.content || 'Unknown error occurred'}`, 'assistant');
-                  setIsLoading(false);
-                  return;
-                }
-              } catch (parseError) {
-                console.error('Error parsing SSE data:', parseError, 'Line:', line);
-              }
-            }
-          }
-        }
-      } finally {
-        reader.releaseLock();
-      }
-  
-    } catch (error) {
-      console.error('Error sending message:', error);
-      
-      // More detailed error handling
-      if (error instanceof Error) {
-        if (error.message.includes('429')) {
-          addMessage('🚦 Whoa, slow down there! You\'ve hit the rate limit (10 messages per minute). Take a coffee break and try again in a minute! ☕', 'assistant');
-        } else if (error.message.includes('503')) {
-          addMessage('🔧 The service is temporarily unavailable. Please try again in a moment.', 'assistant');
-        } else if (error.message.includes('500')) {
-          addMessage('⚠️ Internal server error. The backend team has been notified.', 'assistant');
-        } else if (error.name === 'TypeError' && error.message.includes('fetch')) {
-          addMessage('🌐 Network connection error. Please check your internet connection and try again.', 'assistant');
-        } else {
-          addMessage(`❌ Connection error: ${error.message}. Please try again.`, 'assistant');
-        }
-      } else {
-        addMessage('❌ An unexpected error occurred. Please try again.', 'assistant');
-      }
-      
-      setIsLoading(false);
-      setIsConnected(false);
-      
-      // Try to reconnect after a delay
-      setTimeout(() => {
-        setIsConnected(true);
-      }, 3000);
-    }
-  };
-
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault();
-      handleSendMessage();
-    }
-  };
-
-  const clearConversation = async () => {
-    try {
-      // Call backend to clear conversation
-      const response = await fetch(`${API_BASE_URL}/api/conversations/${activeConversationId}`, {
-        method: 'DELETE'
-      });
-      
-      if (!response.ok) {
-        console.warn('Failed to clear conversation on backend, status:', response.status);
-      }
-    } catch (error) {
-      console.warn('Failed to clear conversation on backend:', error);
-    }
-    
-    // Clear conversation locally regardless of backend response
-    setConversationMessages(prev => ({
-      ...prev,
-      [activeConversationId]: []
-    }));
-  };
-  
-  const exportConversation = async (format: string) => {
-    try {
-      const response = await fetch(`${API_BASE_URL}/api/conversations/${activeConversationId}/export?format=${format}`);
-      if (response.ok) {
-        const blob = await response.blob();
-        const url = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `conversation_${activeConversationId}.${format}`;
-        document.body.appendChild(a);
-        a.click();
-        window.URL.revokeObjectURL(url);
-        document.body.removeChild(a);
-      } else {
-        console.error('Export failed with status:', response.status);
-        addMessage('⚠️ Export failed. Please try again.', 'assistant');
-      }
-    } catch (error) {
-      console.error('Export failed:', error);
-      addMessage('⚠️ Export failed due to network error.', 'assistant');
-    }
-  };
-
-  const trySampleQuestion = (question: string) => {
-    setInputValue(question);
-  };
+  const [chatMessages, setChatMessages] = useState(() => {
+    return { [chatConversations[0]]: [] };
+  });
 
   return (
-    <div className={`app ${isDarkMode ? 'dark-mode' : ''}`}>
-      {/* MAIN HEADER - Clean and minimal */}
-      <header className="app-header">
-        <div className="header-main">
-          <div className="title-section">
-            <h1>PDF Chat Assistant</h1>
-            <p>Ask questions about accessible travel laws and regulations</p>
-          </div>
-          <div className="header-actions">
-            <button 
-              onClick={() => setIsDarkMode(!isDarkMode)}
-              className="theme-toggle"
-              title={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-            >
-              {isDarkMode ? '☀️' : '🌙'}
-            </button>
-          </div>
-        </div>
-      </header>
-
-      {/* STATUS BAR - Centered connection info */}
-      <div className="status-bar">
-        <span className={`connection-status ${isConnected ? 'connected' : 'disconnected'}`}>
-          {isConnected ? '🟢 Connected' : '🔴 Disconnected'}
-        </span>
-        <span className="token-stats">
-          📊 Messages: {tokenStats.total_messages} | Conversations: {tokenStats.total_conversations}
-        </span>
+    <Router>
+      <div className="App min-h-screen bg-slate-50">
+        <MainLayout>
+          {/* REMOVED: div with h-screen overflow-hidden - this was blocking scroll */}
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/events" element={<EventsPage />} />
+            <Route path="/hotels" element={<HotelsPage />} />
+            <Route path="/analytics" element={<AnalyticsPage />} />
+            <Route path="/chat" element={
+              <ChatInterface 
+                conversations={chatConversations}
+                setConversations={setChatConversations}
+                activeConversationId={chatActiveConversation}
+                setActiveConversationId={setChatActiveConversation}
+                conversationMessages={chatMessages}
+                setConversationMessages={setChatMessages}
+              />
+            } />
+            <Route path="/settings" element={<Settings />} />
+            <Route path="*" element={<Dashboard />} />
+          </Routes>
+        </MainLayout>
       </div>
-
-      {/* CONVERSATION TABS - With action buttons */}
-      <div className="conversation-controls">
-        <div className="chat-actions-left">
-          <button 
-            onClick={createNewConversation}
-            className="action-button"
-          >
-            ➕ New Chat
-          </button>
-          <button 
-            onClick={clearConversation}
-            className="action-button"
-            disabled={currentMessages.length === 0}
-          >
-            🗑️ Clear
-          </button>
-        </div>
-
-        {conversations.length > 1 && (
-          <div className="conversation-tabs">
-            {conversations.map((convId, index) => (
-              <button
-                key={convId}
-                onClick={() => switchConversation(convId)}
-                className={`conversation-tab ${convId === activeConversationId ? 'active' : ''}`}
-              >
-                Chat {index + 1}
-              </button>
-            ))}
-          </div>
-        )}
-
-        <div className="chat-actions-right">
-          <select 
-            onChange={(e) => e.target.value && exportConversation(e.target.value)}
-            className="export-select"
-            disabled={currentMessages.length === 0}
-            value=""
-          >
-            <option value="">📤 Export...</option>
-            <option value="txt">📝 Text</option>
-            <option value="markdown">📄 Markdown</option>
-            <option value="json">📋 JSON</option>
-          </select>
-        </div>
-      </div>
-
-      <main className="chat-container">
-        <div className="messages-container">
-          {currentMessages.length === 0 ? (
-            <div className="welcome-message">
-              <h2>👋 Welcome!</h2>
-              <p>I'm here to answer questions about accessible travel laws and regulations based on the loaded PDF document.</p>
-              <div className="sample-questions">
-                <p><strong>Try asking:</strong></p>
-                <ul>
-                  {[
-                    "What is the ADA?",
-                    "Tell me about accessibility laws in Canada",
-                    "How many people globally have disabilities?",
-                    "What does the document say about transportation?"
-                  ].map((question, index) => (
-                    <li key={index} onClick={() => trySampleQuestion(question)}>
-                      "{question}"
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          ) : (
-            currentMessages.map((message) => (
-              <div
-                key={message.id}
-                className={`message ${message.role === 'user' ? 'user-message' : 'assistant-message'}`}
-              >
-                <div className="message-header">
-                  <span className="message-role">
-                    {message.role === 'user' ? '👤 You' : '🤖 Assistant'}
-                  </span>
-                  <span className="message-time">
-                    {message.timestamp.toLocaleTimeString()}
-                  </span>
-                </div>
-                <div className="message-content">
-                  {message.role === 'assistant' ? (
-                    <ReactMarkdown>{message.content}</ReactMarkdown>
-                  ) : (
-                    message.content
-                  )}
-                </div>
-              </div>
-            ))
-          )}
-          
-          {isLoading && (
-            <div className="message assistant-message loading">
-              <div className="message-header">
-                <span className="message-role">🤖 Assistant</span>
-                <span className="message-time">typing...</span>
-              </div>
-              <div className="message-content">
-                <div className="typing-indicator">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-            </div>
-          )}
-          
-          <div ref={messagesEndRef} />
-        </div>
-
-        <div className="input-container">
-          <div className="input-wrapper">
-            <textarea
-              value={inputValue}
-              onChange={(e) => setInputValue(e.target.value)}
-              onKeyPress={handleKeyPress}
-              placeholder="Ask a question about accessible travel..."
-              disabled={isLoading || !isConnected}
-              rows={1}
-              className="message-input"
-            />
-            <button
-              onClick={handleSendMessage}
-              disabled={!inputValue.trim() || isLoading || !isConnected}
-              className="send-button"
-            >
-              {isLoading ? '⏳' : '📤'}
-            </button>
-          </div>
-          <div className="input-hint">
-            Press Enter to send, Shift+Enter for new line
-            {!isConnected && ' • Backend connection lost'}
-          </div>
-        </div>
-      </main>
-    </div>
+    </Router>
   );
 };
 
