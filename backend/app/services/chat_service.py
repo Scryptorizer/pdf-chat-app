@@ -4,6 +4,7 @@ import uuid
 from typing import Dict, List, Optional, AsyncGenerator
 from datetime import datetime
 import json
+from models.business_models import Event, HotelBid  
 
 from models.chat_models import (
     ConversationHistory, 

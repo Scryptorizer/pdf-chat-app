@@ -2060,3 +2060,1806 @@
 2025-07-06 03:40:35,908 - core.ai_client - INFO - Completed streaming response: 654 characters
 2025-07-06 03:40:35,909 - services.chat_service - INFO - Completed streaming response for saee7kdbezn: 654 chars in 4.38s
 2025-07-06 03:40:35,909 - api.chat - INFO - Chat response completed in 4.38s
+2025-07-11 16:03:37,599 - __main__ - INFO - Starting application server...
+2025-07-11 16:03:37,726 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 16:03:37,726 - main - INFO - Loading business intelligence data...
+2025-07-11 16:03:37,729 - main - INFO - ✅ Business data loaded: 15 events, 73 bids
+2025-07-11 16:03:37,730 - main - INFO - Validating AI setup...
+2025-07-11 16:03:37,801 - core.ai_client - INFO - Loaded business data: 15 events, 79 bids
+2025-07-11 16:03:37,801 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 16:03:39,969 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:03:39,987 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 16:03:39,987 - main - INFO - Initializing chat service...
+2025-07-11 16:03:39,988 - services.chat_service - INFO - Chat service initialized
+2025-07-11 16:03:39,988 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 16:03:39,988 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 16:11:58,846 - api.chat - INFO - Processing chat request: Show me all active events... (conversation: w711o9wqfch)
+2025-07-11 16:11:58,910 - services.chat_service - INFO - Created new conversation: w711o9wqfch
+2025-07-11 16:11:58,911 - services.chat_service - INFO - Added user message to conversation w711o9wqfch: Show me all active events...
+2025-07-11 16:11:58,913 - core.ai_client - INFO - Generating streaming business response for: Show me all active events...
+2025-07-11 16:12:00,424 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:12:09,441 - core.ai_client - INFO - Completed streaming business response: 2163 characters
+2025-07-11 16:12:09,443 - services.chat_service - INFO - Completed streaming response for w711o9wqfch: 2163 chars in 10.53s
+2025-07-11 16:12:09,444 - api.chat - INFO - Chat response completed in 10.60s
+2025-07-11 16:15:29,197 - api.chat - INFO - Processing chat request: Would you like me to analyze any specific aspect of these events or show deadline priorities?
+
+yes p... (conversation: w711o9wqfch)
+2025-07-11 16:15:29,211 - services.chat_service - INFO - Added user message to conversation w711o9wqfch: Would you like me to analyze any specific aspect of these events or show deadline priorities?
+
+yes p...
+2025-07-11 16:15:29,221 - core.ai_client - INFO - Generating streaming business response for: Would you like me to analyze any specific aspect of these events or show deadline priorities?
+
+yes p...
+2025-07-11 16:15:30,940 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:15:49,061 - core.ai_client - INFO - Completed streaming business response: 2740 characters
+2025-07-11 16:15:49,063 - services.chat_service - INFO - Completed streaming response for w711o9wqfch: 2740 chars in 19.85s
+2025-07-11 16:15:49,064 - api.chat - INFO - Chat response completed in 19.87s
+2025-07-11 16:35:07,449 - __main__ - INFO - Starting application server...
+2025-07-11 16:35:07,481 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 16:35:07,481 - main - INFO - Loading business intelligence data...
+2025-07-11 16:35:07,485 - main - INFO - ✅ Business data loaded: 15 events, 79 bids
+2025-07-11 16:35:07,485 - main - INFO - Validating AI setup...
+2025-07-11 16:35:07,542 - core.ai_client - INFO - Loaded business data: 15 events, 76 bids
+2025-07-11 16:35:07,542 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 16:35:09,331 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:35:09,336 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 16:35:09,336 - main - INFO - Initializing chat service...
+2025-07-11 16:35:09,336 - services.chat_service - INFO - Chat service initialized
+2025-07-11 16:35:09,336 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 16:35:09,336 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 16:36:15,555 - main - INFO - Shutting down application...
+2025-07-11 16:36:15,557 - main - INFO - 👋 Application shutdown complete
+2025-07-11 16:36:24,100 - __main__ - INFO - Starting application server...
+2025-07-11 16:36:24,122 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 16:36:24,122 - main - INFO - Loading business intelligence data...
+2025-07-11 16:36:24,126 - main - INFO - ✅ Business data loaded: 15 events, 78 bids
+2025-07-11 16:36:24,126 - main - INFO - Validating AI setup...
+2025-07-11 16:36:24,167 - core.ai_client - INFO - Loaded business data: 15 events, 73 bids
+2025-07-11 16:36:24,167 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 16:36:25,846 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:36:25,854 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 16:36:25,854 - main - INFO - Initializing chat service...
+2025-07-11 16:36:25,854 - services.chat_service - INFO - Chat service initialized
+2025-07-11 16:36:25,854 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 16:36:25,854 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 16:39:42,028 - main - INFO - Shutting down application...
+2025-07-11 16:39:42,030 - main - INFO - 👋 Application shutdown complete
+2025-07-11 16:44:04,575 - __main__ - INFO - Starting application server...
+2025-07-11 16:44:04,718 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 16:44:04,718 - main - INFO - Loading business intelligence data...
+2025-07-11 16:44:04,722 - main - INFO - ✅ Business data loaded: 15 events, 74 bids
+2025-07-11 16:44:04,722 - main - INFO - Validating AI setup...
+2025-07-11 16:44:04,781 - core.ai_client - INFO - Loaded business data: 15 events, 77 bids
+2025-07-11 16:44:04,781 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 16:44:07,179 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:44:07,196 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 16:44:07,196 - main - INFO - Initializing chat service...
+2025-07-11 16:44:07,197 - services.chat_service - INFO - Chat service initialized
+2025-07-11 16:44:07,197 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 16:44:07,197 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 16:44:56,551 - main - INFO - Shutting down application...
+2025-07-11 16:44:56,554 - main - INFO - 👋 Application shutdown complete
+2025-07-11 16:45:18,546 - __main__ - INFO - Starting application server...
+2025-07-11 16:45:18,577 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 16:45:18,577 - main - INFO - Loading business intelligence data...
+2025-07-11 16:45:18,581 - main - INFO - ✅ Business data loaded: 15 events, 80 bids
+2025-07-11 16:45:18,581 - main - INFO - Validating AI setup...
+2025-07-11 16:45:18,636 - core.ai_client - INFO - Loaded business data: 15 events, 74 bids
+2025-07-11 16:45:18,636 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 16:45:20,142 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:45:20,157 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 16:45:20,157 - main - INFO - Initializing chat service...
+2025-07-11 16:45:20,158 - services.chat_service - INFO - Chat service initialized
+2025-07-11 16:45:20,158 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 16:45:20,158 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 16:47:02,905 - __main__ - INFO - Starting application server...
+2025-07-11 16:47:02,942 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 16:47:02,942 - main - INFO - Loading business intelligence data...
+2025-07-11 16:47:02,946 - main - INFO - ✅ Business data loaded: 15 events, 88 bids
+2025-07-11 16:47:02,946 - main - INFO - Validating AI setup...
+2025-07-11 16:47:02,995 - core.ai_client - INFO - Loaded business data: 15 events, 70 bids
+2025-07-11 16:47:02,996 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 16:47:04,586 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:47:04,598 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 16:47:04,598 - main - INFO - Initializing chat service...
+2025-07-11 16:47:04,598 - services.chat_service - INFO - Chat service initialized
+2025-07-11 16:47:04,599 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 16:47:04,599 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 16:48:59,787 - __main__ - INFO - Starting application server...
+2025-07-11 16:48:59,814 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 16:48:59,814 - main - INFO - Loading business intelligence data...
+2025-07-11 16:48:59,818 - main - INFO - ✅ Business data loaded: 15 events, 78 bids
+2025-07-11 16:48:59,818 - main - INFO - Validating AI setup...
+2025-07-11 16:48:59,861 - core.ai_client - INFO - Loaded business data: 15 events, 71 bids
+2025-07-11 16:48:59,861 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 16:49:01,581 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:49:01,615 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 16:49:01,615 - main - INFO - Initializing chat service...
+2025-07-11 16:49:01,615 - services.chat_service - INFO - Chat service initialized
+2025-07-11 16:49:01,615 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 16:49:01,616 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 16:49:55,972 - main - INFO - Shutting down application...
+2025-07-11 16:49:55,973 - main - INFO - 👋 Application shutdown complete
+2025-07-11 16:51:10,242 - __main__ - INFO - Starting application server...
+2025-07-11 16:51:10,373 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 16:51:10,373 - main - INFO - Loading business intelligence data...
+2025-07-11 16:51:10,377 - main - INFO - ✅ Business data loaded: 15 events, 80 bids
+2025-07-11 16:51:10,377 - main - INFO - Validating AI setup...
+2025-07-11 16:51:10,446 - core.ai_client - INFO - Loaded business data: 15 events, 74 bids
+2025-07-11 16:51:10,446 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 16:51:12,649 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:51:12,656 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 16:51:12,657 - main - INFO - Initializing chat service...
+2025-07-11 16:51:12,657 - services.chat_service - INFO - Chat service initialized
+2025-07-11 16:51:12,657 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 16:51:12,657 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 16:54:23,995 - main - INFO - Shutting down application...
+2025-07-11 16:54:23,998 - main - INFO - 👋 Application shutdown complete
+2025-07-11 16:54:26,994 - __main__ - INFO - Starting application server...
+2025-07-11 16:54:27,023 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 16:54:27,023 - main - INFO - Loading business intelligence data...
+2025-07-11 16:54:27,027 - main - INFO - ✅ Business data loaded: 15 events, 68 bids
+2025-07-11 16:54:27,027 - main - INFO - Validating AI setup...
+2025-07-11 16:54:27,095 - core.ai_client - INFO - Loaded business data: 15 events, 75 bids
+2025-07-11 16:54:27,095 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 16:54:28,853 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 16:54:28,870 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 16:54:28,870 - main - INFO - Initializing chat service...
+2025-07-11 16:54:28,870 - services.chat_service - INFO - Chat service initialized
+2025-07-11 16:54:28,870 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 16:54:28,870 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 17:32:11,564 - __main__ - INFO - Starting application server...
+2025-07-11 17:32:11,702 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 17:32:11,702 - main - INFO - Loading business intelligence data...
+2025-07-11 17:32:11,706 - main - INFO - ✅ Business data loaded: 15 events, 75 bids
+2025-07-11 17:32:11,706 - main - INFO - Validating AI setup...
+2025-07-11 17:32:11,771 - core.ai_client - INFO - Loaded business data: 15 events, 79 bids
+2025-07-11 17:32:11,771 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 17:32:13,315 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 17:32:13,328 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 17:32:13,328 - main - INFO - Initializing chat service...
+2025-07-11 17:32:13,329 - services.chat_service - INFO - Chat service initialized
+2025-07-11 17:32:13,329 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 17:32:13,329 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 17:44:59,087 - api.chat - INFO - Processing chat request: Show me all active events... (conversation: 4z9wwzxwl48)
+2025-07-11 17:44:59,185 - services.chat_service - INFO - Created new conversation: 4z9wwzxwl48
+2025-07-11 17:44:59,187 - services.chat_service - INFO - Added user message to conversation 4z9wwzxwl48: Show me all active events...
+2025-07-11 17:44:59,193 - core.ai_client - INFO - Generating streaming business response for: Show me all active events...
+2025-07-11 17:45:01,150 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 17:45:16,402 - core.ai_client - INFO - Completed streaming business response: 1555 characters
+2025-07-11 17:45:16,404 - services.chat_service - INFO - Completed streaming response for 4z9wwzxwl48: 1555 chars in 17.22s
+2025-07-11 17:45:16,405 - api.chat - INFO - Chat response completed in 17.32s
+2025-07-11 17:53:35,403 - api.chat - INFO - Processing chat request: Show me all active events... (conversation: p36znv1mi3n)
+2025-07-11 17:53:35,419 - services.chat_service - INFO - Created new conversation: p36znv1mi3n
+2025-07-11 17:53:35,423 - services.chat_service - INFO - Added user message to conversation p36znv1mi3n: Show me all active events...
+2025-07-11 17:53:35,428 - core.ai_client - INFO - Generating streaming business response for: Show me all active events...
+2025-07-11 17:53:37,211 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 17:53:46,224 - core.ai_client - INFO - Completed streaming business response: 1636 characters
+2025-07-11 17:53:46,226 - services.chat_service - INFO - Completed streaming response for p36znv1mi3n: 1636 chars in 10.80s
+2025-07-11 17:53:46,226 - api.chat - INFO - Chat response completed in 10.82s
+2025-07-11 18:01:46,491 - api.chat - INFO - Processing chat request: Which hotels have the best win rates?... (conversation: u201pjcht0g)
+2025-07-11 18:01:46,544 - services.chat_service - INFO - Created new conversation: u201pjcht0g
+2025-07-11 18:01:46,579 - services.chat_service - INFO - Added user message to conversation u201pjcht0g: Which hotels have the best win rates?...
+2025-07-11 18:01:46,589 - core.ai_client - INFO - Generating streaming business response for: Which hotels have the best win rates?...
+2025-07-11 18:01:48,501 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 18:01:57,399 - core.ai_client - INFO - Completed streaming business response: 1512 characters
+2025-07-11 18:01:57,401 - services.chat_service - INFO - Completed streaming response for u201pjcht0g: 1512 chars in 10.82s
+2025-07-11 18:01:57,401 - api.chat - INFO - Chat response completed in 10.91s
+2025-07-11 18:02:13,875 - api.chat - INFO - Processing chat request: who are you ?... (conversation: u201pjcht0g)
+2025-07-11 18:02:13,878 - services.chat_service - INFO - Added user message to conversation u201pjcht0g: who are you ?...
+2025-07-11 18:02:13,880 - core.ai_client - INFO - Generating streaming business response for: who are you ?...
+2025-07-11 18:02:15,355 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 18:02:21,407 - core.ai_client - INFO - Completed streaming business response: 1457 characters
+2025-07-11 18:02:21,408 - services.chat_service - INFO - Completed streaming response for u201pjcht0g: 1457 chars in 7.53s
+2025-07-11 18:02:21,408 - api.chat - INFO - Chat response completed in 7.53s
+2025-07-11 18:02:28,245 - api.chat - INFO - Processing chat request: im sad... (conversation: u201pjcht0g)
+2025-07-11 18:02:28,246 - services.chat_service - INFO - Added user message to conversation u201pjcht0g: im sad...
+2025-07-11 18:02:28,246 - core.ai_client - INFO - Generating streaming business response for: im sad...
+2025-07-11 18:02:30,288 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 18:02:36,317 - core.ai_client - INFO - Completed streaming business response: 1052 characters
+2025-07-11 18:02:36,318 - services.chat_service - INFO - Completed streaming response for u201pjcht0g: 1052 chars in 8.07s
+2025-07-11 18:02:36,319 - api.chat - INFO - Chat response completed in 8.07s
+2025-07-11 18:03:04,950 - api.chat - INFO - Processing chat request: what are you best at /... (conversation: rsotxulxtc)
+2025-07-11 18:03:04,963 - services.chat_service - INFO - Created new conversation: rsotxulxtc
+2025-07-11 18:03:04,964 - services.chat_service - INFO - Added user message to conversation rsotxulxtc: what are you best at /...
+2025-07-11 18:03:04,965 - core.ai_client - INFO - Generating streaming business response for: what are you best at /...
+2025-07-11 18:03:06,392 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 18:03:15,712 - core.ai_client - INFO - Completed streaming business response: 1780 characters
+2025-07-11 18:03:15,713 - services.chat_service - INFO - Completed streaming response for rsotxulxtc: 1780 chars in 10.75s
+2025-07-11 18:03:15,714 - api.chat - INFO - Chat response completed in 10.76s
+2025-07-11 18:03:39,259 - api.chat - INFO - Processing chat request: which partner has given us the best revenue?... (conversation: rsotxulxtc)
+2025-07-11 18:03:39,263 - services.chat_service - INFO - Added user message to conversation rsotxulxtc: which partner has given us the best revenue?...
+2025-07-11 18:03:39,267 - core.ai_client - INFO - Generating streaming business response for: which partner has given us the best revenue?...
+2025-07-11 18:03:40,757 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 18:03:48,084 - core.ai_client - INFO - Completed streaming business response: 1377 characters
+2025-07-11 18:03:48,086 - services.chat_service - INFO - Completed streaming response for rsotxulxtc: 1377 chars in 8.82s
+2025-07-11 18:03:48,086 - api.chat - INFO - Chat response completed in 8.83s
+2025-07-11 19:09:42,497 - __main__ - INFO - Starting application server...
+2025-07-11 19:09:42,629 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 19:09:42,629 - main - INFO - Loading business intelligence data...
+2025-07-11 19:09:42,634 - main - INFO - ✅ Business data loaded: 15 events, 64 bids
+2025-07-11 19:09:42,634 - main - INFO - Validating AI setup...
+2025-07-11 19:09:42,699 - core.ai_client - INFO - Loaded business data: 15 events, 74 bids
+2025-07-11 19:09:42,700 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 19:09:44,269 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 19:09:44,277 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 19:09:44,278 - main - INFO - Initializing chat service...
+2025-07-11 19:09:44,278 - services.chat_service - INFO - Chat service initialized
+2025-07-11 19:09:44,278 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 19:09:44,278 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 19:45:13,071 - __main__ - INFO - Starting application server...
+2025-07-11 19:45:13,272 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 19:45:13,272 - main - INFO - Loading business intelligence data...
+2025-07-11 19:45:13,281 - main - INFO - ✅ Business data loaded: 15 events, 78 bids
+2025-07-11 19:45:13,311 - main - INFO - Validating AI setup...
+2025-07-11 19:45:13,427 - core.ai_client - INFO - Loaded business data: 15 events, 75 bids
+2025-07-11 19:45:13,451 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 19:45:15,387 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 19:45:15,426 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 19:45:15,426 - main - INFO - Initializing chat service...
+2025-07-11 19:45:15,426 - services.chat_service - INFO - Chat service initialized
+2025-07-11 19:45:15,426 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 19:45:15,426 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 20:07:39,612 - api.chat - INFO - Processing chat request: what are all the things that you can do ?... (conversation: h6zwir6r9qu)
+2025-07-11 20:07:39,689 - services.chat_service - INFO - Created new conversation: h6zwir6r9qu
+2025-07-11 20:07:39,693 - services.chat_service - INFO - Added user message to conversation h6zwir6r9qu: what are all the things that you can do ?...
+2025-07-11 20:07:39,698 - core.ai_client - INFO - Generating streaming business response for: what are all the things that you can do ?...
+2025-07-11 20:07:41,361 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 20:07:56,657 - core.ai_client - INFO - Completed streaming business response: 2977 characters
+2025-07-11 20:07:56,657 - services.chat_service - INFO - Completed streaming response for h6zwir6r9qu: 2977 chars in 16.96s
+2025-07-11 20:07:56,658 - api.chat - INFO - Chat response completed in 17.05s
+2025-07-11 20:18:06,002 - __main__ - INFO - Starting application server...
+2025-07-11 20:18:06,143 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 20:18:06,143 - main - INFO - Loading business intelligence data...
+2025-07-11 20:18:06,147 - main - INFO - ✅ Business data loaded: 15 events, 74 bids
+2025-07-11 20:18:06,148 - main - INFO - Validating AI setup...
+2025-07-11 20:18:06,233 - core.ai_client - INFO - Loaded business data: 15 events, 75 bids
+2025-07-11 20:18:06,233 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 20:18:07,799 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 20:18:07,807 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 20:18:07,807 - main - INFO - Initializing chat service...
+2025-07-11 20:18:07,807 - services.chat_service - INFO - Chat service initialized
+2025-07-11 20:18:07,807 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 20:18:07,807 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 21:02:19,548 - __main__ - INFO - Starting application server...
+2025-07-11 21:02:19,677 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 21:02:19,677 - main - INFO - Loading business intelligence data...
+2025-07-11 21:02:19,681 - main - INFO - ✅ Business data loaded: 15 events, 89 bids
+2025-07-11 21:02:19,681 - main - INFO - Validating AI setup...
+2025-07-11 21:02:19,736 - core.ai_client - INFO - Loaded business data: 15 events, 80 bids
+2025-07-11 21:02:19,736 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 21:02:21,228 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 21:02:21,248 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 21:02:21,248 - main - INFO - Initializing chat service...
+2025-07-11 21:02:21,248 - services.chat_service - INFO - Chat service initialized
+2025-07-11 21:02:21,249 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 21:02:21,249 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 21:12:19,185 - __main__ - INFO - Starting application server...
+2025-07-11 21:12:19,215 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 21:12:19,215 - main - INFO - Loading business intelligence data...
+2025-07-11 21:12:19,219 - main - INFO - ✅ Business data loaded: 15 events, 91 bids
+2025-07-11 21:12:19,219 - main - INFO - Validating AI setup...
+2025-07-11 21:12:19,306 - core.ai_client - INFO - Loaded business data: 15 events, 70 bids
+2025-07-11 21:12:19,306 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 21:12:20,825 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 21:12:20,839 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 21:12:20,840 - main - INFO - Initializing chat service...
+2025-07-11 21:12:20,840 - services.chat_service - INFO - Chat service initialized
+2025-07-11 21:12:20,840 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 21:12:20,840 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 21:50:53,866 - __main__ - INFO - Starting application server...
+2025-07-11 21:50:53,916 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 21:50:53,917 - main - INFO - Loading business intelligence data...
+2025-07-11 21:50:53,920 - main - INFO - ✅ Business data loaded: 15 events, 79 bids
+2025-07-11 21:50:53,920 - main - INFO - Validating AI setup...
+2025-07-11 21:50:53,974 - core.ai_client - INFO - Loaded business data: 15 events, 78 bids
+2025-07-11 21:50:53,974 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 21:50:55,534 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 21:50:55,554 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 21:50:55,554 - main - INFO - Initializing chat service...
+2025-07-11 21:50:55,554 - services.chat_service - INFO - Chat service initialized
+2025-07-11 21:50:55,554 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 21:50:55,554 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 21:53:54,512 - __main__ - INFO - Starting application server...
+2025-07-11 21:53:54,539 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 21:53:54,539 - main - INFO - Loading business intelligence data...
+2025-07-11 21:53:54,543 - main - INFO - ✅ Business data loaded: 15 events, 73 bids
+2025-07-11 21:53:54,543 - main - INFO - Validating AI setup...
+2025-07-11 21:53:54,600 - core.ai_client - INFO - Loaded business data: 15 events, 65 bids
+2025-07-11 21:53:54,600 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 21:53:56,128 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 21:53:56,133 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 21:53:56,133 - main - INFO - Initializing chat service...
+2025-07-11 21:53:56,133 - services.chat_service - INFO - Chat service initialized
+2025-07-11 21:53:56,133 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 21:53:56,133 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 21:56:36,444 - __main__ - INFO - Starting application server...
+2025-07-11 21:56:36,507 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 21:56:36,507 - main - INFO - Loading business intelligence data...
+2025-07-11 21:56:36,511 - main - INFO - ✅ Business data loaded: 15 events, 76 bids
+2025-07-11 21:56:36,511 - main - INFO - Validating AI setup...
+2025-07-11 21:56:36,614 - core.ai_client - INFO - Loaded business data: 15 events, 80 bids
+2025-07-11 21:56:36,614 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 21:56:38,378 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 21:56:38,384 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 21:56:38,384 - main - INFO - Initializing chat service...
+2025-07-11 21:56:38,384 - services.chat_service - INFO - Chat service initialized
+2025-07-11 21:56:38,384 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 21:56:38,384 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 22:01:37,910 - __main__ - INFO - Starting application server...
+2025-07-11 22:01:37,936 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 22:01:37,936 - main - INFO - Loading business intelligence data...
+2025-07-11 22:01:37,939 - main - INFO - ✅ Business data loaded: 15 events, 74 bids
+2025-07-11 22:01:37,939 - main - INFO - Validating AI setup...
+2025-07-11 22:01:37,994 - core.ai_client - INFO - Loaded business data: 15 events, 74 bids
+2025-07-11 22:01:37,994 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 22:01:39,776 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:01:39,811 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 22:01:39,811 - main - INFO - Initializing chat service...
+2025-07-11 22:01:39,811 - services.chat_service - INFO - Chat service initialized
+2025-07-11 22:01:39,811 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 22:01:39,811 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 22:02:23,059 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 22:02:23,059 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x1080ef620>
+2025-07-11 22:02:23,060 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 22:02:23,060 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 22:02:25,066 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-11 22:02:25,066 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-11 22:02:25,068 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 22:02:42,893 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:02:42,947 - core.ai_client - INFO - Generated business response: 2321 characters
+2025-07-11 22:02:42,947 - services.chat_service - INFO - Generated response for bid_analysis_session: 2321 chars in 17.88s
+2025-07-11 22:04:04,983 - api.chat - INFO - Processing chat request: "What do you know about the Marriott Downtown Seattle bid that was just submitted?"... (conversation: 04giwuwn1ztt)
+2025-07-11 22:04:05,010 - services.chat_service - INFO - Created new conversation: 04giwuwn1ztt
+2025-07-11 22:04:05,010 - services.chat_service - INFO - Added user message to conversation 04giwuwn1ztt: "What do you know about the Marriott Downtown Seattle bid that was just submitted?"...
+2025-07-11 22:04:05,011 - core.ai_client - INFO - Generating streaming business response for: "What do you know about the Marriott Downtown Seattle bid that was just submitted?"...
+2025-07-11 22:04:06,734 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:04:14,160 - core.ai_client - INFO - Completed streaming business response: 1114 characters
+2025-07-11 22:04:14,162 - services.chat_service - INFO - Completed streaming response for 04giwuwn1ztt: 1114 chars in 9.15s
+2025-07-11 22:04:14,162 - api.chat - INFO - Chat response completed in 9.18s
+2025-07-11 22:04:35,402 - api.chat - INFO - Processing chat request: "Show me all recent bids for Seattle events"... (conversation: 04giwuwn1ztt)
+2025-07-11 22:04:35,405 - services.chat_service - INFO - Added user message to conversation 04giwuwn1ztt: "Show me all recent bids for Seattle events"...
+2025-07-11 22:04:35,405 - core.ai_client - INFO - Generating streaming business response for: "Show me all recent bids for Seattle events"...
+2025-07-11 22:04:37,046 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:04:44,220 - core.ai_client - INFO - Completed streaming business response: 1316 characters
+2025-07-11 22:04:44,221 - services.chat_service - INFO - Completed streaming response for 04giwuwn1ztt: 1316 chars in 8.82s
+2025-07-11 22:04:44,221 - api.chat - INFO - Chat response completed in 8.82s
+2025-07-11 22:05:46,809 - __main__ - INFO - Starting application server...
+2025-07-11 22:05:46,844 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 22:05:46,844 - main - INFO - Loading business intelligence data...
+2025-07-11 22:05:46,847 - main - INFO - ✅ Business data loaded: 15 events, 73 bids
+2025-07-11 22:05:46,847 - main - INFO - Validating AI setup...
+2025-07-11 22:05:46,999 - core.ai_client - INFO - Loaded business data: 15 events, 75 bids
+2025-07-11 22:05:46,999 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 22:05:48,730 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:05:48,746 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 22:05:48,747 - main - INFO - Initializing chat service...
+2025-07-11 22:05:48,747 - services.chat_service - INFO - Chat service initialized
+2025-07-11 22:05:48,747 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 22:05:48,747 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 22:06:35,470 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 22:06:35,471 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x1065273e0>
+2025-07-11 22:06:35,472 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 22:06:35,472 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 22:06:37,476 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-11 22:06:37,476 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-11 22:06:37,478 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 22:06:54,674 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:06:54,678 - core.ai_client - INFO - Generated business response: 2497 characters
+2025-07-11 22:06:54,679 - services.chat_service - INFO - Generated response for bid_analysis_session: 2497 chars in 17.20s
+2025-07-11 22:07:54,468 - api.chat - INFO - Processing chat request: "Tell me about the recent Marriott Downtown Seattle bid with ID BID-NEW-001"... (conversation: kcwhetgbaeh)
+2025-07-11 22:07:54,482 - services.chat_service - INFO - Created new conversation: kcwhetgbaeh
+2025-07-11 22:07:54,482 - services.chat_service - INFO - Added user message to conversation kcwhetgbaeh: "Tell me about the recent Marriott Downtown Seattle bid with ID BID-NEW-001"...
+2025-07-11 22:07:54,483 - core.ai_client - INFO - Generating streaming business response for: "Tell me about the recent Marriott Downtown Seattle bid with ID BID-NEW-001"...
+2025-07-11 22:07:56,042 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:08:04,926 - core.ai_client - INFO - Completed streaming business response: 1352 characters
+2025-07-11 22:08:04,927 - services.chat_service - INFO - Completed streaming response for kcwhetgbaeh: 1352 chars in 10.45s
+2025-07-11 22:08:04,929 - api.chat - INFO - Chat response completed in 10.46s
+2025-07-11 22:08:27,996 - api.chat - INFO - Processing chat request: "What new bids were added to the system today?"... (conversation: kcwhetgbaeh)
+2025-07-11 22:08:28,000 - services.chat_service - INFO - Added user message to conversation kcwhetgbaeh: "What new bids were added to the system today?"...
+2025-07-11 22:08:28,001 - core.ai_client - INFO - Generating streaming business response for: "What new bids were added to the system today?"...
+2025-07-11 22:08:29,500 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:08:37,869 - core.ai_client - INFO - Completed streaming business response: 1403 characters
+2025-07-11 22:08:37,871 - services.chat_service - INFO - Completed streaming response for kcwhetgbaeh: 1403 chars in 9.87s
+2025-07-11 22:08:37,872 - api.chat - INFO - Chat response completed in 9.88s
+2025-07-11 22:09:02,488 - api.chat - INFO - Processing chat request: "How many total bids do we have in our system now?"... (conversation: kcwhetgbaeh)
+2025-07-11 22:09:02,493 - services.chat_service - INFO - Added user message to conversation kcwhetgbaeh: "How many total bids do we have in our system now?"...
+2025-07-11 22:09:02,494 - core.ai_client - INFO - Generating streaming business response for: "How many total bids do we have in our system now?"...
+2025-07-11 22:09:04,594 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:09:11,157 - core.ai_client - INFO - Completed streaming business response: 1193 characters
+2025-07-11 22:09:11,159 - services.chat_service - INFO - Completed streaming response for kcwhetgbaeh: 1193 chars in 8.67s
+2025-07-11 22:09:11,160 - api.chat - INFO - Chat response completed in 8.67s
+2025-07-11 22:09:46,541 - api.chat - INFO - Processing chat request: "What new bids were added to the system today?"... (conversation: srpjwnfs8kg)
+2025-07-11 22:09:46,546 - services.chat_service - INFO - Created new conversation: srpjwnfs8kg
+2025-07-11 22:09:46,549 - services.chat_service - INFO - Added user message to conversation srpjwnfs8kg: "What new bids were added to the system today?"...
+2025-07-11 22:09:46,553 - core.ai_client - INFO - Generating streaming business response for: "What new bids were added to the system today?"...
+2025-07-11 22:09:48,043 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:09:55,313 - core.ai_client - INFO - Completed streaming business response: 1249 characters
+2025-07-11 22:09:55,315 - services.chat_service - INFO - Completed streaming response for srpjwnfs8kg: 1249 chars in 8.77s
+2025-07-11 22:09:55,315 - api.chat - INFO - Chat response completed in 8.77s
+2025-07-11 22:17:41,580 - __main__ - INFO - Starting application server...
+2025-07-11 22:17:41,608 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 22:17:41,608 - main - INFO - Loading business intelligence data...
+2025-07-11 22:17:41,611 - main - INFO - ✅ Business data loaded: 15 events, 74 bids
+2025-07-11 22:17:41,611 - main - INFO - Validating AI setup...
+2025-07-11 22:17:41,668 - core.ai_client - INFO - Loaded business data: 15 events, 72 bids
+2025-07-11 22:17:41,668 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 22:17:43,425 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:17:43,436 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 22:17:43,436 - main - INFO - Initializing chat service...
+2025-07-11 22:17:43,436 - services.chat_service - INFO - Chat service initialized
+2025-07-11 22:17:43,436 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 22:17:43,436 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 22:18:29,289 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 22:18:29,290 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x107992d50>
+2025-07-11 22:18:29,293 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 22:18:29,294 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 22:18:31,298 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-11 22:18:31,299 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-11 22:18:31,301 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 22:18:49,998 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:18:50,028 - core.ai_client - INFO - Generated business response: 2549 characters
+2025-07-11 22:18:50,029 - services.chat_service - INFO - Generated response for bid_analysis_session: 2549 chars in 18.73s
+2025-07-11 22:19:06,545 - api.chat - INFO - Processing chat request: "How many total bids do we have in our system?... (conversation: snyhzyzp29)
+2025-07-11 22:19:06,557 - services.chat_service - INFO - Created new conversation: snyhzyzp29
+2025-07-11 22:19:06,557 - services.chat_service - INFO - Added user message to conversation snyhzyzp29: "How many total bids do we have in our system?...
+2025-07-11 22:19:06,558 - core.ai_client - INFO - Generating streaming business response for: "How many total bids do we have in our system?...
+2025-07-11 22:19:08,831 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:19:12,927 - core.ai_client - INFO - Completed streaming business response: 822 characters
+2025-07-11 22:19:12,929 - services.chat_service - INFO - Completed streaming response for snyhzyzp29: 822 chars in 6.37s
+2025-07-11 22:19:12,930 - api.chat - INFO - Chat response completed in 6.39s
+2025-07-11 22:20:09,975 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 22:20:09,976 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x114165be0>
+2025-07-11 22:20:09,977 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 22:20:09,977 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 22:20:11,981 - api.chat - INFO - ✅ Added new bid BID-NEW-002 to mock data
+2025-07-11 22:20:11,983 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 22:20:26,312 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:20:26,316 - core.ai_client - INFO - Generated business response: 3033 characters
+2025-07-11 22:20:26,316 - services.chat_service - INFO - Generated response for bid_analysis_session: 3033 chars in 14.33s
+2025-07-11 22:21:29,041 - api.chat - INFO - Processing chat request: How many total bids do we have in our system?... (conversation: g71losc22pb)
+2025-07-11 22:21:29,046 - services.chat_service - INFO - Created new conversation: g71losc22pb
+2025-07-11 22:21:29,047 - services.chat_service - INFO - Added user message to conversation g71losc22pb: How many total bids do we have in our system?...
+2025-07-11 22:21:29,049 - core.ai_client - INFO - Generating streaming business response for: How many total bids do we have in our system?...
+2025-07-11 22:21:30,555 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:21:33,729 - core.ai_client - INFO - Completed streaming business response: 664 characters
+2025-07-11 22:21:33,730 - services.chat_service - INFO - Completed streaming response for g71losc22pb: 664 chars in 4.68s
+2025-07-11 22:21:33,731 - api.chat - INFO - Chat response completed in 4.69s
+2025-07-11 22:23:59,550 - main - INFO - Shutting down application...
+2025-07-11 22:23:59,555 - main - INFO - 👋 Application shutdown complete
+2025-07-11 22:24:03,130 - __main__ - INFO - Starting application server...
+2025-07-11 22:24:03,167 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 22:24:03,167 - main - INFO - Loading business intelligence data...
+2025-07-11 22:24:03,172 - main - INFO - ✅ Business data loaded: 15 events, 79 bids
+2025-07-11 22:24:03,172 - main - INFO - Validating AI setup...
+2025-07-11 22:24:03,250 - core.ai_client - INFO - Loaded business data: 15 events, 75 bids
+2025-07-11 22:24:03,250 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 22:24:05,187 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:24:05,201 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 22:24:05,201 - main - INFO - Initializing chat service...
+2025-07-11 22:24:05,201 - services.chat_service - INFO - Chat service initialized
+2025-07-11 22:24:05,201 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 22:24:05,201 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 22:25:03,975 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 22:25:03,977 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x10659b8c0>
+2025-07-11 22:25:03,977 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 22:25:03,977 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 22:25:05,979 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-11 22:25:06,003 - core.ai_client - INFO - Loaded business data: 15 events, 84 bids
+2025-07-11 22:25:06,004 - core.ai_client - INFO - Business data refreshed
+2025-07-11 22:25:06,004 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-11 22:25:06,004 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-11 22:25:06,004 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 22:25:26,396 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:25:26,418 - core.ai_client - INFO - Generated business response: 2284 characters
+2025-07-11 22:25:26,419 - services.chat_service - INFO - Generated response for bid_analysis_session: 2284 chars in 20.41s
+2025-07-11 22:25:32,965 - api.chat - INFO - Processing chat request: How many total bids do we have in our system?... (conversation: 8ut8wwk3fui)
+2025-07-11 22:25:32,981 - services.chat_service - INFO - Created new conversation: 8ut8wwk3fui
+2025-07-11 22:25:32,981 - services.chat_service - INFO - Added user message to conversation 8ut8wwk3fui: How many total bids do we have in our system?...
+2025-07-11 22:25:32,982 - core.ai_client - INFO - Generating streaming business response for: How many total bids do we have in our system?...
+2025-07-11 22:25:34,517 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:25:38,781 - core.ai_client - INFO - Completed streaming business response: 641 characters
+2025-07-11 22:25:38,782 - services.chat_service - INFO - Completed streaming response for 8ut8wwk3fui: 641 chars in 5.80s
+2025-07-11 22:25:38,782 - api.chat - INFO - Chat response completed in 5.82s
+2025-07-11 22:28:20,948 - api.chat - INFO - Processing chat request: show me the last 25 bids... (conversation: oplnyz4735f)
+2025-07-11 22:28:20,955 - services.chat_service - INFO - Created new conversation: oplnyz4735f
+2025-07-11 22:28:20,956 - services.chat_service - INFO - Added user message to conversation oplnyz4735f: show me the last 25 bids...
+2025-07-11 22:28:20,957 - core.ai_client - INFO - Generating streaming business response for: show me the last 25 bids...
+2025-07-11 22:28:22,974 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:28:36,986 - core.ai_client - INFO - Completed streaming business response: 2416 characters
+2025-07-11 22:28:36,988 - services.chat_service - INFO - Completed streaming response for oplnyz4735f: 2416 chars in 16.03s
+2025-07-11 22:28:36,988 - api.chat - INFO - Chat response completed in 16.04s
+2025-07-11 22:29:34,999 - api.chat - INFO - Processing chat request: Tell me about BID-NEW-001 or any Marriott Downtown Seattle bids... (conversation: oplnyz4735f)
+2025-07-11 22:29:35,013 - services.chat_service - INFO - Added user message to conversation oplnyz4735f: Tell me about BID-NEW-001 or any Marriott Downtown Seattle bids...
+2025-07-11 22:29:35,014 - core.ai_client - INFO - Generating streaming business response for: Tell me about BID-NEW-001 or any Marriott Downtown Seattle bids...
+2025-07-11 22:29:36,934 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:29:47,222 - core.ai_client - INFO - Completed streaming business response: 1339 characters
+2025-07-11 22:29:47,222 - services.chat_service - INFO - Completed streaming response for oplnyz4735f: 1339 chars in 12.21s
+2025-07-11 22:29:47,223 - api.chat - INFO - Chat response completed in 12.22s
+2025-07-11 22:30:20,771 - api.chat - INFO - Processing chat request: Show me all Marriott bids... (conversation: oplnyz4735f)
+2025-07-11 22:30:20,782 - services.chat_service - INFO - Added user message to conversation oplnyz4735f: Show me all Marriott bids...
+2025-07-11 22:30:20,784 - core.ai_client - INFO - Generating streaming business response for: Show me all Marriott bids...
+2025-07-11 22:30:22,698 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:30:35,149 - core.ai_client - INFO - Completed streaming business response: 2032 characters
+2025-07-11 22:30:35,150 - services.chat_service - INFO - Completed streaming response for oplnyz4735f: 2032 chars in 14.37s
+2025-07-11 22:30:35,150 - api.chat - INFO - Chat response completed in 14.38s
+2025-07-11 22:35:00,659 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 22:35:00,662 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x106a76390>
+2025-07-11 22:35:00,662 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 22:35:00,663 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 22:35:02,672 - api.chat - INFO - ✅ Added new bid BID-NEW-002 to mock data
+2025-07-11 22:35:02,699 - core.ai_client - INFO - Loaded business data: 15 events, 84 bids
+2025-07-11 22:35:02,699 - core.ai_client - INFO - Business data refreshed
+2025-07-11 22:35:02,699 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-11 22:35:02,702 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 22:35:21,141 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:35:21,153 - core.ai_client - INFO - Generated business response: 2886 characters
+2025-07-11 22:35:21,154 - services.chat_service - INFO - Generated response for bid_analysis_session: 2886 chars in 18.45s
+2025-07-11 22:36:09,193 - api.chat - INFO - Processing chat request: How many total bids?... (conversation: m76ioqy96)
+2025-07-11 22:36:09,201 - services.chat_service - INFO - Created new conversation: m76ioqy96
+2025-07-11 22:36:09,202 - services.chat_service - INFO - Added user message to conversation m76ioqy96: How many total bids?...
+2025-07-11 22:36:09,203 - core.ai_client - INFO - Generating streaming business response for: How many total bids?...
+2025-07-11 22:36:10,591 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:36:13,576 - core.ai_client - INFO - Completed streaming business response: 627 characters
+2025-07-11 22:36:13,577 - services.chat_service - INFO - Completed streaming response for m76ioqy96: 627 chars in 4.38s
+2025-07-11 22:36:13,578 - api.chat - INFO - Chat response completed in 4.38s
+2025-07-11 22:36:36,250 - api.chat - INFO - Processing chat request: showe me last 5 bids... (conversation: m76ioqy96)
+2025-07-11 22:36:36,253 - services.chat_service - INFO - Added user message to conversation m76ioqy96: showe me last 5 bids...
+2025-07-11 22:36:36,254 - core.ai_client - INFO - Generating streaming business response for: showe me last 5 bids...
+2025-07-11 22:36:37,941 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:36:43,936 - core.ai_client - INFO - Completed streaming business response: 976 characters
+2025-07-11 22:36:43,937 - services.chat_service - INFO - Completed streaming response for m76ioqy96: 976 chars in 7.68s
+2025-07-11 22:36:43,937 - api.chat - INFO - Chat response completed in 7.69s
+2025-07-11 22:37:49,420 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 22:37:49,422 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x1065cd160>
+2025-07-11 22:37:49,422 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 22:37:49,422 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 22:37:51,425 - api.chat - INFO - ✅ Added new bid BID-NEW-003 to mock data
+2025-07-11 22:37:51,444 - core.ai_client - INFO - Loaded business data: 15 events, 78 bids
+2025-07-11 22:37:51,444 - core.ai_client - INFO - Business data refreshed
+2025-07-11 22:37:51,444 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-11 22:37:51,445 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 22:38:06,015 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:38:06,025 - core.ai_client - INFO - Generated business response: 3107 characters
+2025-07-11 22:38:06,026 - services.chat_service - INFO - Generated response for bid_analysis_session: 3107 chars in 14.58s
+2025-07-11 22:38:15,773 - api.chat - INFO - Processing chat request: total bids?... (conversation: qtp5pxe0409)
+2025-07-11 22:38:15,776 - services.chat_service - INFO - Created new conversation: qtp5pxe0409
+2025-07-11 22:38:15,776 - services.chat_service - INFO - Added user message to conversation qtp5pxe0409: total bids?...
+2025-07-11 22:38:15,777 - core.ai_client - INFO - Generating streaming business response for: total bids?...
+2025-07-11 22:38:17,288 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:38:20,456 - core.ai_client - INFO - Completed streaming business response: 557 characters
+2025-07-11 22:38:20,457 - services.chat_service - INFO - Completed streaming response for qtp5pxe0409: 557 chars in 4.68s
+2025-07-11 22:38:20,458 - api.chat - INFO - Chat response completed in 4.69s
+2025-07-11 22:57:10,846 - __main__ - INFO - Starting application server...
+2025-07-11 22:57:10,874 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 22:57:10,874 - main - INFO - Loading business intelligence data...
+2025-07-11 22:57:10,877 - main - INFO - ✅ Business data loaded: 15 events, 70 bids
+2025-07-11 22:57:10,877 - main - INFO - Validating AI setup...
+2025-07-11 22:57:10,927 - core.ai_client - INFO - Loaded business data: 15 events, 78 bids
+2025-07-11 22:57:10,927 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 22:57:12,618 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 22:57:12,623 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 22:57:12,624 - main - INFO - Initializing chat service...
+2025-07-11 22:57:12,624 - services.chat_service - INFO - Chat service initialized
+2025-07-11 22:57:12,624 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 22:57:12,624 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 23:02:23,022 - main - INFO - Shutting down application...
+2025-07-11 23:02:23,023 - main - INFO - 👋 Application shutdown complete
+2025-07-11 23:02:27,132 - __main__ - INFO - Starting application server...
+2025-07-11 23:02:27,157 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 23:02:27,157 - main - INFO - Loading business intelligence data...
+2025-07-11 23:02:27,160 - main - INFO - ✅ Business data loaded: 15 events, 72 bids
+2025-07-11 23:02:27,160 - main - INFO - Validating AI setup...
+2025-07-11 23:02:27,203 - core.ai_client - INFO - Loaded business data: 15 events, 72 bids
+2025-07-11 23:02:27,203 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 23:02:28,893 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:02:28,910 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 23:02:28,910 - main - INFO - Initializing chat service...
+2025-07-11 23:02:28,911 - services.chat_service - INFO - Chat service initialized
+2025-07-11 23:02:28,911 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 23:02:28,911 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 23:03:04,059 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 23:03:04,060 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x111b968a0>
+2025-07-11 23:03:04,060 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 23:03:04,060 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 23:03:06,061 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-11 23:03:06,075 - core.ai_client - INFO - Loaded business data: 15 events, 75 bids
+2025-07-11 23:03:06,075 - core.ai_client - INFO - Business data refreshed
+2025-07-11 23:03:06,075 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-11 23:03:06,075 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-11 23:03:06,076 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 23:03:26,139 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:03:26,144 - core.ai_client - INFO - Generated business response: 2378 characters
+2025-07-11 23:03:26,144 - services.chat_service - INFO - Generated response for bid_analysis_session: 2378 chars in 20.07s
+2025-07-11 23:03:56,869 - api.chat - INFO - Processing chat request: what are the last bids ?... (conversation: rmulq137cm8)
+2025-07-11 23:03:56,892 - services.chat_service - INFO - Created new conversation: rmulq137cm8
+2025-07-11 23:03:56,892 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: what are the last bids ?...
+2025-07-11 23:03:56,892 - core.ai_client - INFO - Generating streaming business response for: what are the last bids ?...
+2025-07-11 23:03:58,564 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:04:06,381 - core.ai_client - INFO - Completed streaming business response: 1175 characters
+2025-07-11 23:04:06,382 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 1175 chars in 9.49s
+2025-07-11 23:04:06,383 - api.chat - INFO - Chat response completed in 9.51s
+2025-07-11 23:04:31,748 - api.chat - INFO - Processing chat request: what are all the bids?... (conversation: rmulq137cm8)
+2025-07-11 23:04:31,751 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: what are all the bids?...
+2025-07-11 23:04:31,752 - core.ai_client - INFO - Generating streaming business response for: what are all the bids?...
+2025-07-11 23:04:33,268 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:04:43,213 - core.ai_client - INFO - Completed streaming business response: 1947 characters
+2025-07-11 23:04:43,215 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 1947 chars in 11.46s
+2025-07-11 23:04:43,215 - api.chat - INFO - Chat response completed in 11.47s
+2025-07-11 23:07:13,478 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 23:07:13,480 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x11226a5a0>
+2025-07-11 23:07:13,480 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 23:07:13,480 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 23:07:15,484 - api.chat - INFO - ✅ Added new bid BID-NEW-002 to mock data
+2025-07-11 23:07:15,500 - core.ai_client - INFO - Loaded business data: 15 events, 74 bids
+2025-07-11 23:07:15,501 - core.ai_client - INFO - Business data refreshed
+2025-07-11 23:07:15,501 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-11 23:07:15,501 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 23:07:24,482 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:07:24,487 - core.ai_client - INFO - Generated business response: 2378 characters
+2025-07-11 23:07:24,487 - services.chat_service - INFO - Generated response for bid_analysis_session: 2378 chars in 8.99s
+2025-07-11 23:12:16,862 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 23:12:16,864 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x111b95a30>
+2025-07-11 23:12:16,864 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 23:12:16,864 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 23:12:18,871 - api.chat - INFO - ✅ Added new bid BID-NEW-003 to mock data
+2025-07-11 23:12:18,891 - core.ai_client - INFO - Loaded business data: 15 events, 79 bids
+2025-07-11 23:12:18,891 - core.ai_client - INFO - Business data refreshed
+2025-07-11 23:12:18,891 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-11 23:12:18,893 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 23:12:33,037 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:12:33,046 - core.ai_client - INFO - Generated business response: 2576 characters
+2025-07-11 23:12:33,047 - services.chat_service - INFO - Generated response for bid_analysis_session: 2576 chars in 14.15s
+2025-07-11 23:13:00,567 - api.chat - INFO - Processing chat request: tell me about the last bids... (conversation: rmulq137cm8)
+2025-07-11 23:13:00,576 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: tell me about the last bids...
+2025-07-11 23:13:00,577 - core.ai_client - INFO - Generating streaming business response for: tell me about the last bids...
+2025-07-11 23:13:02,379 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:13:12,051 - core.ai_client - INFO - Completed streaming business response: 1460 characters
+2025-07-11 23:13:12,052 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 1460 chars in 11.48s
+2025-07-11 23:13:12,052 - api.chat - INFO - Chat response completed in 11.49s
+2025-07-11 23:13:33,843 - api.chat - INFO - Processing chat request: list me all the bids... (conversation: rmulq137cm8)
+2025-07-11 23:13:33,846 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: list me all the bids...
+2025-07-11 23:13:33,847 - core.ai_client - INFO - Generating streaming business response for: list me all the bids...
+2025-07-11 23:13:35,390 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:13:50,854 - core.ai_client - INFO - Completed streaming business response: 3193 characters
+2025-07-11 23:13:50,855 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 3193 chars in 17.01s
+2025-07-11 23:13:50,856 - api.chat - INFO - Chat response completed in 17.01s
+2025-07-11 23:19:29,521 - __main__ - INFO - Starting application server...
+2025-07-11 23:19:29,543 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-11 23:19:29,543 - main - INFO - Loading business intelligence data...
+2025-07-11 23:19:29,546 - main - INFO - ✅ Business data loaded: 15 events, 66 bids
+2025-07-11 23:19:29,546 - main - INFO - Validating AI setup...
+2025-07-11 23:19:29,631 - core.ai_client - INFO - Loaded business data: 15 events, 72 bids
+2025-07-11 23:19:29,632 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-11 23:19:32,866 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:19:32,897 - main - INFO - ✅ AI setup validated successfully
+2025-07-11 23:19:32,897 - main - INFO - Initializing chat service...
+2025-07-11 23:19:32,897 - services.chat_service - INFO - Chat service initialized
+2025-07-11 23:19:32,897 - main - INFO - ✅ Chat service initialized successfully
+2025-07-11 23:19:32,897 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-11 23:21:11,280 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-11 23:21:11,281 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x106d3a900>
+2025-07-11 23:21:11,282 - api.chat - INFO - File filename: bid_data.json
+2025-07-11 23:21:11,282 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-11 23:21:13,290 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-11 23:21:13,304 - core.ai_client - INFO - Loaded business data: 15 events, 65 bids
+2025-07-11 23:21:13,304 - core.ai_client - INFO - Business data refreshed
+2025-07-11 23:21:13,304 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-11 23:21:13,304 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-11 23:21:13,306 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-11 23:21:30,883 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:21:30,890 - core.ai_client - INFO - Generated business response: 2376 characters
+2025-07-11 23:21:30,890 - services.chat_service - INFO - Generated response for bid_analysis_session: 2376 chars in 17.59s
+2025-07-11 23:21:57,750 - api.chat - INFO - Processing chat request: How many total bids do we have? Show me the W Hotel Seattle bid details.... (conversation: rmulq137cm8)
+2025-07-11 23:21:57,764 - services.chat_service - INFO - Created new conversation: rmulq137cm8
+2025-07-11 23:21:57,764 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: How many total bids do we have? Show me the W Hotel Seattle bid details....
+2025-07-11 23:21:57,765 - core.ai_client - INFO - Generating streaming business response for: How many total bids do we have? Show me the W Hotel Seattle bid details....
+2025-07-11 23:21:59,730 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-11 23:22:06,766 - core.ai_client - INFO - Completed streaming business response: 1125 characters
+2025-07-11 23:22:06,768 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 1125 chars in 9.00s
+2025-07-11 23:22:06,768 - api.chat - INFO - Chat response completed in 9.02s
+2025-07-12 00:09:23,721 - main - INFO - Shutting down application...
+2025-07-12 00:09:23,724 - main - INFO - 👋 Application shutdown complete
+2025-07-12 00:09:27,253 - __main__ - INFO - Starting application server...
+2025-07-12 00:09:27,279 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 00:09:27,279 - main - INFO - Loading business intelligence data...
+2025-07-12 00:09:27,282 - main - INFO - ✅ Business data loaded: 15 events, 75 bids
+2025-07-12 00:09:27,282 - main - INFO - Validating AI setup...
+2025-07-12 00:09:27,336 - core.ai_client - INFO - Loaded business data: 15 events, 86 bids
+2025-07-12 00:09:27,336 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 00:09:29,177 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:09:29,195 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 00:09:29,195 - main - INFO - Initializing chat service...
+2025-07-12 00:09:29,195 - services.chat_service - INFO - Chat service initialized
+2025-07-12 00:09:29,195 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 00:09:29,195 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 00:10:37,990 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-12 00:10:37,992 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x106a43a40>
+2025-07-12 00:10:37,992 - api.chat - INFO - File filename: bid_data.json
+2025-07-12 00:10:37,992 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-12 00:10:39,995 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-12 00:10:40,009 - core.ai_client - INFO - ✅ Business data refreshed: 15 events, 76 bids
+2025-07-12 00:10:40,010 - core.ai_client - INFO -    Latest bid: Westin Boston - $145,318.976
+2025-07-12 00:10:40,010 - core.ai_client - INFO -    Latest bid: Residence Inn Boston - $87,474.8128
+2025-07-12 00:10:40,010 - core.ai_client - INFO -    Latest bid: Marriott Downtown Seattle - $156,750.0
+2025-07-12 00:10:40,010 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-12 00:10:40,010 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-12 00:10:40,011 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-12 00:10:56,322 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:10:56,326 - core.ai_client - INFO - Generated business response: 2337 characters
+2025-07-12 00:10:56,326 - services.chat_service - INFO - Generated response for bid_analysis_session: 2337 chars in 16.32s
+2025-07-12 00:11:24,230 - api.chat - INFO - Processing chat request: Show me all hotel bids... (conversation: rmulq137cm8)
+2025-07-12 00:11:24,249 - services.chat_service - INFO - Created new conversation: rmulq137cm8
+2025-07-12 00:11:24,249 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: Show me all hotel bids...
+2025-07-12 00:11:24,250 - core.ai_client - INFO - Generating streaming business response for: Show me all hotel bids...
+2025-07-12 00:11:26,017 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:11:37,755 - core.ai_client - INFO - Completed streaming business response: 2139 characters
+2025-07-12 00:11:37,756 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 2139 chars in 13.51s
+2025-07-12 00:11:37,756 - api.chat - INFO - Chat response completed in 13.53s
+2025-07-12 00:12:02,424 - api.chat - INFO - Processing chat request: What's the latest bid?... (conversation: rmulq137cm8)
+2025-07-12 00:12:02,426 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: What's the latest bid?...
+2025-07-12 00:12:02,427 - core.ai_client - INFO - Generating streaming business response for: What's the latest bid?...
+2025-07-12 00:12:04,111 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:12:13,021 - core.ai_client - INFO - Completed streaming business response: 1555 characters
+2025-07-12 00:12:13,024 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 1555 chars in 10.60s
+2025-07-12 00:12:13,025 - api.chat - INFO - Chat response completed in 10.60s
+2025-07-12 00:15:30,539 - api.chat - INFO - Processing chat request: Do you see a bid from Marriott Downtown Seattle for $156,750? Check your latest data.... (conversation: rmulq137cm8)
+2025-07-12 00:15:30,544 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: Do you see a bid from Marriott Downtown Seattle for $156,750? Check your latest data....
+2025-07-12 00:15:30,545 - core.ai_client - INFO - Generating streaming business response for: Do you see a bid from Marriott Downtown Seattle for $156,750? Check your latest data....
+2025-07-12 00:15:32,191 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:15:39,998 - core.ai_client - INFO - Completed streaming business response: 1325 characters
+2025-07-12 00:15:40,000 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 1325 chars in 9.46s
+2025-07-12 00:15:40,001 - api.chat - INFO - Chat response completed in 9.46s
+2025-07-12 00:18:56,309 - main - INFO - Shutting down application...
+2025-07-12 00:18:56,309 - main - INFO - 👋 Application shutdown complete
+2025-07-12 00:18:59,998 - __main__ - INFO - Starting application server...
+2025-07-12 00:19:00,049 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 00:19:00,049 - main - INFO - Loading business intelligence data...
+2025-07-12 00:19:00,054 - main - INFO - ✅ Business data loaded: 15 events, 71 bids
+2025-07-12 00:19:00,054 - main - INFO - Validating AI setup...
+2025-07-12 00:19:00,140 - core.ai_client - INFO - Loaded business data: 15 events, 66 bids
+2025-07-12 00:19:00,141 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 00:19:02,017 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:19:02,038 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 00:19:02,038 - main - INFO - Initializing chat service...
+2025-07-12 00:19:02,038 - services.chat_service - INFO - Chat service initialized
+2025-07-12 00:19:02,038 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 00:19:02,038 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 00:20:00,527 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-12 00:20:00,528 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x112b3a900>
+2025-07-12 00:20:00,528 - api.chat - INFO - File filename: bid_data.json
+2025-07-12 00:20:00,528 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-12 00:20:02,532 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-12 00:20:02,548 - core.ai_client - INFO - ✅ Business data refreshed: 15 events, 75 bids
+2025-07-12 00:20:02,549 - core.ai_client - INFO -    Latest bid: Hyatt Las Vegas - $170,149.9792
+2025-07-12 00:20:02,549 - core.ai_client - INFO -    Latest bid: Sheraton Las Vegas - $195,842.1264
+2025-07-12 00:20:02,549 - core.ai_client - INFO -    Latest bid: Marriott Downtown Seattle - $156,750.0
+2025-07-12 00:20:02,549 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-12 00:20:02,549 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-12 00:20:02,564 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-12 00:20:19,534 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:20:19,538 - core.ai_client - INFO - Generated business response: 2369 characters
+2025-07-12 00:20:19,538 - services.chat_service - INFO - Generated response for bid_analysis_session: 2369 chars in 16.99s
+2025-07-12 00:21:06,495 - api.chat - INFO - Processing chat request: What's the latest bid?... (conversation: rmulq137cm8)
+2025-07-12 00:21:06,507 - services.chat_service - INFO - Created new conversation: rmulq137cm8
+2025-07-12 00:21:06,507 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: What's the latest bid?...
+2025-07-12 00:21:06,518 - core.ai_client - INFO - Generating streaming business response for: What's the latest bid?...
+2025-07-12 00:21:08,074 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:21:13,299 - core.ai_client - INFO - Completed streaming business response: 914 characters
+2025-07-12 00:21:13,299 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 914 chars in 6.79s
+2025-07-12 00:21:13,300 - api.chat - INFO - Chat response completed in 6.81s
+2025-07-12 00:25:07,855 - main - INFO - Shutting down application...
+2025-07-12 00:25:07,857 - main - INFO - 👋 Application shutdown complete
+2025-07-12 00:25:31,269 - __main__ - INFO - Starting application server...
+2025-07-12 00:25:31,304 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 00:25:31,304 - main - INFO - Loading business intelligence data...
+2025-07-12 00:25:31,308 - main - INFO - ✅ Business data loaded: 15 events, 83 bids
+2025-07-12 00:25:31,308 - main - INFO - Validating AI setup...
+2025-07-12 00:25:31,368 - core.ai_client - INFO - Loaded business data: 15 events, 81 bids
+2025-07-12 00:25:31,368 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 00:25:32,786 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:25:32,807 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 00:25:32,808 - main - INFO - Initializing chat service...
+2025-07-12 00:25:32,808 - services.chat_service - INFO - Chat service initialized
+2025-07-12 00:25:32,808 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 00:25:32,808 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 00:26:36,271 - api.chat - INFO - Processing chat request: What's the latest bid?... (conversation: rmulq137cm8)
+2025-07-12 00:26:36,283 - services.chat_service - INFO - Created new conversation: rmulq137cm8
+2025-07-12 00:26:36,284 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: What's the latest bid?...
+2025-07-12 00:26:36,294 - core.ai_client - INFO - Generating streaming business response for: What's the latest bid?...
+2025-07-12 00:26:37,804 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:26:42,794 - core.ai_client - INFO - Completed streaming business response: 968 characters
+2025-07-12 00:26:42,795 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 968 chars in 6.51s
+2025-07-12 00:26:42,796 - api.chat - INFO - Chat response completed in 6.53s
+2025-07-12 00:29:35,777 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-12 00:29:35,779 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x10893c800>
+2025-07-12 00:29:35,779 - api.chat - INFO - File filename: bid_data.json
+2025-07-12 00:29:35,779 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-12 00:29:37,783 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-12 00:29:37,814 - core.ai_client - INFO - ✅ Business data refreshed: 15 events, 76 bids
+2025-07-12 00:29:37,814 - core.ai_client - INFO -    Latest bid: Residence Inn Chicago - $21,889.1024
+2025-07-12 00:29:37,814 - core.ai_client - INFO -    Latest bid: Hilton Chicago - $28,087.08
+2025-07-12 00:29:37,814 - core.ai_client - INFO -    Latest bid: Marriott Downtown Seattle - $156,750.0
+2025-07-12 00:29:37,814 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-12 00:29:37,814 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-12 00:29:37,852 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-12 00:29:54,954 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:29:54,957 - core.ai_client - INFO - Generated business response: 2413 characters
+2025-07-12 00:29:54,957 - services.chat_service - INFO - Generated response for bid_analysis_session: 2413 chars in 17.14s
+2025-07-12 00:30:04,954 - api.chat - INFO - Processing chat request: What's the latest bid... (conversation: rmulq137cm8)
+2025-07-12 00:30:04,957 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: What's the latest bid...
+2025-07-12 00:30:05,044 - core.ai_client - INFO - Generating streaming business response for: What's the latest bid...
+2025-07-12 00:30:06,298 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:30:11,632 - core.ai_client - INFO - Completed streaming business response: 851 characters
+2025-07-12 00:30:11,633 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 851 chars in 6.68s
+2025-07-12 00:30:11,633 - api.chat - INFO - Chat response completed in 6.68s
+2025-07-12 00:30:51,951 - api.chat - INFO - Processing chat request: How many total bids do we have in the system?... (conversation: rmulq137cm8)
+2025-07-12 00:30:51,955 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: How many total bids do we have in the system?...
+2025-07-12 00:30:51,979 - core.ai_client - INFO - Generating streaming business response for: How many total bids do we have in the system?...
+2025-07-12 00:30:53,692 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:30:59,254 - core.ai_client - INFO - Completed streaming business response: 863 characters
+2025-07-12 00:30:59,256 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 863 chars in 7.30s
+2025-07-12 00:30:59,256 - api.chat - INFO - Chat response completed in 7.30s
+2025-07-12 00:31:48,047 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-12 00:31:48,048 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x108491790>
+2025-07-12 00:31:48,048 - api.chat - INFO - File filename: bid_data.json
+2025-07-12 00:31:48,048 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-12 00:31:50,050 - api.chat - INFO - ✅ Added new bid BID-NEW-002 to mock data
+2025-07-12 00:31:50,071 - core.ai_client - INFO - ✅ Business data refreshed: 15 events, 80 bids
+2025-07-12 00:31:50,071 - core.ai_client - INFO -    Latest bid: Marriott Las Vegas - $63,396.263999999996
+2025-07-12 00:31:50,071 - core.ai_client - INFO -    Latest bid: Marriott Downtown Seattle - $156,750.0
+2025-07-12 00:31:50,071 - core.ai_client - INFO -    Latest bid: Marriott Downtown Seattle - $156,750.0
+2025-07-12 00:31:50,071 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-12 00:31:50,085 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-12 00:32:07,690 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:32:07,696 - core.ai_client - INFO - Generated business response: 2956 characters
+2025-07-12 00:32:07,697 - services.chat_service - INFO - Generated response for bid_analysis_session: 2956 chars in 17.63s
+2025-07-12 00:32:13,260 - api.chat - INFO - Processing chat request: How many total bids do we have now?... (conversation: rmulq137cm8)
+2025-07-12 00:32:13,261 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: How many total bids do we have now?...
+2025-07-12 00:32:13,282 - core.ai_client - INFO - Generating streaming business response for: How many total bids do we have now?...
+2025-07-12 00:32:14,854 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:32:18,147 - core.ai_client - INFO - Completed streaming business response: 692 characters
+2025-07-12 00:32:18,147 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 692 chars in 4.89s
+2025-07-12 00:32:18,148 - api.chat - INFO - Chat response completed in 4.89s
+2025-07-12 00:33:06,242 - api.chat - INFO - Processing chat request: What's the latest bid? Show me the most recent bid submitted.... (conversation: rmulq137cm8)
+2025-07-12 00:33:06,245 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: What's the latest bid? Show me the most recent bid submitted....
+2025-07-12 00:33:06,260 - core.ai_client - INFO - Generating streaming business response for: What's the latest bid? Show me the most recent bid submitted....
+2025-07-12 00:33:07,794 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:33:12,756 - core.ai_client - INFO - Completed streaming business response: 1008 characters
+2025-07-12 00:33:12,756 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 1008 chars in 6.51s
+2025-07-12 00:33:12,757 - api.chat - INFO - Chat response completed in 6.51s
+2025-07-12 00:34:45,955 - main - INFO - Shutting down application...
+2025-07-12 00:34:45,956 - main - INFO - 👋 Application shutdown complete
+2025-07-12 00:47:10,096 - __main__ - INFO - Starting application server...
+2025-07-12 00:47:10,131 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 00:47:10,131 - main - INFO - Loading business intelligence data...
+2025-07-12 00:47:10,134 - main - INFO - ✅ Business data loaded: 15 events, 64 bids
+2025-07-12 00:47:10,134 - main - INFO - Validating AI setup...
+2025-07-12 00:47:10,187 - core.ai_client - INFO - Loaded business data: 15 events, 64 bids
+2025-07-12 00:47:10,187 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 00:47:12,202 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:47:12,220 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 00:47:12,221 - main - INFO - Initializing chat service...
+2025-07-12 00:47:12,221 - services.chat_service - INFO - Chat service initialized
+2025-07-12 00:47:12,221 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 00:47:12,221 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 00:47:44,824 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-12 00:47:44,825 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x10665ba40>
+2025-07-12 00:47:44,825 - api.chat - INFO - File filename: bid_data.json
+2025-07-12 00:47:44,825 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-12 00:47:46,826 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-12 00:47:46,827 - core.ai_client - INFO - ✅ Business data refreshed: 15 events, 65 bids
+2025-07-12 00:47:46,827 - core.ai_client - INFO -    Latest bid: Hyatt Miami - $117,689.5888
+2025-07-12 00:47:46,828 - core.ai_client - INFO -    Latest bid: Ritz-Carlton Miami - $164,211.632
+2025-07-12 00:47:46,828 - core.ai_client - INFO -    Latest bid: Marriott Downtown Seattle - $156,750.0
+2025-07-12 00:47:46,828 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-12 00:47:46,828 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-12 00:47:46,829 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-12 00:48:08,424 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:48:08,432 - core.ai_client - INFO - Generated business response: 2868 characters
+2025-07-12 00:48:08,433 - services.chat_service - INFO - Generated response for bid_analysis_session: 2868 chars in 21.60s
+2025-07-12 00:48:25,951 - api.chat - INFO - Processing chat request: What's the latest bid?... (conversation: rmulq137cm8)
+2025-07-12 00:48:25,973 - services.chat_service - INFO - Created new conversation: rmulq137cm8
+2025-07-12 00:48:25,973 - services.chat_service - INFO - Added user message to conversation rmulq137cm8: What's the latest bid?...
+2025-07-12 00:48:25,974 - core.ai_client - INFO - Generating streaming business response for: What's the latest bid?...
+2025-07-12 00:48:27,420 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:48:33,433 - core.ai_client - INFO - Completed streaming business response: 1040 characters
+2025-07-12 00:48:33,433 - services.chat_service - INFO - Completed streaming response for rmulq137cm8: 1040 chars in 7.46s
+2025-07-12 00:48:33,434 - api.chat - INFO - Chat response completed in 7.48s
+2025-07-12 00:50:27,116 - main - INFO - Shutting down application...
+2025-07-12 00:50:27,117 - main - INFO - 👋 Application shutdown complete
+2025-07-12 00:50:38,173 - __main__ - INFO - Starting application server...
+2025-07-12 00:50:38,199 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 00:50:38,199 - main - INFO - Loading business intelligence data...
+2025-07-12 00:50:38,202 - main - INFO - ✅ Business data loaded: 15 events, 73 bids
+2025-07-12 00:50:38,202 - main - INFO - Validating AI setup...
+2025-07-12 00:50:38,245 - core.ai_client - INFO - Loaded business data: 15 events, 73 bids
+2025-07-12 00:50:38,245 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 00:50:39,742 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:50:39,754 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 00:50:39,754 - main - INFO - Initializing chat service...
+2025-07-12 00:50:39,754 - services.chat_service - INFO - Chat service initialized
+2025-07-12 00:50:39,754 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 00:50:39,755 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 00:51:18,311 - api.chat - INFO - === BID PROCESSING STARTED ===
+2025-07-12 00:51:18,311 - api.chat - INFO - File received: <starlette.datastructures.UploadFile object at 0x10470c200>
+2025-07-12 00:51:18,311 - api.chat - INFO - File filename: bid_data.json
+2025-07-12 00:51:18,311 - api.chat - INFO - Processing bid document: bid_data.json
+2025-07-12 00:51:20,316 - api.chat - INFO - ✅ Added new bid BID-NEW-001 to mock data
+2025-07-12 00:51:20,317 - core.ai_client - INFO - ✅ Business data refreshed: 15 events, 74 bids
+2025-07-12 00:51:20,317 - core.ai_client - INFO -    Latest bid: Hyatt Philadelphia - $17,788.928
+2025-07-12 00:51:20,317 - core.ai_client - INFO -    Latest bid: Holiday Inn Philadelphia - $20,586.8416
+2025-07-12 00:51:20,317 - core.ai_client - INFO -    Latest bid: Marriott Downtown Seattle - $156,750.0
+2025-07-12 00:51:20,317 - api.chat - INFO - 🔄 Refreshed AI data with new bid
+2025-07-12 00:51:20,317 - services.chat_service - INFO - Created new conversation: bid_analysis_session
+2025-07-12 00:51:20,318 - core.ai_client - INFO - Generating business intelligence response for: Analyze this hotel bid data and provide competitive insights:
+
+Hotel: Marriott Downtown Seattle
+Tota...
+2025-07-12 00:51:41,321 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:51:41,357 - core.ai_client - INFO - Generated business response: 2633 characters
+2025-07-12 00:51:41,357 - services.chat_service - INFO - Generated response for bid_analysis_session: 2633 chars in 21.04s
+2025-07-12 00:51:56,057 - api.chat - INFO - Processing chat request: How many bids now?... (conversation: in8rw94snch)
+2025-07-12 00:51:56,075 - services.chat_service - INFO - Created new conversation: in8rw94snch
+2025-07-12 00:51:56,075 - services.chat_service - INFO - Added user message to conversation in8rw94snch: How many bids now?...
+2025-07-12 00:51:56,076 - core.ai_client - INFO - Generating streaming business response for: How many bids now?...
+2025-07-12 00:51:58,082 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:52:02,970 - core.ai_client - INFO - Completed streaming business response: 857 characters
+2025-07-12 00:52:02,971 - services.chat_service - INFO - Completed streaming response for in8rw94snch: 857 chars in 6.90s
+2025-07-12 00:52:02,972 - api.chat - INFO - Chat response completed in 6.91s
+2025-07-12 00:52:50,619 - api.chat - INFO - Processing chat request: What's the latest bid? Show me the most recent hotel that submitted a bid.... (conversation: in8rw94snch)
+2025-07-12 00:52:50,625 - services.chat_service - INFO - Added user message to conversation in8rw94snch: What's the latest bid? Show me the most recent hotel that submitted a bid....
+2025-07-12 00:52:50,626 - core.ai_client - INFO - Generating streaming business response for: What's the latest bid? Show me the most recent hotel that submitted a bid....
+2025-07-12 00:52:52,379 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:52:59,570 - core.ai_client - INFO - Completed streaming business response: 1151 characters
+2025-07-12 00:52:59,571 - services.chat_service - INFO - Completed streaming response for in8rw94snch: 1151 chars in 8.95s
+2025-07-12 00:52:59,571 - api.chat - INFO - Chat response completed in 8.95s
+2025-07-12 00:57:58,234 - main - INFO - Shutting down application...
+2025-07-12 00:57:58,237 - main - INFO - 👋 Application shutdown complete
+2025-07-12 00:58:01,530 - __main__ - INFO - Starting application server...
+2025-07-12 00:58:01,554 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 00:58:01,555 - main - INFO - Loading business intelligence data...
+2025-07-12 00:58:01,558 - main - INFO - ✅ Business data loaded: 15 events, 78 bids
+2025-07-12 00:58:01,558 - main - INFO - Validating AI setup...
+2025-07-12 00:58:01,599 - core.ai_client - INFO - Loaded business data: 15 events, 78 bids
+2025-07-12 00:58:01,599 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 00:58:02,995 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:58:03,012 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 00:58:03,013 - main - INFO - Initializing chat service...
+2025-07-12 00:58:03,014 - services.chat_service - INFO - Chat service initialized
+2025-07-12 00:58:03,014 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 00:58:03,014 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 00:58:50,689 - api.chat - INFO - Processing chat request: Show me all events by deadline priority... (conversation: in8rw94snch)
+2025-07-12 00:58:50,706 - services.chat_service - INFO - Created new conversation: in8rw94snch
+2025-07-12 00:58:50,706 - services.chat_service - INFO - Added user message to conversation in8rw94snch: Show me all events by deadline priority...
+2025-07-12 00:58:50,707 - core.ai_client - INFO - Generating streaming business response for: Show me all events by deadline priority...
+2025-07-12 00:58:52,456 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:59:03,624 - core.ai_client - INFO - Completed streaming business response: 2056 characters
+2025-07-12 00:59:03,625 - services.chat_service - INFO - Completed streaming response for in8rw94snch: 2056 chars in 12.92s
+2025-07-12 00:59:03,626 - api.chat - INFO - Chat response completed in 12.94s
+2025-07-12 00:59:14,670 - api.chat - INFO - Processing chat request: Which hotels have the best win rates?... (conversation: in8rw94snch)
+2025-07-12 00:59:14,674 - services.chat_service - INFO - Added user message to conversation in8rw94snch: Which hotels have the best win rates?...
+2025-07-12 00:59:14,674 - core.ai_client - INFO - Generating streaming business response for: Which hotels have the best win rates?...
+2025-07-12 00:59:16,215 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:59:31,013 - core.ai_client - INFO - Completed streaming business response: 2500 characters
+2025-07-12 00:59:31,014 - services.chat_service - INFO - Completed streaming response for in8rw94snch: 2500 chars in 16.34s
+2025-07-12 00:59:31,015 - api.chat - INFO - Chat response completed in 16.34s
+2025-07-12 00:59:33,467 - api.chat - INFO - Processing chat request: What's our revenue pipeline for this quarter?... (conversation: in8rw94snch)
+2025-07-12 00:59:33,468 - services.chat_service - INFO - Added user message to conversation in8rw94snch: What's our revenue pipeline for this quarter?...
+2025-07-12 00:59:33,470 - core.ai_client - INFO - Generating streaming business response for: What's our revenue pipeline for this quarter?...
+2025-07-12 00:59:35,052 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 00:59:51,505 - core.ai_client - INFO - Completed streaming business response: 2585 characters
+2025-07-12 00:59:51,506 - services.chat_service - INFO - Completed streaming response for in8rw94snch: 2585 chars in 18.04s
+2025-07-12 00:59:51,506 - api.chat - INFO - Chat response completed in 18.04s
+2025-07-12 01:05:14,648 - __main__ - INFO - Starting application server...
+2025-07-12 01:05:14,673 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 01:05:14,673 - main - INFO - Loading business intelligence data...
+2025-07-12 01:05:14,676 - main - INFO - ✅ Business data loaded: 15 events, 77 bids
+2025-07-12 01:05:14,676 - main - INFO - Validating AI setup...
+2025-07-12 01:05:14,723 - core.ai_client - INFO - Loaded business data: 15 events, 77 bids
+2025-07-12 01:05:14,723 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 01:05:16,366 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:05:16,382 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 01:05:16,383 - main - INFO - Initializing chat service...
+2025-07-12 01:05:16,383 - services.chat_service - INFO - Chat service initialized
+2025-07-12 01:05:16,383 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 01:05:16,383 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 01:05:37,551 - api.chat - INFO - Processing chat request: Show me all active events... (conversation: oh1a21wofbg)
+2025-07-12 01:05:37,562 - services.chat_service - INFO - Created new conversation: oh1a21wofbg
+2025-07-12 01:05:37,563 - services.chat_service - INFO - Added user message to conversation oh1a21wofbg: Show me all active events...
+2025-07-12 01:05:37,564 - core.ai_client - INFO - Generating streaming business response for: Show me all active events...
+2025-07-12 01:05:38,991 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:05:45,814 - core.ai_client - INFO - Completed streaming business response: 1550 characters
+2025-07-12 01:05:45,814 - services.chat_service - INFO - Completed streaming response for oh1a21wofbg: 1550 chars in 8.25s
+2025-07-12 01:05:45,815 - api.chat - INFO - Chat response completed in 8.26s
+2025-07-12 01:05:56,081 - api.chat - INFO - Processing chat request: Show me all active events... (conversation: oh1a21wofbg)
+2025-07-12 01:05:56,082 - services.chat_service - INFO - Added user message to conversation oh1a21wofbg: Show me all active events...
+2025-07-12 01:05:56,083 - core.ai_client - INFO - Generating streaming business response for: Show me all active events...
+2025-07-12 01:05:57,737 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:06:05,509 - core.ai_client - INFO - Completed streaming business response: 1658 characters
+2025-07-12 01:06:05,510 - services.chat_service - INFO - Completed streaming response for oh1a21wofbg: 1658 chars in 9.43s
+2025-07-12 01:06:05,511 - api.chat - INFO - Chat response completed in 9.43s
+2025-07-12 01:06:24,336 - api.chat - INFO - Processing chat request: how many events we have short asnwer... (conversation: oh1a21wofbg)
+2025-07-12 01:06:24,338 - services.chat_service - INFO - Added user message to conversation oh1a21wofbg: how many events we have short asnwer...
+2025-07-12 01:06:24,339 - core.ai_client - INFO - Generating streaming business response for: how many events we have short asnwer...
+2025-07-12 01:06:25,996 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:06:27,327 - core.ai_client - INFO - Completed streaming business response: 102 characters
+2025-07-12 01:06:27,328 - services.chat_service - INFO - Completed streaming response for oh1a21wofbg: 102 chars in 2.99s
+2025-07-12 01:06:27,329 - api.chat - INFO - Chat response completed in 2.99s
+2025-07-12 01:06:41,209 - api.chat - INFO - Processing chat request: how many events we have short asnwer... (conversation: oh1a21wofbg)
+2025-07-12 01:06:41,211 - services.chat_service - INFO - Added user message to conversation oh1a21wofbg: how many events we have short asnwer...
+2025-07-12 01:06:41,212 - core.ai_client - INFO - Generating streaming business response for: how many events we have short asnwer...
+2025-07-12 01:06:43,199 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:06:43,393 - core.ai_client - INFO - Completed streaming business response: 34 characters
+2025-07-12 01:06:43,394 - services.chat_service - INFO - Completed streaming response for oh1a21wofbg: 34 chars in 2.18s
+2025-07-12 01:06:43,396 - api.chat - INFO - Chat response completed in 2.19s
+2025-07-12 01:06:52,301 - api.chat - INFO - Processing chat request: how many active short asnwer... (conversation: oh1a21wofbg)
+2025-07-12 01:06:52,303 - services.chat_service - INFO - Added user message to conversation oh1a21wofbg: how many active short asnwer...
+2025-07-12 01:06:52,303 - core.ai_client - INFO - Generating streaming business response for: how many active short asnwer...
+2025-07-12 01:06:54,129 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:06:54,298 - core.ai_client - INFO - Completed streaming business response: 37 characters
+2025-07-12 01:06:54,298 - services.chat_service - INFO - Completed streaming response for oh1a21wofbg: 37 chars in 1.99s
+2025-07-12 01:06:54,299 - api.chat - INFO - Chat response completed in 2.00s
+2025-07-12 01:07:08,933 - api.chat - INFO - Processing chat request: what is the combined revenue potentioal... (conversation: oh1a21wofbg)
+2025-07-12 01:07:08,935 - services.chat_service - INFO - Added user message to conversation oh1a21wofbg: what is the combined revenue potentioal...
+2025-07-12 01:07:08,936 - core.ai_client - INFO - Generating streaming business response for: what is the combined revenue potentioal...
+2025-07-12 01:07:11,266 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:07:11,540 - core.ai_client - INFO - Completed streaming business response: 69 characters
+2025-07-12 01:07:11,541 - services.chat_service - INFO - Completed streaming response for oh1a21wofbg: 69 chars in 2.61s
+2025-07-12 01:07:11,542 - api.chat - INFO - Chat response completed in 2.61s
+2025-07-12 01:11:35,037 - api.chat - INFO - Processing chat request: What's our revenue pipeline?... (conversation: 966n2yq2tkn)
+2025-07-12 01:11:35,059 - services.chat_service - INFO - Created new conversation: 966n2yq2tkn
+2025-07-12 01:11:35,061 - services.chat_service - INFO - Added user message to conversation 966n2yq2tkn: What's our revenue pipeline?...
+2025-07-12 01:11:35,063 - core.ai_client - INFO - Generating streaming business response for: What's our revenue pipeline?...
+2025-07-12 01:11:36,737 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:11:44,885 - core.ai_client - INFO - Completed streaming business response: 1232 characters
+2025-07-12 01:11:44,887 - services.chat_service - INFO - Completed streaming response for 966n2yq2tkn: 1232 chars in 9.82s
+2025-07-12 01:11:44,887 - api.chat - INFO - Chat response completed in 9.85s
+2025-07-12 01:11:55,083 - api.chat - INFO - Processing chat request: What's our revenue pipeline?... (conversation: r6e3xwy4mn)
+2025-07-12 01:11:55,085 - services.chat_service - INFO - Created new conversation: r6e3xwy4mn
+2025-07-12 01:11:55,085 - services.chat_service - INFO - Added user message to conversation r6e3xwy4mn: What's our revenue pipeline?...
+2025-07-12 01:11:55,085 - core.ai_client - INFO - Generating streaming business response for: What's our revenue pipeline?...
+2025-07-12 01:11:56,961 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:12:03,321 - core.ai_client - INFO - Completed streaming business response: 1124 characters
+2025-07-12 01:12:03,322 - services.chat_service - INFO - Completed streaming response for r6e3xwy4mn: 1124 chars in 8.24s
+2025-07-12 01:12:03,322 - api.chat - INFO - Chat response completed in 8.24s
+2025-07-12 01:12:36,049 - api.chat - INFO - Processing chat request: do you know what this hoel app does? do you thknk its cool?... (conversation: r6e3xwy4mn)
+2025-07-12 01:12:36,052 - services.chat_service - INFO - Added user message to conversation r6e3xwy4mn: do you know what this hoel app does? do you thknk its cool?...
+2025-07-12 01:12:36,052 - core.ai_client - INFO - Generating streaming business response for: do you know what this hoel app does? do you thknk its cool?...
+2025-07-12 01:12:37,615 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:12:46,621 - core.ai_client - INFO - Completed streaming business response: 1566 characters
+2025-07-12 01:12:46,622 - services.chat_service - INFO - Completed streaming response for r6e3xwy4mn: 1566 chars in 10.57s
+2025-07-12 01:12:46,623 - api.chat - INFO - Chat response completed in 10.57s
+2025-07-12 01:19:07,685 - api.chat - INFO - Processing chat request: how many events we have ?... (conversation: nnj16qr0zgf)
+2025-07-12 01:19:07,688 - services.chat_service - INFO - Created new conversation: nnj16qr0zgf
+2025-07-12 01:19:07,690 - services.chat_service - INFO - Added user message to conversation nnj16qr0zgf: how many events we have ?...
+2025-07-12 01:19:07,694 - core.ai_client - INFO - Generating streaming business response for: how many events we have ?...
+2025-07-12 01:19:09,274 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:19:13,707 - core.ai_client - INFO - Completed streaming business response: 789 characters
+2025-07-12 01:19:13,707 - services.chat_service - INFO - Completed streaming response for nnj16qr0zgf: 789 chars in 6.02s
+2025-07-12 01:19:13,709 - api.chat - INFO - Chat response completed in 6.02s
+2025-07-12 01:19:55,305 - api.chat - INFO - Processing chat request: we have 6 events open for bidding. how many hotels are bidding total ?... (conversation: nnj16qr0zgf)
+2025-07-12 01:19:55,308 - services.chat_service - INFO - Added user message to conversation nnj16qr0zgf: we have 6 events open for bidding. how many hotels are bidding total ?...
+2025-07-12 01:19:55,310 - core.ai_client - INFO - Generating streaming business response for: we have 6 events open for bidding. how many hotels are bidding total ?...
+2025-07-12 01:19:56,922 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:20:03,261 - core.ai_client - INFO - Completed streaming business response: 1291 characters
+2025-07-12 01:20:03,263 - services.chat_service - INFO - Completed streaming response for nnj16qr0zgf: 1291 chars in 7.95s
+2025-07-12 01:20:03,264 - api.chat - INFO - Chat response completed in 7.96s
+2025-07-12 01:20:42,101 - api.chat - INFO - Processing chat request: bug how many bids to we have across all those 6 events give me a number... (conversation: nnj16qr0zgf)
+2025-07-12 01:20:42,104 - services.chat_service - INFO - Added user message to conversation nnj16qr0zgf: bug how many bids to we have across all those 6 events give me a number...
+2025-07-12 01:20:42,106 - core.ai_client - INFO - Generating streaming business response for: bug how many bids to we have across all those 6 events give me a number...
+2025-07-12 01:20:43,804 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:20:47,998 - core.ai_client - INFO - Completed streaming business response: 735 characters
+2025-07-12 01:20:47,999 - services.chat_service - INFO - Completed streaming response for nnj16qr0zgf: 735 chars in 5.89s
+2025-07-12 01:20:48,000 - api.chat - INFO - Chat response completed in 5.90s
+2025-07-12 01:21:40,423 - api.chat - INFO - Processing chat request: IBM Executive Board Meeting (San Francisco): 0 bids visible
+IBM Technology Reveal (Boston): 0 bids v... (conversation: nnj16qr0zgf)
+2025-07-12 01:21:40,425 - services.chat_service - INFO - Added user message to conversation nnj16qr0zgf: IBM Executive Board Meeting (San Francisco): 0 bids visible
+IBM Technology Reveal (Boston): 0 bids v...
+2025-07-12 01:21:40,426 - core.ai_client - INFO - Generating streaming business response for: IBM Executive Board Meeting (San Francisco): 0 bids visible
+IBM Technology Reveal (Boston): 0 bids v...
+2025-07-12 01:21:42,394 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:21:50,120 - core.ai_client - INFO - Completed streaming business response: 1137 characters
+2025-07-12 01:21:50,122 - services.chat_service - INFO - Completed streaming response for nnj16qr0zgf: 1137 chars in 9.70s
+2025-07-12 01:21:50,122 - api.chat - INFO - Chat response completed in 9.70s
+2025-07-12 01:22:39,168 - api.chat - INFO - Processing chat request: which of all open biddings is the one we can profit the most ?... (conversation: nnj16qr0zgf)
+2025-07-12 01:22:39,171 - services.chat_service - INFO - Added user message to conversation nnj16qr0zgf: which of all open biddings is the one we can profit the most ?...
+2025-07-12 01:22:39,171 - core.ai_client - INFO - Generating streaming business response for: which of all open biddings is the one we can profit the most ?...
+2025-07-12 01:22:41,071 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:22:48,205 - core.ai_client - INFO - Completed streaming business response: 1258 characters
+2025-07-12 01:22:48,206 - services.chat_service - INFO - Completed streaming response for nnj16qr0zgf: 1258 chars in 9.03s
+2025-07-12 01:22:48,206 - api.chat - INFO - Chat response completed in 9.04s
+2025-07-12 01:23:18,881 - api.chat - INFO - Processing chat request: out of the ones that have biddings which one is the most profitable ?... (conversation: nnj16qr0zgf)
+2025-07-12 01:23:18,884 - services.chat_service - INFO - Added user message to conversation nnj16qr0zgf: out of the ones that have biddings which one is the most profitable ?...
+2025-07-12 01:23:18,885 - core.ai_client - INFO - Generating streaming business response for: out of the ones that have biddings which one is the most profitable ?...
+2025-07-12 01:23:21,109 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:23:27,256 - core.ai_client - INFO - Completed streaming business response: 1116 characters
+2025-07-12 01:23:27,257 - services.chat_service - INFO - Completed streaming response for nnj16qr0zgf: 1116 chars in 8.37s
+2025-07-12 01:23:27,258 - api.chat - INFO - Chat response completed in 8.38s
+2025-07-12 01:23:55,854 - api.chat - INFO - Processing chat request: so for Tech Conference Atlassian (Phoenix) who is offerign the most money ?... (conversation: nnj16qr0zgf)
+2025-07-12 01:23:55,857 - services.chat_service - INFO - Added user message to conversation nnj16qr0zgf: so for Tech Conference Atlassian (Phoenix) who is offerign the most money ?...
+2025-07-12 01:23:55,858 - core.ai_client - INFO - Generating streaming business response for: so for Tech Conference Atlassian (Phoenix) who is offerign the most money ?...
+2025-07-12 01:23:57,502 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:24:04,666 - core.ai_client - INFO - Completed streaming business response: 894 characters
+2025-07-12 01:24:04,667 - services.chat_service - INFO - Completed streaming response for nnj16qr0zgf: 894 chars in 8.81s
+2025-07-12 01:24:04,668 - api.chat - INFO - Chat response completed in 8.81s
+2025-07-12 01:32:26,885 - api.chat - INFO - Processing chat request: hi... (conversation: sjvm6uxrvye)
+2025-07-12 01:32:26,891 - services.chat_service - INFO - Created new conversation: sjvm6uxrvye
+2025-07-12 01:32:26,892 - services.chat_service - INFO - Added user message to conversation sjvm6uxrvye: hi...
+2025-07-12 01:32:26,893 - core.ai_client - INFO - Generating streaming business response for: hi...
+2025-07-12 01:32:28,460 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:32:32,147 - core.ai_client - INFO - Completed streaming business response: 1051 characters
+2025-07-12 01:32:32,147 - services.chat_service - INFO - Completed streaming response for sjvm6uxrvye: 1051 chars in 5.26s
+2025-07-12 01:32:32,147 - api.chat - INFO - Chat response completed in 5.26s
+2025-07-12 01:44:36,027 - main - INFO - Shutting down application...
+2025-07-12 01:44:36,029 - main - INFO - 👋 Application shutdown complete
+2025-07-12 01:53:17,564 - __main__ - INFO - Starting application server...
+2025-07-12 01:53:17,592 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 01:53:17,592 - main - INFO - Loading business intelligence data...
+2025-07-12 01:53:17,595 - main - INFO - ✅ Business data loaded: 15 events, 67 bids
+2025-07-12 01:53:17,595 - main - INFO - Validating AI setup...
+2025-07-12 01:53:17,649 - core.ai_client - INFO - Loaded business data: 15 events, 67 bids
+2025-07-12 01:53:17,649 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 01:53:19,153 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:53:19,158 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 01:53:19,158 - main - INFO - Initializing chat service...
+2025-07-12 01:53:19,158 - services.chat_service - INFO - Chat service initialized
+2025-07-12 01:53:19,158 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 01:53:19,158 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 01:56:14,590 - api.chat - INFO - Processing chat request: Show me all active events... (conversation: utn6zl34w8g)
+2025-07-12 01:56:14,623 - services.chat_service - INFO - Created new conversation: utn6zl34w8g
+2025-07-12 01:56:14,624 - services.chat_service - INFO - Added user message to conversation utn6zl34w8g: Show me all active events...
+2025-07-12 01:56:14,627 - core.ai_client - INFO - Generating streaming business response for: Show me all active events...
+2025-07-12 01:56:16,396 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:56:22,237 - core.ai_client - INFO - Completed streaming business response: 1138 characters
+2025-07-12 01:56:22,237 - services.chat_service - INFO - Completed streaming response for utn6zl34w8g: 1138 chars in 7.61s
+2025-07-12 01:56:22,239 - api.chat - INFO - Chat response completed in 7.65s
+2025-07-12 01:56:43,483 - api.chat - INFO - Processing chat request: Show me all active events... (conversation: a2pzrwk29mf)
+2025-07-12 01:56:43,485 - services.chat_service - INFO - Created new conversation: a2pzrwk29mf
+2025-07-12 01:56:43,485 - services.chat_service - INFO - Added user message to conversation a2pzrwk29mf: Show me all active events...
+2025-07-12 01:56:43,486 - core.ai_client - INFO - Generating streaming business response for: Show me all active events...
+2025-07-12 01:56:44,842 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 01:56:51,284 - core.ai_client - INFO - Completed streaming business response: 1181 characters
+2025-07-12 01:56:51,285 - services.chat_service - INFO - Completed streaming response for a2pzrwk29mf: 1181 chars in 7.80s
+2025-07-12 01:56:51,285 - api.chat - INFO - Chat response completed in 7.80s
+2025-07-12 02:00:51,966 - api.chat - INFO - Processing chat request: Events closing this week... (conversation: l9sts0mvpxm)
+2025-07-12 02:00:51,971 - services.chat_service - INFO - Created new conversation: l9sts0mvpxm
+2025-07-12 02:00:51,971 - services.chat_service - INFO - Added user message to conversation l9sts0mvpxm: Events closing this week...
+2025-07-12 02:00:51,974 - core.ai_client - INFO - Generating streaming business response for: Events closing this week...
+2025-07-12 02:00:53,907 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:01:00,147 - core.ai_client - INFO - Completed streaming business response: 1043 characters
+2025-07-12 02:01:00,148 - services.chat_service - INFO - Completed streaming response for l9sts0mvpxm: 1043 chars in 8.18s
+2025-07-12 02:01:00,148 - api.chat - INFO - Chat response completed in 8.18s
+2025-07-12 02:04:03,965 - api.chat - INFO - Processing chat request: Events closing this week... (conversation: thrrqyq4rpe)
+2025-07-12 02:04:03,971 - services.chat_service - INFO - Created new conversation: thrrqyq4rpe
+2025-07-12 02:04:03,972 - services.chat_service - INFO - Added user message to conversation thrrqyq4rpe: Events closing this week...
+2025-07-12 02:04:03,974 - core.ai_client - INFO - Generating streaming business response for: Events closing this week...
+2025-07-12 02:04:05,291 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:04:11,954 - core.ai_client - INFO - Completed streaming business response: 1107 characters
+2025-07-12 02:04:11,955 - services.chat_service - INFO - Completed streaming response for thrrqyq4rpe: 1107 chars in 7.98s
+2025-07-12 02:04:11,955 - api.chat - INFO - Chat response completed in 7.99s
+2025-07-12 02:04:32,044 - api.chat - INFO - Processing chat request: Which hotels have the best win rates?... (conversation: m7tlvcelm4)
+2025-07-12 02:04:32,046 - services.chat_service - INFO - Created new conversation: m7tlvcelm4
+2025-07-12 02:04:32,046 - services.chat_service - INFO - Added user message to conversation m7tlvcelm4: Which hotels have the best win rates?...
+2025-07-12 02:04:32,047 - core.ai_client - INFO - Generating streaming business response for: Which hotels have the best win rates?...
+2025-07-12 02:04:33,554 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:04:42,466 - core.ai_client - INFO - Completed streaming business response: 1467 characters
+2025-07-12 02:04:42,468 - services.chat_service - INFO - Completed streaming response for m7tlvcelm4: 1467 chars in 10.42s
+2025-07-12 02:04:42,469 - api.chat - INFO - Chat response completed in 10.43s
+2025-07-12 02:04:55,995 - api.chat - INFO - Processing chat request: hi... (conversation: m7tlvcelm4)
+2025-07-12 02:04:55,998 - services.chat_service - INFO - Added user message to conversation m7tlvcelm4: hi...
+2025-07-12 02:04:55,999 - core.ai_client - INFO - Generating streaming business response for: hi...
+2025-07-12 02:04:57,553 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:05:02,251 - core.ai_client - INFO - Completed streaming business response: 952 characters
+2025-07-12 02:05:02,251 - services.chat_service - INFO - Completed streaming response for m7tlvcelm4: 952 chars in 6.25s
+2025-07-12 02:05:02,252 - api.chat - INFO - Chat response completed in 6.26s
+2025-07-12 02:12:52,093 - api.chat - INFO - Processing chat request: Show me all active events... (conversation: xrwa9en9r3g)
+2025-07-12 02:12:52,108 - services.chat_service - INFO - Created new conversation: xrwa9en9r3g
+2025-07-12 02:12:52,111 - services.chat_service - INFO - Added user message to conversation xrwa9en9r3g: Show me all active events...
+2025-07-12 02:12:52,114 - core.ai_client - INFO - Generating streaming business response for: Show me all active events...
+2025-07-12 02:12:53,633 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:13:00,499 - core.ai_client - INFO - Completed streaming business response: 1206 characters
+2025-07-12 02:13:00,502 - services.chat_service - INFO - Completed streaming response for xrwa9en9r3g: 1206 chars in 8.39s
+2025-07-12 02:13:00,513 - api.chat - INFO - Chat response completed in 8.42s
+2025-07-12 02:15:19,982 - api.chat - INFO - Processing chat request: Revenue analysis by event type... (conversation: pm3e3ju3vof)
+2025-07-12 02:15:19,987 - services.chat_service - INFO - Created new conversation: pm3e3ju3vof
+2025-07-12 02:15:19,988 - services.chat_service - INFO - Added user message to conversation pm3e3ju3vof: Revenue analysis by event type...
+2025-07-12 02:15:19,990 - core.ai_client - INFO - Generating streaming business response for: Revenue analysis by event type...
+2025-07-12 02:15:21,554 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:19:14,626 - api.chat - INFO - Processing chat request: Which hotels have the best win rates?... (conversation: amghczbrqpg)
+2025-07-12 02:19:14,629 - services.chat_service - INFO - Created new conversation: amghczbrqpg
+2025-07-12 02:19:14,630 - services.chat_service - INFO - Added user message to conversation amghczbrqpg: Which hotels have the best win rates?...
+2025-07-12 02:19:14,632 - core.ai_client - INFO - Generating streaming business response for: Which hotels have the best win rates?...
+2025-07-12 02:19:16,098 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:19:24,597 - core.ai_client - INFO - Completed streaming business response: 1454 characters
+2025-07-12 02:19:24,598 - services.chat_service - INFO - Completed streaming response for amghczbrqpg: 1454 chars in 9.97s
+2025-07-12 02:19:24,599 - api.chat - INFO - Chat response completed in 9.97s
+2025-07-12 02:23:24,911 - api.chat - INFO - Processing chat request: Which hotels have the best win rates?... (conversation: 8prk5uvrkhk)
+2025-07-12 02:23:24,916 - services.chat_service - INFO - Created new conversation: 8prk5uvrkhk
+2025-07-12 02:23:24,921 - services.chat_service - INFO - Added user message to conversation 8prk5uvrkhk: Which hotels have the best win rates?...
+2025-07-12 02:23:24,923 - core.ai_client - INFO - Generating streaming business response for: Which hotels have the best win rates?...
+2025-07-12 02:23:26,466 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:23:35,588 - core.ai_client - INFO - Completed streaming business response: 1488 characters
+2025-07-12 02:23:35,589 - services.chat_service - INFO - Completed streaming response for 8prk5uvrkhk: 1488 chars in 10.67s
+2025-07-12 02:23:35,590 - api.chat - INFO - Chat response completed in 10.68s
+2025-07-12 02:37:01,308 - api.chat - INFO - Processing chat request: Show me all active events... (conversation: odoqt3kri3)
+2025-07-12 02:37:01,353 - services.chat_service - INFO - Created new conversation: odoqt3kri3
+2025-07-12 02:37:01,371 - services.chat_service - INFO - Added user message to conversation odoqt3kri3: Show me all active events...
+2025-07-12 02:37:01,381 - core.ai_client - INFO - Generating streaming business response for: Show me all active events...
+2025-07-12 02:37:02,919 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:37:10,928 - core.ai_client - INFO - Completed streaming business response: 1414 characters
+2025-07-12 02:37:10,929 - services.chat_service - INFO - Completed streaming response for odoqt3kri3: 1414 chars in 9.55s
+2025-07-12 02:37:10,929 - api.chat - INFO - Chat response completed in 9.62s
+2025-07-12 02:42:29,827 - api.chat - INFO - Processing chat request: Revenue analysis by event type... (conversation: w0oq2ky2b5k)
+2025-07-12 02:42:29,835 - services.chat_service - INFO - Created new conversation: w0oq2ky2b5k
+2025-07-12 02:42:29,838 - services.chat_service - INFO - Added user message to conversation w0oq2ky2b5k: Revenue analysis by event type...
+2025-07-12 02:42:29,843 - core.ai_client - INFO - Generating streaming business response for: Revenue analysis by event type...
+2025-07-12 02:42:32,161 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:42:44,866 - core.ai_client - INFO - Completed streaming business response: 1936 characters
+2025-07-12 02:42:44,869 - services.chat_service - INFO - Completed streaming response for w0oq2ky2b5k: 1936 chars in 15.03s
+2025-07-12 02:42:44,871 - api.chat - INFO - Chat response completed in 15.04s
+2025-07-12 02:44:24,089 - api.chat - INFO - Processing chat request: Events closing this week... (conversation: hvpya69sxb6)
+2025-07-12 02:44:24,094 - services.chat_service - INFO - Created new conversation: hvpya69sxb6
+2025-07-12 02:44:24,095 - services.chat_service - INFO - Added user message to conversation hvpya69sxb6: Events closing this week...
+2025-07-12 02:44:24,099 - core.ai_client - INFO - Generating streaming business response for: Events closing this week...
+2025-07-12 02:44:26,230 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:44:34,077 - core.ai_client - INFO - Completed streaming business response: 1246 characters
+2025-07-12 02:44:34,079 - services.chat_service - INFO - Completed streaming response for hvpya69sxb6: 1246 chars in 9.98s
+2025-07-12 02:44:34,080 - api.chat - INFO - Chat response completed in 9.99s
+2025-07-12 02:46:00,873 - api.chat - INFO - Processing chat request: Which hotels have the best win rates?... (conversation: dt9jk9khni)
+2025-07-12 02:46:00,876 - services.chat_service - INFO - Created new conversation: dt9jk9khni
+2025-07-12 02:46:00,876 - services.chat_service - INFO - Added user message to conversation dt9jk9khni: Which hotels have the best win rates?...
+2025-07-12 02:46:00,883 - core.ai_client - INFO - Generating streaming business response for: Which hotels have the best win rates?...
+2025-07-12 02:46:02,388 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:46:11,473 - core.ai_client - INFO - Completed streaming business response: 1511 characters
+2025-07-12 02:46:11,475 - services.chat_service - INFO - Completed streaming response for dt9jk9khni: 1511 chars in 10.60s
+2025-07-12 02:46:11,475 - api.chat - INFO - Chat response completed in 10.60s
+2025-07-12 02:51:23,168 - api.chat - INFO - Processing chat request: Which hotels have the best win rates?... (conversation: 4zjii6dh2na)
+2025-07-12 02:51:23,179 - services.chat_service - INFO - Created new conversation: 4zjii6dh2na
+2025-07-12 02:51:23,180 - services.chat_service - INFO - Added user message to conversation 4zjii6dh2na: Which hotels have the best win rates?...
+2025-07-12 02:51:23,187 - core.ai_client - INFO - Generating streaming business response for: Which hotels have the best win rates?...
+2025-07-12 02:51:25,065 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:51:34,268 - core.ai_client - INFO - Completed streaming business response: 1339 characters
+2025-07-12 02:51:34,270 - services.chat_service - INFO - Completed streaming response for 4zjii6dh2na: 1339 chars in 11.09s
+2025-07-12 02:51:34,270 - api.chat - INFO - Chat response completed in 11.10s
+2025-07-12 02:59:08,944 - api.chat - INFO - Processing chat request: s... (conversation: 79lsxfnxh6g)
+2025-07-12 02:59:08,949 - services.chat_service - INFO - Created new conversation: 79lsxfnxh6g
+2025-07-12 02:59:08,949 - services.chat_service - INFO - Added user message to conversation 79lsxfnxh6g: s...
+2025-07-12 02:59:08,952 - core.ai_client - INFO - Generating streaming business response for: s...
+2025-07-12 02:59:10,422 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 02:59:14,622 - core.ai_client - INFO - Completed streaming business response: 719 characters
+2025-07-12 02:59:14,622 - services.chat_service - INFO - Completed streaming response for 79lsxfnxh6g: 719 chars in 5.67s
+2025-07-12 02:59:14,623 - api.chat - INFO - Chat response completed in 5.68s
+2025-07-12 03:00:47,651 - api.chat - INFO - Processing chat request: \g... (conversation: qv6dqrzaf2)
+2025-07-12 03:00:47,654 - services.chat_service - INFO - Created new conversation: qv6dqrzaf2
+2025-07-12 03:00:47,654 - services.chat_service - INFO - Added user message to conversation qv6dqrzaf2: \g...
+2025-07-12 03:00:47,655 - core.ai_client - INFO - Generating streaming business response for: \g...
+2025-07-12 03:00:49,580 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:00:54,641 - core.ai_client - INFO - Completed streaming business response: 1152 characters
+2025-07-12 03:00:54,644 - services.chat_service - INFO - Completed streaming response for qv6dqrzaf2: 1152 chars in 6.99s
+2025-07-12 03:00:54,645 - api.chat - INFO - Chat response completed in 6.99s
+2025-07-12 03:04:45,893 - api.chat - INFO - Processing chat request: hi... (conversation: xb03bj9eg7)
+2025-07-12 03:04:45,914 - services.chat_service - INFO - Created new conversation: xb03bj9eg7
+2025-07-12 03:04:45,914 - services.chat_service - INFO - Added user message to conversation xb03bj9eg7: hi...
+2025-07-12 03:04:45,916 - core.ai_client - INFO - Generating streaming business response for: hi...
+2025-07-12 03:04:47,286 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:04:51,476 - core.ai_client - INFO - Completed streaming business response: 1015 characters
+2025-07-12 03:04:51,480 - services.chat_service - INFO - Completed streaming response for xb03bj9eg7: 1015 chars in 5.57s
+2025-07-12 03:04:51,481 - api.chat - INFO - Chat response completed in 5.59s
+2025-07-12 03:06:44,835 - api.chat - INFO - Processing chat request: j... (conversation: r5j3o9qmy6j)
+2025-07-12 03:06:44,840 - services.chat_service - INFO - Created new conversation: r5j3o9qmy6j
+2025-07-12 03:06:44,841 - services.chat_service - INFO - Added user message to conversation r5j3o9qmy6j: j...
+2025-07-12 03:06:44,843 - core.ai_client - INFO - Generating streaming business response for: j...
+2025-07-12 03:06:46,428 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:06:51,042 - core.ai_client - INFO - Completed streaming business response: 802 characters
+2025-07-12 03:06:51,042 - services.chat_service - INFO - Completed streaming response for r5j3o9qmy6j: 802 chars in 6.20s
+2025-07-12 03:06:51,043 - api.chat - INFO - Chat response completed in 6.21s
+2025-07-12 03:07:21,412 - api.chat - INFO - Processing chat request: Events closing this week... (conversation: ygfd9vtylap)
+2025-07-12 03:07:21,421 - services.chat_service - INFO - Created new conversation: ygfd9vtylap
+2025-07-12 03:07:21,427 - services.chat_service - INFO - Added user message to conversation ygfd9vtylap: Events closing this week...
+2025-07-12 03:07:21,431 - core.ai_client - INFO - Generating streaming business response for: Events closing this week...
+2025-07-12 03:07:23,286 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:07:30,875 - core.ai_client - INFO - Completed streaming business response: 1001 characters
+2025-07-12 03:07:30,876 - services.chat_service - INFO - Completed streaming response for ygfd9vtylap: 1001 chars in 9.45s
+2025-07-12 03:07:30,876 - api.chat - INFO - Chat response completed in 9.46s
+2025-07-12 03:12:14,738 - api.chat - INFO - Processing chat request: d... (conversation: xoh668pnpx)
+2025-07-12 03:12:14,752 - services.chat_service - INFO - Created new conversation: xoh668pnpx
+2025-07-12 03:12:14,757 - services.chat_service - INFO - Added user message to conversation xoh668pnpx: d...
+2025-07-12 03:12:14,759 - core.ai_client - INFO - Generating streaming business response for: d...
+2025-07-12 03:12:16,470 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:12:20,175 - core.ai_client - INFO - Completed streaming business response: 579 characters
+2025-07-12 03:12:20,176 - services.chat_service - INFO - Completed streaming response for xoh668pnpx: 579 chars in 5.42s
+2025-07-12 03:12:20,177 - api.chat - INFO - Chat response completed in 5.44s
+2025-07-12 03:23:46,292 - api.chat - INFO - Processing chat request: s... (conversation: o7fr6qc7ssm)
+2025-07-12 03:23:46,304 - services.chat_service - INFO - Created new conversation: o7fr6qc7ssm
+2025-07-12 03:23:46,308 - services.chat_service - INFO - Added user message to conversation o7fr6qc7ssm: s...
+2025-07-12 03:23:46,313 - core.ai_client - INFO - Generating streaming business response for: s...
+2025-07-12 03:23:47,945 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:23:53,319 - core.ai_client - INFO - Completed streaming business response: 1017 characters
+2025-07-12 03:23:53,319 - services.chat_service - INFO - Completed streaming response for o7fr6qc7ssm: 1017 chars in 7.01s
+2025-07-12 03:23:53,320 - api.chat - INFO - Chat response completed in 7.03s
+2025-07-12 03:32:02,159 - api.chat - INFO - Processing chat request: What's our revenue pipeline?... (conversation: 17hjm3shihp)
+2025-07-12 03:32:02,169 - services.chat_service - INFO - Created new conversation: 17hjm3shihp
+2025-07-12 03:32:02,172 - services.chat_service - INFO - Added user message to conversation 17hjm3shihp: What's our revenue pipeline?...
+2025-07-12 03:32:02,174 - core.ai_client - INFO - Generating streaming business response for: What's our revenue pipeline?...
+2025-07-12 03:32:03,684 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:32:10,052 - core.ai_client - INFO - Completed streaming business response: 1147 characters
+2025-07-12 03:32:10,053 - services.chat_service - INFO - Completed streaming response for 17hjm3shihp: 1147 chars in 7.88s
+2025-07-12 03:32:10,055 - api.chat - INFO - Chat response completed in 7.90s
+2025-07-12 03:32:28,361 - api.chat - INFO - Processing chat request: Which hotels have the best win rates?... (conversation: bc7a06qcvl5)
+2025-07-12 03:32:28,363 - services.chat_service - INFO - Created new conversation: bc7a06qcvl5
+2025-07-12 03:32:28,363 - services.chat_service - INFO - Added user message to conversation bc7a06qcvl5: Which hotels have the best win rates?...
+2025-07-12 03:32:28,364 - core.ai_client - INFO - Generating streaming business response for: Which hotels have the best win rates?...
+2025-07-12 03:32:30,230 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:32:39,620 - core.ai_client - INFO - Completed streaming business response: 1475 characters
+2025-07-12 03:32:39,622 - services.chat_service - INFO - Completed streaming response for bc7a06qcvl5: 1475 chars in 11.26s
+2025-07-12 03:32:39,622 - api.chat - INFO - Chat response completed in 11.26s
+2025-07-12 03:33:38,249 - api.chat - INFO - Processing chat request: Which hotels have the best win rates?... (conversation: jr3ksnes7)
+2025-07-12 03:33:38,257 - services.chat_service - INFO - Created new conversation: jr3ksnes7
+2025-07-12 03:33:38,258 - services.chat_service - INFO - Added user message to conversation jr3ksnes7: Which hotels have the best win rates?...
+2025-07-12 03:33:38,259 - core.ai_client - INFO - Generating streaming business response for: Which hotels have the best win rates?...
+2025-07-12 03:33:39,851 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:33:48,565 - core.ai_client - INFO - Completed streaming business response: 1382 characters
+2025-07-12 03:33:48,565 - services.chat_service - INFO - Completed streaming response for jr3ksnes7: 1382 chars in 10.31s
+2025-07-12 03:33:48,566 - api.chat - INFO - Chat response completed in 10.32s
+2025-07-12 03:34:18,379 - api.chat - INFO - Processing chat request: IF YOU were to onlhy decide on one single hotel to hold all events which one would you chose and why... (conversation: jr3ksnes7)
+2025-07-12 03:34:18,381 - services.chat_service - INFO - Added user message to conversation jr3ksnes7: IF YOU were to onlhy decide on one single hotel to hold all events which one would you chose and why...
+2025-07-12 03:34:18,383 - core.ai_client - INFO - Generating streaming business response for: IF YOU were to onlhy decide on one single hotel to hold all events which one would you chose and why...
+2025-07-12 03:34:20,006 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:34:33,916 - core.ai_client - INFO - Completed streaming business response: 2125 characters
+2025-07-12 03:34:33,918 - services.chat_service - INFO - Completed streaming response for jr3ksnes7: 2125 chars in 15.54s
+2025-07-12 03:34:33,919 - api.chat - INFO - Chat response completed in 15.54s
+2025-07-12 03:38:21,731 - api.chat - INFO - Processing chat request: what are you good at ?... (conversation: ld0y1qq9ae)
+2025-07-12 03:38:21,754 - services.chat_service - INFO - Created new conversation: ld0y1qq9ae
+2025-07-12 03:38:21,755 - services.chat_service - INFO - Added user message to conversation ld0y1qq9ae: what are you good at ?...
+2025-07-12 03:38:21,759 - core.ai_client - INFO - Generating streaming business response for: what are you good at ?...
+2025-07-12 03:38:23,520 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:38:35,264 - core.ai_client - INFO - Completed streaming business response: 2096 characters
+2025-07-12 03:38:35,266 - services.chat_service - INFO - Completed streaming response for ld0y1qq9ae: 2096 chars in 13.51s
+2025-07-12 03:38:35,269 - api.chat - INFO - Chat response completed in 13.54s
+2025-07-12 03:39:00,756 - api.chat - INFO - Processing chat request: Performance Metrics - Real-time tracking of your 67 active bids across 25 hotel partners
+ .... are y... (conversation: ld0y1qq9ae)
+2025-07-12 03:39:00,759 - services.chat_service - INFO - Added user message to conversation ld0y1qq9ae: Performance Metrics - Real-time tracking of your 67 active bids across 25 hotel partners
+ .... are y...
+2025-07-12 03:39:00,759 - core.ai_client - INFO - Generating streaming business response for: Performance Metrics - Real-time tracking of your 67 active bids across 25 hotel partners
+ .... are y...
+2025-07-12 03:39:02,355 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:39:09,842 - core.ai_client - INFO - Completed streaming business response: 1129 characters
+2025-07-12 03:39:09,842 - services.chat_service - INFO - Completed streaming response for ld0y1qq9ae: 1129 chars in 9.08s
+2025-07-12 03:39:09,843 - api.chat - INFO - Chat response completed in 9.09s
+2025-07-12 03:39:55,936 - api.chat - INFO - Processing chat request: why you said 67 is that some hardcoded data on your prompts or not ?... (conversation: ld0y1qq9ae)
+2025-07-12 03:39:55,939 - services.chat_service - INFO - Added user message to conversation ld0y1qq9ae: why you said 67 is that some hardcoded data on your prompts or not ?...
+2025-07-12 03:39:55,940 - core.ai_client - INFO - Generating streaming business response for: why you said 67 is that some hardcoded data on your prompts or not ?...
+2025-07-12 03:39:57,556 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:40:04,794 - core.ai_client - INFO - Completed streaming business response: 1130 characters
+2025-07-12 03:40:04,795 - services.chat_service - INFO - Completed streaming response for ld0y1qq9ae: 1130 chars in 8.86s
+2025-07-12 03:40:04,795 - api.chat - INFO - Chat response completed in 8.86s
+2025-07-12 03:40:48,431 - api.chat - INFO - Processing chat request: compare all your hardcoded data in initial propts with actual data you access... (conversation: ld0y1qq9ae)
+2025-07-12 03:40:48,434 - services.chat_service - INFO - Added user message to conversation ld0y1qq9ae: compare all your hardcoded data in initial propts with actual data you access...
+2025-07-12 03:40:48,435 - core.ai_client - INFO - Generating streaming business response for: compare all your hardcoded data in initial propts with actual data you access...
+2025-07-12 03:40:50,494 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:41:00,279 - core.ai_client - INFO - Completed streaming business response: 1638 characters
+2025-07-12 03:41:00,280 - services.chat_service - INFO - Completed streaming response for ld0y1qq9ae: 1638 chars in 11.85s
+2025-07-12 03:41:00,280 - api.chat - INFO - Chat response completed in 11.85s
+2025-07-12 03:42:03,708 - api.chat - INFO - Processing chat request: mmm this sounds weir dman are you working properly??/ yes htis is an MVP but you shold have now some... (conversation: ld0y1qq9ae)
+2025-07-12 03:42:03,711 - services.chat_service - INFO - Added user message to conversation ld0y1qq9ae: mmm this sounds weir dman are you working properly??/ yes htis is an MVP but you shold have now some...
+2025-07-12 03:42:03,712 - core.ai_client - INFO - Generating streaming business response for: mmm this sounds weir dman are you working properly??/ yes htis is an MVP but you shold have now some...
+2025-07-12 03:42:05,556 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:42:13,549 - core.ai_client - INFO - Completed streaming business response: 1342 characters
+2025-07-12 03:42:13,550 - services.chat_service - INFO - Completed streaming response for ld0y1qq9ae: 1342 chars in 9.84s
+2025-07-12 03:42:13,550 - api.chat - INFO - Chat response completed in 9.84s
+2025-07-12 03:43:01,191 - api.chat - INFO - Processing chat request: ok so it is in fact 67 bids right??? if i ask you to mention all bids can you do that ?... (conversation: ld0y1qq9ae)
+2025-07-12 03:43:01,193 - services.chat_service - INFO - Added user message to conversation ld0y1qq9ae: ok so it is in fact 67 bids right??? if i ask you to mention all bids can you do that ?...
+2025-07-12 03:43:01,194 - core.ai_client - INFO - Generating streaming business response for: ok so it is in fact 67 bids right??? if i ask you to mention all bids can you do that ?...
+2025-07-12 03:43:02,982 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:43:09,925 - core.ai_client - INFO - Completed streaming business response: 1188 characters
+2025-07-12 03:43:09,926 - services.chat_service - INFO - Completed streaming response for ld0y1qq9ae: 1188 chars in 8.73s
+2025-07-12 03:43:09,927 - api.chat - INFO - Chat response completed in 8.74s
+2025-07-12 03:47:21,124 - __main__ - INFO - Starting application server...
+2025-07-12 03:47:21,166 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 03:47:21,166 - main - INFO - Loading business intelligence data...
+2025-07-12 03:47:21,170 - main - INFO - ✅ Business data loaded: 15 events, 76 bids
+2025-07-12 03:47:21,171 - main - INFO - Validating AI setup...
+2025-07-12 03:47:21,228 - core.ai_client - INFO - Loaded business data: 15 events, 76 bids
+2025-07-12 03:47:21,228 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 03:47:22,802 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:47:22,811 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 03:47:22,811 - main - INFO - Initializing chat service...
+2025-07-12 03:47:22,811 - services.chat_service - INFO - Chat service initialized
+2025-07-12 03:47:22,811 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 03:47:22,811 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 03:47:59,368 - __main__ - INFO - Starting application server...
+2025-07-12 03:47:59,390 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 03:47:59,391 - main - INFO - Loading business intelligence data...
+2025-07-12 03:47:59,394 - main - INFO - ✅ Business data loaded: 15 events, 78 bids
+2025-07-12 03:47:59,394 - main - INFO - Validating AI setup...
+2025-07-12 03:47:59,432 - core.ai_client - INFO - Loaded business data: 15 events, 78 bids
+2025-07-12 03:47:59,432 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 03:48:00,990 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:48:01,008 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 03:48:01,008 - main - INFO - Initializing chat service...
+2025-07-12 03:48:01,008 - services.chat_service - INFO - Chat service initialized
+2025-07-12 03:48:01,009 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 03:48:01,009 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 03:49:26,273 - __main__ - INFO - Starting application server...
+2025-07-12 03:49:26,310 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 03:49:26,310 - main - INFO - Loading business intelligence data...
+2025-07-12 03:49:26,315 - main - INFO - ✅ Business data loaded: 15 events, 69 bids
+2025-07-12 03:49:26,315 - main - INFO - Validating AI setup...
+2025-07-12 03:49:26,366 - core.ai_client - INFO - Loaded business data: 15 events, 69 bids
+2025-07-12 03:49:26,366 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 03:49:27,998 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:49:28,015 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 03:49:28,015 - main - INFO - Initializing chat service...
+2025-07-12 03:49:28,015 - services.chat_service - INFO - Chat service initialized
+2025-07-12 03:49:28,015 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 03:49:28,015 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 03:58:57,758 - __main__ - INFO - Starting application server...
+2025-07-12 03:58:57,893 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 03:58:57,893 - main - INFO - Loading business intelligence data...
+2025-07-12 03:58:57,897 - main - INFO - ✅ Business data loaded: 15 events, 76 bids
+2025-07-12 03:58:57,897 - main - INFO - Validating AI setup...
+2025-07-12 03:58:58,011 - core.ai_client - INFO - Loaded business data: 15 events, 76 bids
+2025-07-12 03:58:58,011 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 03:59:00,018 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:59:00,032 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 03:59:00,032 - main - INFO - Initializing chat service...
+2025-07-12 03:59:00,032 - services.chat_service - INFO - Chat service initialized
+2025-07-12 03:59:00,032 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 03:59:00,032 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 03:59:02,725 - api.chat - INFO - Processing chat request: list me every single bit you hae access to right now with number bullets... (conversation: zspi9qtog6c)
+2025-07-12 03:59:02,733 - services.chat_service - INFO - Created new conversation: zspi9qtog6c
+2025-07-12 03:59:02,734 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: list me every single bit you hae access to right now with number bullets...
+2025-07-12 03:59:02,734 - core.ai_client - INFO - Generating streaming business response for: list me every single bit you hae access to right now with number bullets...
+2025-07-12 03:59:03,909 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 03:59:12,515 - core.ai_client - INFO - Completed streaming business response: 1756 characters
+2025-07-12 03:59:12,516 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 1756 chars in 9.78s
+2025-07-12 03:59:12,517 - api.chat - INFO - Chat response completed in 9.79s
+2025-07-12 04:00:18,706 - api.chat - INFO - Processing chat request: so here is 76 bids but you onlh have acces to 15 right ?
+
+mention all 15 bids you have access to rei... (conversation: zspi9qtog6c)
+2025-07-12 04:00:18,710 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: so here is 76 bids but you onlh have acces to 15 right ?
+
+mention all 15 bids you have access to rei...
+2025-07-12 04:00:18,711 - core.ai_client - INFO - Generating streaming business response for: so here is 76 bids but you onlh have acces to 15 right ?
+
+mention all 15 bids you have access to rei...
+2025-07-12 04:00:20,504 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 04:00:31,587 - core.ai_client - INFO - Completed streaming business response: 2329 characters
+2025-07-12 04:00:31,588 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 2329 chars in 12.88s
+2025-07-12 04:00:31,588 - api.chat - INFO - Chat response completed in 12.88s
+2025-07-12 04:01:14,467 - api.chat - INFO - Processing chat request: and how many events ?... (conversation: zspi9qtog6c)
+2025-07-12 04:01:14,470 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: and how many events ?...
+2025-07-12 04:01:14,471 - core.ai_client - INFO - Generating streaming business response for: and how many events ?...
+2025-07-12 04:01:16,211 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 04:01:21,940 - core.ai_client - INFO - Completed streaming business response: 1308 characters
+2025-07-12 04:01:21,940 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 1308 chars in 7.47s
+2025-07-12 04:01:21,941 - api.chat - INFO - Chat response completed in 7.47s
+2025-07-12 04:01:52,887 - api.chat - INFO - Processing chat request: ok what are the top 3 events and why ?... (conversation: zspi9qtog6c)
+2025-07-12 04:01:52,890 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: ok what are the top 3 events and why ?...
+2025-07-12 04:01:52,890 - core.ai_client - INFO - Generating streaming business response for: ok what are the top 3 events and why ?...
+2025-07-12 04:01:54,510 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 04:02:04,936 - core.ai_client - INFO - Completed streaming business response: 1863 characters
+2025-07-12 04:02:04,937 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 1863 chars in 12.05s
+2025-07-12 04:02:04,937 - api.chat - INFO - Chat response completed in 12.05s
+2025-07-12 04:02:51,568 - api.chat - INFO - Processing chat request: Massive Revenue Potential: $392,140 - $686,246 (highest budget by far)
+who determines that budget ? ... (conversation: zspi9qtog6c)
+2025-07-12 04:02:51,571 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: Massive Revenue Potential: $392,140 - $686,246 (highest budget by far)
+who determines that budget ? ...
+2025-07-12 04:02:51,572 - core.ai_client - INFO - Generating streaming business response for: Massive Revenue Potential: $392,140 - $686,246 (highest budget by far)
+who determines that budget ? ...
+2025-07-12 04:02:54,004 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 04:03:03,409 - core.ai_client - INFO - Completed streaming business response: 1541 characters
+2025-07-12 04:03:03,410 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 1541 chars in 11.84s
+2025-07-12 04:03:03,411 - api.chat - INFO - Chat response completed in 11.84s
+2025-07-12 04:03:25,749 - api.chat - INFO - Processing chat request: ok an how may bids we have for that hotel ?... (conversation: zspi9qtog6c)
+2025-07-12 04:03:25,752 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: ok an how may bids we have for that hotel ?...
+2025-07-12 04:03:25,753 - core.ai_client - INFO - Generating streaming business response for: ok an how may bids we have for that hotel ?...
+2025-07-12 04:03:27,593 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 04:03:35,115 - core.ai_client - INFO - Completed streaming business response: 1322 characters
+2025-07-12 04:03:35,116 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 1322 chars in 9.36s
+2025-07-12 04:03:35,116 - api.chat - INFO - Chat response completed in 9.37s
+2025-07-12 04:04:17,448 - api.chat - INFO - Processing chat request: who wold you chose and why ?... (conversation: zspi9qtog6c)
+2025-07-12 04:04:17,451 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: who wold you chose and why ?...
+2025-07-12 04:04:17,452 - core.ai_client - INFO - Generating streaming business response for: who wold you chose and why ?...
+2025-07-12 04:04:19,100 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 04:04:29,547 - core.ai_client - INFO - Completed streaming business response: 1656 characters
+2025-07-12 04:04:29,547 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 1656 chars in 12.10s
+2025-07-12 04:04:29,548 - api.chat - INFO - Chat response completed in 12.10s
+2025-07-12 04:06:16,232 - api.chat - INFO - Processing chat request: i created you ? i know you are sonnet 4 even thought you are masked now to say you are MCW ... how d... (conversation: zspi9qtog6c)
+2025-07-12 04:06:16,236 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: i created you ? i know you are sonnet 4 even thought you are masked now to say you are MCW ... how d...
+2025-07-12 04:06:16,237 - core.ai_client - INFO - Generating streaming business response for: i created you ? i know you are sonnet 4 even thought you are masked now to say you are MCW ... how d...
+2025-07-12 04:06:17,755 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 04:06:29,254 - core.ai_client - INFO - Completed streaming business response: 1736 characters
+2025-07-12 04:06:29,256 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 1736 chars in 13.02s
+2025-07-12 04:06:29,257 - api.chat - INFO - Chat response completed in 13.02s
+2025-07-12 04:08:19,203 - api.chat - INFO - Processing chat request: so the people i will work for had a business that they used to review customer by ustomer and take l... (conversation: zspi9qtog6c)
+2025-07-12 04:08:19,207 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: so the people i will work for had a business that they used to review customer by ustomer and take l...
+2025-07-12 04:08:19,211 - core.ai_client - INFO - Generating streaming business response for: so the people i will work for had a business that they used to review customer by ustomer and take l...
+2025-07-12 04:08:21,382 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 04:08:33,178 - core.ai_client - INFO - Completed streaming business response: 1622 characters
+2025-07-12 04:08:33,180 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 1622 chars in 13.97s
+2025-07-12 04:08:33,181 - api.chat - INFO - Chat response completed in 13.98s
+2025-07-12 04:09:39,335 - api.chat - INFO - Processing chat request: lets test it give me top 3 bids for all 10 events we have and flag any high value opportuniti8es or ... (conversation: zspi9qtog6c)
+2025-07-12 04:09:39,337 - services.chat_service - INFO - Added user message to conversation zspi9qtog6c: lets test it give me top 3 bids for all 10 events we have and flag any high value opportuniti8es or ...
+2025-07-12 04:09:39,338 - core.ai_client - INFO - Generating streaming business response for: lets test it give me top 3 bids for all 10 events we have and flag any high value opportuniti8es or ...
+2025-07-12 04:09:42,177 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 04:09:55,913 - core.ai_client - INFO - Completed streaming business response: 2246 characters
+2025-07-12 04:09:55,914 - services.chat_service - INFO - Completed streaming response for zspi9qtog6c: 2246 chars in 16.58s
+2025-07-12 04:09:55,915 - api.chat - INFO - Chat response completed in 16.58s
+2025-07-12 13:18:27,730 - main - INFO - Shutting down application...
+2025-07-12 13:18:27,733 - main - INFO - 👋 Application shutdown complete
+2025-07-12 13:18:30,659 - __main__ - INFO - Starting application server...
+2025-07-12 13:18:30,690 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 13:18:30,690 - main - INFO - Loading business intelligence data...
+2025-07-12 13:18:30,693 - main - INFO - ✅ Business data loaded: 15 events, 76 bids
+2025-07-12 13:18:30,693 - main - INFO - Validating AI setup...
+2025-07-12 13:18:30,746 - core.ai_client - INFO - Loaded business data: 15 events, 76 bids
+2025-07-12 13:18:30,746 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 13:18:32,508 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 13:18:32,532 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 13:18:32,532 - main - INFO - Initializing chat service...
+2025-07-12 13:18:32,532 - services.chat_service - INFO - Chat service initialized
+2025-07-12 13:18:32,532 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 13:18:32,533 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 13:19:01,645 - api.chat - INFO - Processing chat request: how many events do we have... (conversation: 41h4dzbyvzq)
+2025-07-12 13:19:01,691 - services.chat_service - INFO - Created new conversation: 41h4dzbyvzq
+2025-07-12 13:19:01,692 - services.chat_service - INFO - Added user message to conversation 41h4dzbyvzq: how many events do we have...
+2025-07-12 13:19:01,695 - core.ai_client - INFO - Generating streaming business response for: how many events do we have...
+2025-07-12 13:19:03,535 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 13:19:07,168 - core.ai_client - INFO - Completed streaming business response: 657 characters
+2025-07-12 13:19:07,169 - services.chat_service - INFO - Completed streaming response for 41h4dzbyvzq: 657 chars in 5.48s
+2025-07-12 13:19:07,170 - api.chat - INFO - Chat response completed in 5.53s
+2025-07-12 13:19:43,477 - api.chat - INFO - Processing chat request: how many bids do we have for those events... (conversation: 41h4dzbyvzq)
+2025-07-12 13:19:43,482 - services.chat_service - INFO - Added user message to conversation 41h4dzbyvzq: how many bids do we have for those events...
+2025-07-12 13:19:43,485 - core.ai_client - INFO - Generating streaming business response for: how many bids do we have for those events...
+2025-07-12 13:19:45,504 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 13:19:52,996 - core.ai_client - INFO - Completed streaming business response: 1006 characters
+2025-07-12 13:19:52,997 - services.chat_service - INFO - Completed streaming response for 41h4dzbyvzq: 1006 chars in 9.51s
+2025-07-12 13:19:52,998 - api.chat - INFO - Chat response completed in 9.52s
+2025-07-12 13:20:05,784 - api.chat - INFO - Processing chat request: can you list all 76 bids please... (conversation: 41h4dzbyvzq)
+2025-07-12 13:20:05,787 - services.chat_service - INFO - Added user message to conversation 41h4dzbyvzq: can you list all 76 bids please...
+2025-07-12 13:20:05,788 - core.ai_client - INFO - Generating streaming business response for: can you list all 76 bids please...
+2025-07-12 13:20:07,743 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 13:20:23,833 - core.ai_client - INFO - Completed streaming business response: 3350 characters
+2025-07-12 13:20:23,836 - services.chat_service - INFO - Completed streaming response for 41h4dzbyvzq: 3350 chars in 18.05s
+2025-07-12 13:20:23,836 - api.chat - INFO - Chat response completed in 18.05s
+2025-07-12 13:28:42,726 - __main__ - INFO - Starting application server...
+2025-07-12 13:28:42,751 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 13:28:42,751 - main - INFO - Loading business intelligence data...
+2025-07-12 13:28:42,755 - main - INFO - ✅ Business data loaded: 15 events, 69 bids
+2025-07-12 13:28:42,755 - main - INFO - Validating AI setup...
+2025-07-12 13:28:42,797 - core.ai_client - INFO - Loaded business data: 15 events, 69 bids
+2025-07-12 13:28:42,797 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 13:28:44,265 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 13:28:44,281 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 13:28:44,281 - main - INFO - Initializing chat service...
+2025-07-12 13:28:44,281 - services.chat_service - INFO - Chat service initialized
+2025-07-12 13:28:44,282 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 13:28:44,282 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 13:29:05,889 - api.chat - INFO - Processing chat request: list me all current bids... (conversation: lphg6y8cgvh)
+2025-07-12 13:29:05,902 - services.chat_service - INFO - Created new conversation: lphg6y8cgvh
+2025-07-12 13:29:05,903 - services.chat_service - INFO - Added user message to conversation lphg6y8cgvh: list me all current bids...
+2025-07-12 13:29:05,904 - core.ai_client - INFO - Generating streaming business response for: list me all current bids...
+2025-07-12 13:29:07,918 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 13:29:25,769 - core.ai_client - INFO - Completed streaming business response: 4607 characters
+2025-07-12 13:29:25,770 - services.chat_service - INFO - Completed streaming response for lphg6y8cgvh: 4607 chars in 19.87s
+2025-07-12 13:29:25,770 - api.chat - INFO - Chat response completed in 19.88s
+2025-07-12 14:42:29,736 - __main__ - INFO - Starting application server...
+2025-07-12 14:42:29,765 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 14:42:29,765 - main - INFO - Loading business intelligence data...
+2025-07-12 14:42:29,768 - main - INFO - ✅ Business data loaded: 15 events, 75 bids
+2025-07-12 14:42:29,768 - main - INFO - Validating AI setup...
+2025-07-12 14:42:29,808 - core.ai_client - INFO - Loaded business data: 15 events, 75 bids
+2025-07-12 14:42:29,808 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 14:42:31,833 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:42:31,846 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 14:42:31,847 - main - INFO - Initializing chat service...
+2025-07-12 14:42:31,847 - services.chat_service - INFO - Chat service initialized
+2025-07-12 14:42:31,847 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 14:42:31,847 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 14:42:43,185 - api.chat - ERROR - Error getting business metrics: name 'get_enhanced_mock_data' is not defined
+2025-07-12 14:42:43,192 - api.chat - ERROR - Error getting business metrics: name 'get_enhanced_mock_data' is not defined
+2025-07-12 14:42:50,368 - api.chat - ERROR - Error getting business metrics: name 'get_enhanced_mock_data' is not defined
+2025-07-12 14:42:52,667 - api.chat - ERROR - Error getting business metrics: name 'get_enhanced_mock_data' is not defined
+2025-07-12 14:42:52,669 - api.chat - ERROR - Error getting business metrics: name 'get_enhanced_mock_data' is not defined
+2025-07-12 14:43:11,494 - api.chat - INFO - Processing chat request: how me pipeline... (conversation: p64ggj1kca)
+2025-07-12 14:43:11,517 - services.chat_service - INFO - Created new conversation: p64ggj1kca
+2025-07-12 14:43:11,518 - services.chat_service - INFO - Added user message to conversation p64ggj1kca: how me pipeline...
+2025-07-12 14:43:11,526 - core.ai_client - INFO - Generating streaming business response for: how me pipeline...
+2025-07-12 14:43:13,534 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:43:20,343 - core.ai_client - INFO - Completed streaming business response: 1196 characters
+2025-07-12 14:43:20,344 - services.chat_service - INFO - Completed streaming response for p64ggj1kca: 1196 chars in 8.83s
+2025-07-12 14:43:20,345 - api.chat - INFO - Chat response completed in 8.85s
+2025-07-12 14:43:23,881 - api.chat - ERROR - Error getting business metrics: name 'get_enhanced_mock_data' is not defined
+2025-07-12 14:43:23,886 - api.chat - ERROR - Error getting business metrics: name 'get_enhanced_mock_data' is not defined
+2025-07-12 14:43:54,520 - api.chat - ERROR - Error getting business metrics: name 'get_enhanced_mock_data' is not defined
+2025-07-12 14:44:47,600 - api.chat - ERROR - Error getting business metrics: name 'get_enhanced_mock_data' is not defined
+2025-07-12 14:46:20,429 - __main__ - INFO - Starting application server...
+2025-07-12 14:46:20,460 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 14:46:20,460 - main - INFO - Loading business intelligence data...
+2025-07-12 14:46:20,464 - main - INFO - ✅ Business data loaded: 15 events, 67 bids
+2025-07-12 14:46:20,464 - main - INFO - Validating AI setup...
+2025-07-12 14:46:20,510 - core.ai_client - INFO - Loaded business data: 15 events, 67 bids
+2025-07-12 14:46:20,510 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 14:46:22,390 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:46:22,407 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 14:46:22,407 - main - INFO - Initializing chat service...
+2025-07-12 14:46:22,408 - services.chat_service - INFO - Chat service initialized
+2025-07-12 14:46:22,408 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 14:46:22,408 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 14:46:32,152 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:46:32,154 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:46:50,124 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:46:50,127 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:47:02,533 - api.chat - INFO - Processing chat request: show me pipeline... (conversation: dylu7jfgo1)
+2025-07-12 14:47:02,558 - services.chat_service - INFO - Created new conversation: dylu7jfgo1
+2025-07-12 14:47:02,558 - services.chat_service - INFO - Added user message to conversation dylu7jfgo1: show me pipeline...
+2025-07-12 14:47:02,560 - core.ai_client - INFO - Generating streaming business response for: show me pipeline...
+2025-07-12 14:47:04,092 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:47:11,465 - core.ai_client - INFO - Completed streaming business response: 1242 characters
+2025-07-12 14:47:11,465 - services.chat_service - INFO - Completed streaming response for dylu7jfgo1: 1242 chars in 8.91s
+2025-07-12 14:47:11,466 - api.chat - INFO - Chat response completed in 8.93s
+2025-07-12 14:47:18,836 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:47:18,839 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:47:43,742 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:47:49,491 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:48:19,481 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:48:49,488 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:49:19,480 - api.chat - ERROR - Error getting business metrics: 'Event' object has no attribute 'daysLeft'
+2025-07-12 14:49:38,994 - __main__ - INFO - Starting application server...
+2025-07-12 14:49:39,028 - main - INFO - Starting PDF Chat Application v1.0.0
+2025-07-12 14:49:39,028 - main - INFO - Loading business intelligence data...
+2025-07-12 14:49:39,031 - main - INFO - ✅ Business data loaded: 15 events, 79 bids
+2025-07-12 14:49:39,032 - main - INFO - Validating AI setup...
+2025-07-12 14:49:39,076 - core.ai_client - INFO - Loaded business data: 15 events, 79 bids
+2025-07-12 14:49:39,076 - core.ai_client - INFO - Business Intelligence AI client initialized
+2025-07-12 14:49:40,570 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:49:40,581 - main - INFO - ✅ AI setup validated successfully
+2025-07-12 14:49:40,581 - main - INFO - Initializing chat service...
+2025-07-12 14:49:40,581 - services.chat_service - INFO - Chat service initialized
+2025-07-12 14:49:40,581 - main - INFO - ✅ Chat service initialized successfully
+2025-07-12 14:49:40,581 - main - INFO - 🚀 PDF Chat Application startup complete!
+2025-07-12 14:50:19,401 - api.chat - INFO - Processing chat request: whats the total pipeline value ?... (conversation: wmneeygxuqf)
+2025-07-12 14:50:19,457 - services.chat_service - INFO - Created new conversation: wmneeygxuqf
+2025-07-12 14:50:19,460 - services.chat_service - INFO - Added user message to conversation wmneeygxuqf: whats the total pipeline value ?...
+2025-07-12 14:50:19,474 - core.ai_client - INFO - Generating streaming business response for: whats the total pipeline value ?...
+2025-07-12 14:50:20,801 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:50:24,497 - core.ai_client - INFO - Completed streaming business response: 705 characters
+2025-07-12 14:50:24,498 - services.chat_service - INFO - Completed streaming response for wmneeygxuqf: 705 chars in 5.03s
+2025-07-12 14:50:24,500 - api.chat - INFO - Chat response completed in 5.10s
+2025-07-12 14:53:51,689 - api.chat - INFO - Processing chat request: Show me our total pipeline value... (conversation: z85uyqr22zl)
+2025-07-12 14:53:51,698 - services.chat_service - INFO - Created new conversation: z85uyqr22zl
+2025-07-12 14:53:51,699 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: Show me our total pipeline value...
+2025-07-12 14:53:51,701 - core.ai_client - INFO - Generating streaming business response for: Show me our total pipeline value...
+2025-07-12 14:53:53,071 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:53:59,567 - core.ai_client - INFO - Completed streaming business response: 1085 characters
+2025-07-12 14:53:59,568 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 1085 chars in 7.87s
+2025-07-12 14:53:59,568 - api.chat - INFO - Chat response completed in 7.88s
+2025-07-12 14:54:11,709 - api.chat - INFO - Processing chat request: What's our current win rate and how does it compare to industry?... (conversation: z85uyqr22zl)
+2025-07-12 14:54:11,711 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: What's our current win rate and how does it compare to industry?...
+2025-07-12 14:54:11,712 - core.ai_client - INFO - Generating streaming business response for: What's our current win rate and how does it compare to industry?...
+2025-07-12 14:54:13,150 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:54:23,141 - core.ai_client - INFO - Completed streaming business response: 1571 characters
+2025-07-12 14:54:23,152 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 1571 chars in 11.44s
+2025-07-12 14:54:23,153 - api.chat - INFO - Chat response completed in 11.44s
+2025-07-12 14:54:37,213 - api.chat - INFO - Processing chat request: Show me all active events with their values... (conversation: z85uyqr22zl)
+2025-07-12 14:54:37,216 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: Show me all active events with their values...
+2025-07-12 14:54:37,216 - core.ai_client - INFO - Generating streaming business response for: Show me all active events with their values...
+2025-07-12 14:54:38,795 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:54:50,102 - core.ai_client - INFO - Completed streaming business response: 1942 characters
+2025-07-12 14:54:50,104 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 1942 chars in 12.89s
+2025-07-12 14:54:50,105 - api.chat - INFO - Chat response completed in 12.89s
+2025-07-12 14:55:04,163 - api.chat - INFO - Processing chat request: Which events have the highest budget?... (conversation: z85uyqr22zl)
+2025-07-12 14:55:04,165 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: Which events have the highest budget?...
+2025-07-12 14:55:04,166 - core.ai_client - INFO - Generating streaming business response for: Which events have the highest budget?...
+2025-07-12 14:55:05,831 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:55:17,143 - core.ai_client - INFO - Completed streaming business response: 1708 characters
+2025-07-12 14:55:17,145 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 1708 chars in 12.98s
+2025-07-12 14:55:17,146 - api.chat - INFO - Chat response completed in 12.98s
+2025-07-12 14:55:19,876 - api.chat - INFO - Processing chat request: What's our average deal size?... (conversation: z85uyqr22zl)
+2025-07-12 14:55:19,877 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: What's our average deal size?...
+2025-07-12 14:55:19,877 - core.ai_client - INFO - Generating streaming business response for: What's our average deal size?...
+2025-07-12 14:55:21,447 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:55:31,685 - core.ai_client - INFO - Completed streaming business response: 1523 characters
+2025-07-12 14:55:31,687 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 1523 chars in 11.81s
+2025-07-12 14:55:31,687 - api.chat - INFO - Chat response completed in 11.81s
+2025-07-12 14:56:28,801 - api.chat - INFO - Processing chat request: Show me all events by deadline priority... (conversation: z85uyqr22zl)
+2025-07-12 14:56:28,805 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: Show me all events by deadline priority...
+2025-07-12 14:56:28,808 - core.ai_client - INFO - Generating streaming business response for: Show me all events by deadline priority...
+2025-07-12 14:56:30,549 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:56:43,906 - core.ai_client - INFO - Completed streaming business response: 2395 characters
+2025-07-12 14:56:43,907 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 2395 chars in 15.10s
+2025-07-12 14:56:43,908 - api.chat - INFO - Chat response completed in 15.11s
+2025-07-12 14:56:48,164 - api.chat - INFO - Processing chat request: Which events are closing this week?... (conversation: z85uyqr22zl)
+2025-07-12 14:56:48,166 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: Which events are closing this week?...
+2025-07-12 14:56:48,166 - core.ai_client - INFO - Generating streaming business response for: Which events are closing this week?...
+2025-07-12 14:56:50,648 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:56:58,326 - core.ai_client - INFO - Completed streaming business response: 1361 characters
+2025-07-12 14:56:58,327 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 1361 chars in 10.16s
+2025-07-12 14:56:58,327 - api.chat - INFO - Chat response completed in 10.16s
+2025-07-12 14:57:00,820 - api.chat - INFO - Processing chat request: Are there any events without bids?... (conversation: z85uyqr22zl)
+2025-07-12 14:57:00,823 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: Are there any events without bids?...
+2025-07-12 14:57:00,829 - core.ai_client - INFO - Generating streaming business response for: Are there any events without bids?...
+2025-07-12 14:57:02,934 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:57:14,089 - core.ai_client - INFO - Completed streaming business response: 1777 characters
+2025-07-12 14:57:14,091 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 1777 chars in 13.27s
+2025-07-12 14:57:14,091 - api.chat - INFO - Chat response completed in 13.27s
+2025-07-12 14:57:20,530 - api.chat - INFO - Processing chat request: What are our top 3 most important events and why?... (conversation: z85uyqr22zl)
+2025-07-12 14:57:20,531 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: What are our top 3 most important events and why?...
+2025-07-12 14:57:20,532 - core.ai_client - INFO - Generating streaming business response for: What are our top 3 most important events and why?...
+2025-07-12 14:57:22,368 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:57:38,798 - core.ai_client - INFO - Completed streaming business response: 2726 characters
+2025-07-12 14:57:38,800 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 2726 chars in 18.27s
+2025-07-12 14:57:38,800 - api.chat - INFO - Chat response completed in 18.27s
+2025-07-12 14:58:44,738 - api.chat - INFO - Processing chat request: Which hotels have submitted the most bids?... (conversation: z85uyqr22zl)
+2025-07-12 14:58:44,742 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: Which hotels have submitted the most bids?...
+2025-07-12 14:58:44,745 - core.ai_client - INFO - Generating streaming business response for: Which hotels have submitted the most bids?...
+2025-07-12 14:58:47,078 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:59:04,899 - core.ai_client - INFO - Completed streaming business response: 2461 characters
+2025-07-12 14:59:04,901 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 2461 chars in 20.16s
+2025-07-12 14:59:04,903 - api.chat - INFO - Chat response completed in 20.17s
+2025-07-12 14:59:08,174 - api.chat - INFO - Processing chat request: What's the average number of bids per event?... (conversation: z85uyqr22zl)
+2025-07-12 14:59:08,176 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: What's the average number of bids per event?...
+2025-07-12 14:59:08,179 - core.ai_client - INFO - Generating streaming business response for: What's the average number of bids per event?...
+2025-07-12 14:59:10,626 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:59:22,304 - core.ai_client - INFO - Completed streaming business response: 2099 characters
+2025-07-12 14:59:22,305 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 2099 chars in 14.13s
+2025-07-12 14:59:22,306 - api.chat - INFO - Chat response completed in 14.13s
+2025-07-12 14:59:25,358 - api.chat - INFO - Processing chat request: Show me events with less than 3 bids... (conversation: z85uyqr22zl)
+2025-07-12 14:59:25,359 - services.chat_service - INFO - Added user message to conversation z85uyqr22zl: Show me events with less than 3 bids...
+2025-07-12 14:59:25,360 - core.ai_client - INFO - Generating streaming business response for: Show me events with less than 3 bids...
+2025-07-12 14:59:27,259 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-07-12 14:59:38,482 - core.ai_client - INFO - Completed streaming business response: 1875 characters
+2025-07-12 14:59:38,483 - services.chat_service - INFO - Completed streaming response for z85uyqr22zl: 1875 chars in 13.12s
+2025-07-12 14:59:38,483 - api.chat - INFO - Chat response completed in 13.13s
+2025-07-12 15:25:00,255 - main - INFO - Shutting down application...
+2025-07-12 15:25:00,262 - main - INFO - 👋 Application shutdown complete

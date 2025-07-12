@@ -6,7 +6,7 @@ import uuid
 
 class ChatRequest(BaseModel):
     """Chat message request model."""
-    message: str = Field(..., min_length=1, max_length=2000, description="User message")
+    message: str = Field(..., min_length=1, max_length=8000, description="User message")
     conversation_id: Optional[str] = Field(None, description="Optional conversation ID for context")
     
     @validator('message')

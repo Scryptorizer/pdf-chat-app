@@ -44,20 +44,11 @@ async def lifespan(app: FastAPI):
     logger.info(f"Starting {settings.app_name} v{settings.app_version}")
     
     try:
-        # Initialize PDF processor
-        logger.info("Initializing PDF processor...")
-        pdf_path = Path(__file__).parent.parent / settings.pdf_path
-        
-        if not pdf_path.exists():
-            logger.error(f"PDF file not found: {pdf_path}")
-            raise FileNotFoundError(f"PDF file not found: {pdf_path}")
-        
-        pdf_success = initialize_pdf_processor(str(pdf_path))
-        if not pdf_success:
-            logger.error("Failed to initialize PDF processor")
-            raise RuntimeError("PDF processor initialization failed")
-        
-        logger.info("✅ PDF processor initialized successfully")
+        # Initialize Business Data
+        logger.info("Loading business intelligence data...")
+        from core.mock_data import get_mock_data
+        business_data = get_mock_data()
+        logger.info(f"✅ Business data loaded: {len(business_data['events'])} events, {len(business_data['bids'])} bids")  
         
         # Validate AI setup
         logger.info("Validating AI setup...")
@@ -88,9 +79,9 @@ async def lifespan(app: FastAPI):
 
 # Create FastAPI application
 app = FastAPI(
-    title=settings.app_name,
+    title="MCW Digital Event Bidding Intelligence Platform",
     version=settings.app_version,
-    description="Professional PDF Chat Application - Answer questions based on PDF content",
+    description="AI-powered Event Bidding Intelligence Platform - Business intelligence through conversation",
     lifespan=lifespan,
     docs_url="/docs",
     redoc_url="/redoc"

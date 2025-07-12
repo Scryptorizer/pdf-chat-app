@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     # Anthropic Configuration - CLAUDE 4 SONNET
     anthropic_api_key: str = ""
     anthropic_model: str = "claude-sonnet-4-20250514"  # Claude 4 Sonnet - LATEST MODEL
-    max_tokens: int = 1500
+    max_tokens: int = 4000
     temperature: float = 0.7
 
     # PDF Configuration
