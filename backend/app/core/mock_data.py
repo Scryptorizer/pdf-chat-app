@@ -579,10 +579,14 @@ def get_enhanced_mock_data():
     
     # Use the same base data every time
     original_data = _consistent_data.copy()
+    # Create a deep copy of bids to avoid modifying the original
+    original_data['bids'] = original_data['bids'].copy()
     
-    # Add new runtime bids to the data
+    # Add new runtime bids to the data (only new ones, avoid duplicates)
     if _runtime_bids:
         print(f"🔄 Adding {len(_runtime_bids)} runtime bids to business data")
+        # Clear any existing runtime bids first, then add current ones
+        original_data['bids'] = [bid for bid in original_data['bids'] if not hasattr(bid, 'competitive_advantages') or "AI processed" not in bid.competitive_advantages]
         original_data['bids'].extend(_runtime_bids)
         
         # Log the added bids for debugging
