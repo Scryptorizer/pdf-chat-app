@@ -495,6 +495,9 @@ _runtime_events = []
 
 def add_new_bid(bid_data: dict) -> str:
     """Add a new bid to the runtime mock data."""
+    print(f"🔍 DEBUG: add_new_bid called with: {bid_data}")
+    print(f"🔍 DEBUG: Current _runtime_bids count: {len(_runtime_bids)}")
+    
     try:
         # Generate new bid ID
         existing_bids = len(_runtime_bids)
@@ -544,6 +547,8 @@ def add_new_bid(bid_data: dict) -> str:
         _runtime_bids.append(new_bid)
         
         print(f"✅ Added new bid: {bid_id} for {bid_data['hotel_name']}")
+        print(f"🔍 DEBUG: _runtime_bids count after adding: {len(_runtime_bids)}")
+        
         return bid_id
         
     except Exception as e:
