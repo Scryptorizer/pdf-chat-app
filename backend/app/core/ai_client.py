@@ -161,10 +161,6 @@ Remember: You're a business intelligence tool designed to help event managers ma
     
     def _get_relevant_data_for_query(self, user_message: str) -> str:
         """Extract relevant business data based on the user's query."""
-        # FORCE REFRESH to ensure we have latest data including runtime bids
-        from core.mock_data import get_enhanced_mock_data
-        self.business_data = get_enhanced_mock_data()
-        
         if not self.business_data:
             return ""
         
@@ -211,10 +207,6 @@ Remember: You're a business intelligence tool designed to help event managers ma
     async def generate_response(self, user_message: str, conversation_history: List[Dict] = None) -> str:
         """Generate a non-streaming business intelligence response."""
         try:
-            # Ensure we have the latest data including runtime bids
-            from core.mock_data import get_enhanced_mock_data
-            self.business_data = get_enhanced_mock_data()
-            
             system_prompt, messages = self._build_business_context_prompt(user_message, conversation_history)
             
             # Add relevant data context to the system prompt
@@ -253,10 +245,6 @@ Remember: You're a business intelligence tool designed to help event managers ma
     async def generate_streaming_response(self, user_message: str, conversation_history: List[Dict] = None) -> AsyncGenerator[str, None]:
         """Generate a streaming business intelligence response."""
         try:
-            # Ensure we have the latest data including runtime bids
-            from core.mock_data import get_enhanced_mock_data
-            self.business_data = get_enhanced_mock_data()
-            
             system_prompt, messages = self._build_business_context_prompt(user_message, conversation_history)
             
             # Add relevant data context
