@@ -30,9 +30,21 @@ interface RecentEvent {
   bidCount: number;
 }
 
+/* --------------------------------------------------------------------------
+   Currency helper – fixes TS(2349) "NumberFormat has no call signatures"
+   -------------------------------------------------------------------------- */
+const usdFormatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 0,
+});
+const formatCurrency = (amount: number) => usdFormatter.format(amount);
+/* -------------------------------------------------------------------------- */
+
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
-  
+
   // Updated state with initial empty values
   const [metrics, setMetrics] = useState<BusinessMetrics>({
     totalPipeline: 0,
@@ -44,7 +56,7 @@ const Dashboard: React.FC = () => {
     newRfpsToday: 0,
     bidsSubmittedToday: 0,
     monthlyGrowth: 0,
-    quarterlyGrowth: 0
+    quarterlyGrowth: 0,
   });
 
   const [recentEvents, setRecentEvents] = useState<RecentEvent[]>([]);
@@ -52,65 +64,52 @@ const Dashboard: React.FC = () => {
   const [lastUpdated, setLastUpdated] = useState<Date>(new Date());
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch real business data from backend
+  /* ------------------------- data fetching -------------------------- */
   const fetchBusinessData = async () => {
     try {
       const response = await fetch('https://pdf-chat-app-h0ew.onrender.com/api/business-metrics');
-      if (response.ok) {
-        const data = await response.json();
-        setMetrics(data.metrics);
-        setRecentEvents(data.events);
-        setLastUpdated(new Date());
-        setError(null);
-      } else {
-        console.error('Failed to fetch business data:', response.status);
-        setError('Failed to load business data');
-      }
-    } catch (error) {
-      console.error('Error fetching business data:', error);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      setMetrics(data.metrics);
+      setRecentEvents(data.events);
+      setLastUpdated(new Date());
+      setError(null);
+    } catch (err) {
+      console.error('Error fetching business data:', err);
       setError('Network error - using cached data');
     } finally {
       setLoading(false);
     }
   };
 
-  // Initial data load
+  // Initial and interval data load
   useEffect(() => {
     fetchBusinessData();
   }, []);
 
-  // Real-time updates every 30 seconds
   useEffect(() => {
-    const interval = setInterval(() => {
-      fetchBusinessData();
-    }, 30000); // 30 seconds
-
+    const interval = setInterval(fetchBusinessData, 30000);
     return () => clearInterval(interval);
   }, []);
 
-  const formatCurrency = (amount: number) => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD',
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    }).format(amount);
-  };
-
-  const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString('en-US', {
+  /* ------------------------- helpers -------------------------- */
+  const formatDate = (dateString: string) =>
+    new Date(dateString).toLocaleDateString('en-US', {
       month: 'short',
       day: 'numeric',
-      year: 'numeric'
+      year: 'numeric',
     });
-  };
 
   const getPriorityColor = (priority: string) => {
     switch (priority) {
-      case 'high': return 'text-red-700 bg-red-100 border-red-200';
-      case 'medium': return 'text-yellow-700 bg-yellow-100 border-yellow-200';
-      case 'low': return 'text-green-700 bg-green-100 border-green-200';
-      default: return 'text-gray-700 bg-gray-100 border-gray-200';
+      case 'high':
+        return 'text-red-700 bg-red-100 border-red-200';
+      case 'medium':
+        return 'text-yellow-700 bg-yellow-100 border-yellow-200';
+      case 'low':
+        return 'text-green-700 bg-green-100 border-green-200';
+      default:
+        return 'text-gray-700 bg-gray-100 border-gray-200';
     }
   };
 
@@ -122,7 +121,7 @@ const Dashboard: React.FC = () => {
     return 'text-gray-700 bg-gray-100';
   };
 
-  // Loading state
+  /* ------------------------- loading UI -------------------------- */
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -134,6 +133,7 @@ const Dashboard: React.FC = () => {
     );
   }
 
+  /* ------------------------- metric cards -------------------------- */
   const metricCards = [
     {
       title: 'Total Pipeline',
@@ -142,7 +142,7 @@ const Dashboard: React.FC = () => {
       changeType: 'positive',
       icon: '💰',
       gradient: 'from-emerald-500 to-teal-600',
-      description: 'from last month'
+      description: 'from last month',
     },
     {
       title: 'Active Events',
@@ -151,7 +151,7 @@ const Dashboard: React.FC = () => {
       changeType: 'info',
       icon: '🎯',
       gradient: 'from-blue-500 to-cyan-600',
-      description: 'opportunities'
+      description: 'opportunities',
     },
     {
       title: 'Win Rate',
@@ -160,7 +160,7 @@ const Dashboard: React.FC = () => {
       changeType: 'positive',
       icon: '📈',
       gradient: 'from-purple-500 to-pink-600',
-      description: 'conversion rate'
+      description: 'conversion rate',
     },
     {
       title: 'Avg Deal Size',
@@ -169,10 +169,11 @@ const Dashboard: React.FC = () => {
       changeType: 'positive',
       icon: '💎',
       gradient: 'from-orange-500 to-red-600',
-      description: 'this quarter'
-    }
+      description: 'this quarter',
+    },
   ];
 
+  /* ------------------------- JSX -------------------------- */
   return (
     <div className="space-y-8">
       {/* Enhanced Page Header */}
@@ -194,28 +195,19 @@ const Dashboard: React.FC = () => {
             {error && (
               <>
                 <div className="h-4 w-px bg-slate-300"></div>
-                <button 
-                  onClick={fetchBusinessData}
-                  className="text-sm text-blue-600 hover:text-blue-700 font-medium"
-                >
+                <button onClick={fetchBusinessData} className="text-sm text-blue-600 hover:text-blue-700 font-medium">
                   Retry
                 </button>
               </>
             )}
           </div>
         </div>
-        
+
         <div className="flex items-center space-x-3">
-          <button 
-            onClick={() => navigate('/analytics')}
-            className="px-6 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200"
-          >
+          <button onClick={() => navigate('/analytics')} className="px-6 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200">
             📊 Advanced Analytics
           </button>
-          <button 
-            onClick={() => navigate('/chat')}
-            className="px-6 py-3 bg-white border-2 border-blue-600 text-slate-900 rounded-xl font-semibold hover:bg-blue-50 hover:shadow-lg transition-all duration-200"
-          >
+          <button onClick={() => navigate('/chat')} className="px-6 py-3 bg-white border-2 border-blue-600 text-slate-900 rounded-xl font-semibold hover:bg-blue-50 hover:shadow-lg transition-all duration-200">
             💬 Ask AI
           </button>
         </div>
@@ -234,33 +226,16 @@ const Dashboard: React.FC = () => {
       {/* Enhanced Metrics Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
         {metricCards.map((metric, index) => (
-          <div 
-            key={index}
-            className="group relative bg-white rounded-2xl p-6 shadow-lg border border-slate-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden"
-          >
-            {/* Background Gradient */}
+          <div key={index} className="group relative bg-white rounded-2xl p-6 shadow-lg border border-slate-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
             <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${metric.gradient} opacity-80`}></div>
-            
-            {/* Floating Icon */}
             <div className={`absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-r ${metric.gradient} rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>
               <span className="text-2xl">{metric.icon}</span>
             </div>
-
             <div className="relative z-10">
-              <p className="text-sm font-semibold text-slate-600 uppercase tracking-wide mb-2">
-                {metric.title}
-              </p>
-              <p className="text-3xl font-bold text-slate-900 mb-3">
-                {metric.value}
-              </p>
+              <p className="text-sm font-semibold text-slate-600 uppercase tracking-wide mb-2">{metric.title}</p>
+              <p className="text-3xl font-bold text-slate-900 mb-3">{metric.value}</p>
               <div className="flex items-center justify-between">
-                <span className={`text-sm font-medium px-3 py-1 rounded-full ${
-                  metric.changeType === 'positive' ? 'text-emerald-700 bg-emerald-100' :
-                  metric.changeType === 'negative' ? 'text-red-700 bg-red-100' :
-                  'text-blue-700 bg-blue-100'
-                }`}>
-                  {metric.change}
-                </span>
+                <span className={`text-sm font-medium px-3 py-1 rounded-full ${metric.changeType === 'positive' ? 'text-emerald-700 bg-emerald-100' : metric.changeType === 'negative' ? 'text-red-700 bg-red-100' : 'text-blue-700 bg-blue-100'}`}>{metric.change}</span>
               </div>
               <p className="text-xs text-slate-500 mt-2">{metric.description}</p>
             </div>
@@ -270,8 +245,7 @@ const Dashboard: React.FC = () => {
 
       {/* Main Content Grid */}
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
-        
-        {/* High-Priority Events */}
+        {/* ---------------- High-Priority Events ---------------- */}
         <div className="xl:col-span-2 bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-slate-50 to-blue-50 border-b border-slate-200">
             <div className="flex items-center justify-between">
@@ -279,53 +253,37 @@ const Dashboard: React.FC = () => {
                 <h3 className="text-xl font-bold text-slate-900">High-Priority Events</h3>
                 <p className="text-slate-600 mt-1">Track your most valuable opportunities</p>
               </div>
-              <button 
-                onClick={() => navigate('/events')}
-                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-              >
+              <button onClick={() => navigate('/events')} className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
                 View All Events →
               </button>
             </div>
           </div>
-          
+
           <div className="p-6">
             {recentEvents.length > 0 ? (
               <div className="space-y-4">
                 {recentEvents.map((event) => (
-                  <div 
-                    key={event.id} 
-                    className="group p-5 bg-gradient-to-r from-white to-slate-50 rounded-xl border border-slate-200 hover:shadow-lg hover:border-blue-300 transition-all duration-200 cursor-pointer"
-                    onClick={() => navigate('/events')}
-                  >
+                  <div key={event.id} className="group p-5 bg-gradient-to-r from-white to-slate-50 rounded-xl border border-slate-200 hover:shadow-lg hover:border-blue-300 transition-all duration-200 cursor-pointer" onClick={() => navigate('/events')}>
                     <div className="flex items-start justify-between mb-3">
                       <div className="flex-1">
                         <div className="flex items-center space-x-3 mb-2">
-                          <h4 className="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
-                            {event.name}
-                          </h4>
-                          <span className={`px-2 py-1 text-xs font-semibold rounded-full border ${getPriorityColor(event.priority)}`}>
-                            {event.priority.toUpperCase()}
-                          </span>
+                          <h4 className="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">{event.name}</h4>
+                          <span className={`px-2 py-1 text-xs font-semibold rounded-full border ${getPriorityColor(event.priority)}`}>{event.priority.toUpperCase()}</span>
                         </div>
                         <p className="text-slate-600 font-medium">{event.company}</p>
                         <div className="flex items-center space-x-4 mt-2 text-sm text-slate-500">
                           <span>Due: {formatDate(event.deadline)}</span>
                           <span>•</span>
-                          <span className={event.daysLeft <= 30 ? 'text-red-600 font-medium' : ''}>
-                            {event.daysLeft} days left
-                          </span>
+                          <span className={event.daysLeft <= 30 ? 'text-red-600 font-medium' : ''}>{event.daysLeft} days left</span>
                           <span>•</span>
                           <span>{event.guests} guests</span>
                         </div>
                       </div>
                       <div className="text-right">
                         <p className="text-2xl font-bold text-slate-900">{formatCurrency(event.value)}</p>
-                        <span className={`px-3 py-1 text-xs font-medium rounded-full ${getStatusColor(event.status)}`}>
-                          {event.status}
-                        </span>
+                        <span className={`px-3 py-1 text-xs font-medium rounded-full ${getStatusColor(event.status)}`}>{event.status}</span>
                       </div>
                     </div>
-                    
                     {/* Progress Bar */}
                     <div className="mt-4">
                       <div className="flex justify-between text-xs text-slate-500 mb-1">
@@ -333,13 +291,9 @@ const Dashboard: React.FC = () => {
                         <span>{event.progress}%</span>
                       </div>
                       <div className="w-full bg-slate-200 rounded-full h-2">
-                        <div 
-                          className="bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full transition-all duration-300"
-                          style={{ width: `${event.progress}%` }}
-                        ></div>
+                        <div className="bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full transition-all duration-300" style={{ width: `${event.progress}%` }}></div>
                       </div>
                     </div>
-
                     {/* Additional Info */}
                     <div className="flex items-center justify-between text-xs text-slate-500 mt-3">
                       <span>Manager: {event.manager}</span>
@@ -357,9 +311,8 @@ const Dashboard: React.FC = () => {
           </div>
         </div>
 
-        {/* Right Sidebar */}
+        {/* ---------------- Right Sidebar ---------------- */}
         <div className="space-y-6">
-          
           {/* Today's Activity */}
           <div className="bg-white rounded-2xl shadow-lg border border-slate-200 p-6">
             <h3 className="text-lg font-bold text-slate-900 mb-4">Today's Activity</h3>
@@ -367,7 +320,7 @@ const Dashboard: React.FC = () => {
               {[
                 { label: 'New RFPs', value: metrics.newRfpsToday, color: 'emerald', icon: '📧' },
                 { label: 'Bids Submitted', value: metrics.bidsSubmittedToday, color: 'blue', icon: '📝' },
-                { label: 'Pending Decisions', value: metrics.pendingDecisions, color: 'orange', icon: '⏳' }
+                { label: 'Pending Decisions', value: metrics.pendingDecisions, color: 'orange', icon: '⏳' },
               ].map((item, index) => (
                 <div key={index} className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
                   <div className="flex items-center space-x-3">
@@ -375,7 +328,7 @@ const Dashboard: React.FC = () => {
                     <span className="text-slate-700 font-medium">{item.label}</span>
                   </div>
                   <span className={`text-${item.color}-600 font-bold text-lg`}>
-                    {typeof item.value === 'number' ? (item.value > 0 ? `+${item.value}` : item.value) : item.value}
+                    {item.value > 0 ? `+${item.value}` : item.value}
                   </span>
                 </div>
               ))}
@@ -390,15 +343,11 @@ const Dashboard: React.FC = () => {
                 { icon: '💬', label: 'Ask AI Assistant', action: () => navigate('/chat'), gradient: 'from-blue-500 to-purple-600' },
                 { icon: '🚀', label: 'Process New Bid', action: () => navigate('/bid-processor'), gradient: 'from-emerald-500 to-teal-600' },
                 { icon: '📊', label: 'Export Reports', action: () => navigate('/analytics'), gradient: 'from-orange-500 to-red-600' },
-                { icon: '🏨', label: 'Partner Performance', action: () => navigate('/hotels'), gradient: 'from-purple-500 to-pink-600' }
-              ].map((action, index) => (
-                <button
-                  key={index}
-                  onClick={action.action}
-                  className={`w-full flex items-center space-x-3 p-4 bg-gradient-to-r ${action.gradient} text-white rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-200`}
-                >
-                  <span className="text-xl">{action.icon}</span>
-                  <span className="font-semibold">{action.label}</span>
+                { icon: '🏨', label: 'Partner Performance', action: () => navigate('/hotels'), gradient: 'from-purple-500 to-pink-600' },
+              ].map((btn, index) => (
+                <button key={index} onClick={btn.action} className={`w-full flex items-center space-x-3 p-4 bg-gradient-to-r ${btn.gradient} text-white rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-200`}>
+                  <span className="text-xl">{btn.icon}</span>
+                  <span className="font-semibold">{btn.label}</span>
                   <span className="ml-auto">→</span>
                 </button>
               ))}
@@ -412,14 +361,14 @@ const Dashboard: React.FC = () => {
               <h3 className="text-lg font-bold text-red-900">Urgent Alerts</h3>
             </div>
             <div className="space-y-3">
-              {recentEvents.filter(e => e.daysLeft <= 30).slice(0, 2).map((event, index) => (
+              {recentEvents.filter((e) => e.daysLeft <= 30).slice(0, 2).map((event, index) => (
                 <div key={index} className="p-3 bg-white rounded-lg border border-red-200">
                   <p className="text-sm text-red-800 font-medium">
                     <strong>{event.name}</strong> - High value ({formatCurrency(event.value)}) deadline in {event.daysLeft} days
                   </p>
                 </div>
               ))}
-              {recentEvents.filter(e => e.daysLeft <= 30).length === 0 && (
+              {recentEvents.filter((e) => e.daysLeft <= 30).length === 0 && (
                 <div className="p-3 bg-white rounded-lg border border-red-200">
                   <p className="text-sm text-red-800 font-medium">
                     <strong>No urgent deadlines</strong> - All events are on track
@@ -449,7 +398,6 @@ const Dashboard: React.FC = () => {
             </div>
           </div>
         </div>
-        
         <div className="h-64 bg-gradient-to-br from-slate-50 to-blue-50 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300">
           <div className="text-center">
             <div className="text-6xl mb-4">📈</div>
