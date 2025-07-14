@@ -174,29 +174,31 @@ const Dashboard: React.FC = () => {
   ];
 
   return (
-    <div className="space-y-8">
-      {/* Enhanced Page Header */}
-      <div className="flex flex-col lg:flex-row lg:items-center justify-between bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
+    <div className="space-y-6 sm:space-y-8">
+      {/* Enhanced Page Header - Mobile Optimized */}
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg border border-slate-200">
         <div className="mb-4 lg:mb-0">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-slate-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
             Business Intelligence Dashboard
           </h1>
-          <p className="text-slate-600 mt-2 text-lg">Real-time insights driving event bidding success</p>
-          <div className="flex items-center mt-3 space-x-4">
+          <p className="text-slate-600 mt-2 text-sm sm:text-base lg:text-lg">Real-time insights driving event bidding success</p>
+          
+          {/* Mobile-friendly status indicators */}
+          <div className="flex flex-col sm:flex-row sm:items-center mt-3 space-y-2 sm:space-y-0 sm:space-x-4">
             <div className="flex items-center space-x-2">
               <div className={`w-3 h-3 rounded-full animate-pulse shadow-lg ${error ? 'bg-red-500 shadow-red-500/50' : 'bg-emerald-500 shadow-emerald-500/50'}`}></div>
-              <span className="text-sm font-medium text-slate-600">
+              <span className="text-xs sm:text-sm font-medium text-slate-600">
                 {error ? 'Offline Mode' : 'Live Data Stream'}
               </span>
             </div>
-            <div className="h-4 w-px bg-slate-300"></div>
-            <span className="text-sm text-slate-500">Last updated: {lastUpdated.toLocaleTimeString()}</span>
+            <div className="hidden sm:block h-4 w-px bg-slate-300"></div>
+            <span className="text-xs sm:text-sm text-slate-500">Last updated: {lastUpdated.toLocaleTimeString()}</span>
             {error && (
               <>
-                <div className="h-4 w-px bg-slate-300"></div>
+                <div className="hidden sm:block h-4 w-px bg-slate-300"></div>
                 <button 
                   onClick={fetchBusinessData}
-                  className="text-sm text-blue-600 hover:text-blue-700 font-medium"
+                  className="text-xs sm:text-sm text-blue-600 hover:text-blue-700 font-medium"
                 >
                   Retry
                 </button>
@@ -205,16 +207,17 @@ const Dashboard: React.FC = () => {
           </div>
         </div>
         
-        <div className="flex items-center space-x-3">
+        {/* Mobile-optimized action buttons */}
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-y-2 sm:space-y-0 sm:space-x-3">
           <button 
             onClick={() => navigate('/analytics')}
-            className="px-6 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200"
+            className="px-4 sm:px-6 py-3 bg-blue-600 text-white rounded-lg sm:rounded-xl font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200 text-sm sm:text-base text-center"
           >
             📊 Advanced Analytics
           </button>
           <button 
             onClick={() => navigate('/chat')}
-            className="px-6 py-3 bg-white border-2 border-blue-600 text-slate-900 rounded-xl font-semibold hover:bg-blue-50 hover:shadow-lg transition-all duration-200"
+            className="px-4 sm:px-6 py-3 bg-white border-2 border-blue-600 text-slate-900 rounded-lg sm:rounded-xl font-semibold hover:bg-blue-50 hover:shadow-lg transition-all duration-200 text-sm sm:text-base text-center"
           >
             💬 Ask AI
           </button>
@@ -226,35 +229,35 @@ const Dashboard: React.FC = () => {
         <div className="bg-orange-50 border border-orange-200 rounded-lg p-4">
           <div className="flex items-center">
             <span className="text-orange-600 mr-2">⚠️</span>
-            <span className="text-orange-800">{error}</span>
+            <span className="text-orange-800 text-sm sm:text-base">{error}</span>
           </div>
         </div>
       )}
 
-      {/* Enhanced Metrics Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+      {/* Enhanced Metrics Grid - Mobile First */}
+      <div className="mobile-grid-2 lg:grid-cols-4">
         {metricCards.map((metric, index) => (
           <div 
             key={index}
-            className="group relative bg-white rounded-2xl p-6 shadow-lg border border-slate-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden"
+            className="group relative bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-slate-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden"
           >
             {/* Background Gradient */}
             <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${metric.gradient} opacity-80`}></div>
             
-            {/* Floating Icon */}
-            <div className={`absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-r ${metric.gradient} rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>
-              <span className="text-2xl">{metric.icon}</span>
+            {/* Floating Icon - Responsive */}
+            <div className={`absolute -top-1 -right-1 sm:-top-2 sm:-right-2 w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-r ${metric.gradient} rounded-xl sm:rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+              <span className="text-lg sm:text-2xl">{metric.icon}</span>
             </div>
 
             <div className="relative z-10">
-              <p className="text-sm font-semibold text-slate-600 uppercase tracking-wide mb-2">
+              <p className="text-xs sm:text-sm font-semibold text-slate-600 uppercase tracking-wide mb-2">
                 {metric.title}
               </p>
-              <p className="text-3xl font-bold text-slate-900 mb-3">
+              <p className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-3">
                 {metric.value}
               </p>
               <div className="flex items-center justify-between">
-                <span className={`text-sm font-medium px-3 py-1 rounded-full ${
+                <span className={`text-xs sm:text-sm font-medium px-2 sm:px-3 py-1 rounded-full ${
                   metric.changeType === 'positive' ? 'text-emerald-700 bg-emerald-100' :
                   metric.changeType === 'negative' ? 'text-red-700 bg-red-100' :
                   'text-blue-700 bg-blue-100'
@@ -268,59 +271,59 @@ const Dashboard: React.FC = () => {
         ))}
       </div>
 
-      {/* Main Content Grid */}
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+      {/* Main Content Grid - Mobile Stacked */}
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 sm:gap-8">
         
-        {/* High-Priority Events */}
-        <div className="xl:col-span-2 bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden">
-          <div className="p-6 bg-gradient-to-r from-slate-50 to-blue-50 border-b border-slate-200">
-            <div className="flex items-center justify-between">
+        {/* High-Priority Events - Full width on mobile */}
+        <div className="xl:col-span-2 bg-white rounded-xl sm:rounded-2xl shadow-lg border border-slate-200 overflow-hidden">
+          <div className="p-4 sm:p-6 bg-gradient-to-r from-slate-50 to-blue-50 border-b border-slate-200">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between space-y-3 sm:space-y-0">
               <div>
-                <h3 className="text-xl font-bold text-slate-900">High-Priority Events</h3>
-                <p className="text-slate-600 mt-1">Track your most valuable opportunities</p>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900">High-Priority Events</h3>
+                <p className="text-slate-600 mt-1 text-sm sm:text-base">Track your most valuable opportunities</p>
               </div>
               <button 
                 onClick={() => navigate('/events')}
-                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium text-sm sm:text-base"
               >
                 View All Events →
               </button>
             </div>
           </div>
           
-          <div className="p-6">
+          <div className="p-4 sm:p-6">
             {recentEvents.length > 0 ? (
               <div className="space-y-4">
                 {recentEvents.map((event) => (
                   <div 
                     key={event.id} 
-                    className="group p-5 bg-gradient-to-r from-white to-slate-50 rounded-xl border border-slate-200 hover:shadow-lg hover:border-blue-300 transition-all duration-200 cursor-pointer"
+                    className="group p-4 sm:p-5 bg-gradient-to-r from-white to-slate-50 rounded-lg sm:rounded-xl border border-slate-200 hover:shadow-lg hover:border-blue-300 transition-all duration-200 cursor-pointer"
                     onClick={() => navigate('/events')}
                   >
-                    <div className="flex items-start justify-between mb-3">
+                    <div className="flex flex-col sm:flex-row sm:items-start justify-between mb-3 space-y-2 sm:space-y-0">
                       <div className="flex-1">
-                        <div className="flex items-center space-x-3 mb-2">
-                          <h4 className="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                        <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                          <h4 className="font-bold text-slate-900 group-hover:text-blue-600 transition-colors text-sm sm:text-base">
                             {event.name}
                           </h4>
-                          <span className={`px-2 py-1 text-xs font-semibold rounded-full border ${getPriorityColor(event.priority)}`}>
+                          <span className={`px-2 py-1 text-xs font-semibold rounded-full border self-start ${getPriorityColor(event.priority)}`}>
                             {event.priority.toUpperCase()}
                           </span>
                         </div>
-                        <p className="text-slate-600 font-medium">{event.company}</p>
-                        <div className="flex items-center space-x-4 mt-2 text-sm text-slate-500">
+                        <p className="text-slate-600 font-medium text-sm sm:text-base">{event.company}</p>
+                        <div className="flex flex-wrap items-center gap-2 sm:gap-4 mt-2 text-xs sm:text-sm text-slate-500">
                           <span>Due: {formatDate(event.deadline)}</span>
-                          <span>•</span>
+                          <span className="hidden sm:inline">•</span>
                           <span className={event.daysLeft <= 30 ? 'text-red-600 font-medium' : ''}>
                             {event.daysLeft} days left
                           </span>
-                          <span>•</span>
+                          <span className="hidden sm:inline">•</span>
                           <span>{event.guests} guests</span>
                         </div>
                       </div>
-                      <div className="text-right">
-                        <p className="text-2xl font-bold text-slate-900">{formatCurrency(event.value)}</p>
-                        <span className={`px-3 py-1 text-xs font-medium rounded-full ${getStatusColor(event.status)}`}>
+                      <div className="text-left sm:text-right">
+                        <p className="text-xl sm:text-2xl font-bold text-slate-900">{formatCurrency(event.value)}</p>
+                        <span className={`px-2 sm:px-3 py-1 text-xs font-medium rounded-full ${getStatusColor(event.status)}`}>
                           {event.status}
                         </span>
                       </div>
@@ -341,7 +344,7 @@ const Dashboard: React.FC = () => {
                     </div>
 
                     {/* Additional Info */}
-                    <div className="flex items-center justify-between text-xs text-slate-500 mt-3">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between text-xs text-slate-500 mt-3 space-y-1 sm:space-y-0">
                       <span>Manager: {event.manager}</span>
                       <span>{event.bidCount} bids received</span>
                     </div>
@@ -350,20 +353,20 @@ const Dashboard: React.FC = () => {
               </div>
             ) : (
               <div className="text-center py-8">
-                <div className="text-4xl mb-4">📅</div>
+                <div className="text-3xl sm:text-4xl mb-4">📅</div>
                 <p className="text-slate-600">No events data available</p>
               </div>
             )}
           </div>
         </div>
 
-        {/* Right Sidebar */}
+        {/* Right Sidebar - Stacked on mobile */}
         <div className="space-y-6">
           
           {/* Today's Activity */}
-          <div className="bg-white rounded-2xl shadow-lg border border-slate-200 p-6">
-            <h3 className="text-lg font-bold text-slate-900 mb-4">Today's Activity</h3>
-            <div className="space-y-4">
+          <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg border border-slate-200 p-4 sm:p-6">
+            <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-4">Today's Activity</h3>
+            <div className="space-y-3 sm:space-y-4">
               {[
                 { label: 'New RFPs', value: metrics.newRfpsToday, color: 'emerald', icon: '📧' },
                 { label: 'Bids Submitted', value: metrics.bidsSubmittedToday, color: 'blue', icon: '📝' },
@@ -371,10 +374,10 @@ const Dashboard: React.FC = () => {
               ].map((item, index) => (
                 <div key={index} className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
                   <div className="flex items-center space-x-3">
-                    <span className="text-lg">{item.icon}</span>
-                    <span className="text-slate-700 font-medium">{item.label}</span>
+                    <span className="text-base sm:text-lg">{item.icon}</span>
+                    <span className="text-slate-700 font-medium text-sm sm:text-base">{item.label}</span>
                   </div>
-                  <span className={`text-${item.color}-600 font-bold text-lg`}>
+                  <span className={`text-${item.color}-600 font-bold text-base sm:text-lg`}>
                     {typeof item.value === 'number' ? (item.value > 0 ? `+${item.value}` : item.value) : item.value}
                   </span>
                 </div>
@@ -383,8 +386,8 @@ const Dashboard: React.FC = () => {
           </div>
 
           {/* Quick Actions */}
-          <div className="bg-white rounded-2xl shadow-lg border border-slate-200 p-6">
-            <h3 className="text-lg font-bold text-slate-900 mb-4">Quick Actions</h3>
+          <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg border border-slate-200 p-4 sm:p-6">
+            <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-4">Quick Actions</h3>
             <div className="space-y-3">
               {[
                 { icon: '💬', label: 'Ask AI Assistant', action: () => navigate('/chat'), gradient: 'from-blue-500 to-purple-600' },
@@ -395,10 +398,10 @@ const Dashboard: React.FC = () => {
                 <button
                   key={index}
                   onClick={action.action}
-                  className={`w-full flex items-center space-x-3 p-4 bg-gradient-to-r ${action.gradient} text-white rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-200`}
+                  className={`w-full flex items-center space-x-3 p-3 sm:p-4 bg-gradient-to-r ${action.gradient} text-white rounded-lg sm:rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-200`}
                 >
-                  <span className="text-xl">{action.icon}</span>
-                  <span className="font-semibold">{action.label}</span>
+                  <span className="text-base sm:text-xl">{action.icon}</span>
+                  <span className="font-semibold text-sm sm:text-base">{action.label}</span>
                   <span className="ml-auto">→</span>
                 </button>
               ))}
@@ -406,22 +409,22 @@ const Dashboard: React.FC = () => {
           </div>
 
           {/* Urgent Alerts */}
-          <div className="bg-gradient-to-r from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-6">
+          <div className="bg-gradient-to-r from-red-50 to-orange-50 border-2 border-red-200 rounded-xl sm:rounded-2xl p-4 sm:p-6">
             <div className="flex items-center space-x-2 mb-4">
-              <span className="text-2xl animate-pulse">🚨</span>
-              <h3 className="text-lg font-bold text-red-900">Urgent Alerts</h3>
+              <span className="text-xl sm:text-2xl animate-pulse">🚨</span>
+              <h3 className="text-base sm:text-lg font-bold text-red-900">Urgent Alerts</h3>
             </div>
             <div className="space-y-3">
               {recentEvents.filter(e => e.daysLeft <= 30).slice(0, 2).map((event, index) => (
                 <div key={index} className="p-3 bg-white rounded-lg border border-red-200">
-                  <p className="text-sm text-red-800 font-medium">
+                  <p className="text-xs sm:text-sm text-red-800 font-medium">
                     <strong>{event.name}</strong> - High value ({formatCurrency(event.value)}) deadline in {event.daysLeft} days
                   </p>
                 </div>
               ))}
               {recentEvents.filter(e => e.daysLeft <= 30).length === 0 && (
                 <div className="p-3 bg-white rounded-lg border border-red-200">
-                  <p className="text-sm text-red-800 font-medium">
+                  <p className="text-xs sm:text-sm text-red-800 font-medium">
                     <strong>No urgent deadlines</strong> - All events are on track
                   </p>
                 </div>
@@ -431,14 +434,14 @@ const Dashboard: React.FC = () => {
         </div>
       </div>
 
-      {/* Enhanced Performance Chart */}
-      <div className="bg-white rounded-2xl shadow-lg border border-slate-200 p-8">
-        <div className="flex items-center justify-between mb-6">
+      {/* Enhanced Performance Chart - Mobile Responsive */}
+      <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg border border-slate-200 p-4 sm:p-6 lg:p-8">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 space-y-3 sm:space-y-0">
           <div>
-            <h3 className="text-xl font-bold text-slate-900">Revenue Pipeline Trend</h3>
-            <p className="text-slate-600 mt-1">Monthly performance and growth trajectory</p>
+            <h3 className="text-lg sm:text-xl font-bold text-slate-900">Revenue Pipeline Trend</h3>
+            <p className="text-slate-600 mt-1 text-sm sm:text-base">Monthly performance and growth trajectory</p>
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
             <div className="text-sm">
               <span className="text-slate-500">This Month:</span>
               <span className="font-bold text-emerald-600 ml-2">+{metrics.monthlyGrowth}%</span>
@@ -450,12 +453,12 @@ const Dashboard: React.FC = () => {
           </div>
         </div>
         
-        <div className="h-64 bg-gradient-to-br from-slate-50 to-blue-50 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300">
-          <div className="text-center">
-            <div className="text-6xl mb-4">📈</div>
-            <p className="text-slate-700 font-semibold text-lg">Interactive Revenue Chart</p>
-            <p className="text-slate-500 mt-2">Real-time pipeline: {formatCurrency(metrics.totalPipeline)}</p>
-            <div className="mt-4 flex items-center justify-center space-x-6 text-sm">
+        <div className="h-48 sm:h-64 bg-gradient-to-br from-slate-50 to-blue-50 rounded-lg sm:rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300">
+          <div className="text-center px-4">
+            <div className="text-4xl sm:text-6xl mb-4">📈</div>
+            <p className="text-slate-700 font-semibold text-base sm:text-lg">Interactive Revenue Chart</p>
+            <p className="text-slate-500 mt-2 text-sm sm:text-base">Real-time pipeline: {formatCurrency(metrics.totalPipeline)}</p>
+            <div className="mt-4 flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6 text-xs sm:text-sm">
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-emerald-500 rounded-full"></div>
                 <span className="text-slate-600">Revenue Growth: +{metrics.monthlyGrowth}%</span>
