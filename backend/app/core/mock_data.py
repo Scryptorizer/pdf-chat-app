@@ -570,9 +570,7 @@ def get_enhanced_mock_data():
     
     # Only generate once, then reuse
     if _consistent_data is None:
-        print("🏗️ Generating ONE-TIME static business data...")
         _consistent_data = mock_generator.generate_all_mock_data()
-        print(f"✅ Static data locked: {len(_consistent_data['events'])} events, {len(_consistent_data['bids'])} bids")
     
     # Use the same base data every time
     original_data = _consistent_data.copy()
