@@ -146,7 +146,8 @@ async def chat_endpoint(request: ChatRequest, client_request: Request):
             detail=f"Internal server error: {str(e)}"
         )
 
-
+@router.post("/process-bid-document")
+async def process_bid_document(file: UploadFile = File(None)):
     """Process uploaded bid document OR form data - KILLER FEATURE that reduces 2 hours to 2 minutes!"""
     try:
         logger.info("=== BID PROCESSING STARTED ===")
