@@ -207,6 +207,9 @@ Remember: You're a business intelligence tool designed to help event managers ma
     async def generate_response(self, user_message: str, conversation_history: List[Dict] = None) -> str:
         """Generate a non-streaming business intelligence response."""
         try:
+            # Auto-refresh business data to get latest bids
+            self.refresh_business_data()
+            
             system_prompt, messages = self._build_business_context_prompt(user_message, conversation_history)
             
             # Add relevant data context to the system prompt
@@ -245,6 +248,9 @@ Remember: You're a business intelligence tool designed to help event managers ma
     async def generate_streaming_response(self, user_message: str, conversation_history: List[Dict] = None) -> AsyncGenerator[str, None]:
         """Generate a streaming business intelligence response."""
         try:
+            # Auto-refresh business data to get latest bids
+            self.refresh_business_data()
+            
             system_prompt, messages = self._build_business_context_prompt(user_message, conversation_history)
             
             # Add relevant data context
