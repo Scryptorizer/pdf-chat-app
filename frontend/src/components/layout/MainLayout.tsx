@@ -14,16 +14,9 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     setMounted(true);
   }, []);
 
-  // 🔒 Lock body scroll while the mobile drawer is open
-  useEffect(() => {
-    if (sidebarOpen) {
-      document.body.classList.add('overflow-hidden');
-    } else {
-      document.body.classList.remove('overflow-hidden');
-    }
-  }, [sidebarOpen]);
-
-  const toggleSidebar = () => setSidebarOpen(prev => !prev);
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
 
   if (!mounted) {
     return (
@@ -37,18 +30,23 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   }
 
   return (
-    <div className="flex min-h-screen bg-slate-50 overflow-hidden">
-      {/* Sidebar */}
+    <div className="flex h-screen bg-slate-50 overflow-hidden">
+      {/* Sidebar - Fixed positioning */}
       <Sidebar isOpen={sidebarOpen} onToggle={toggleSidebar} />
 
-      {/* Main content */}
+      {/* Main Content Container - NO MARGIN, just flex */}
       <div className="flex-1 flex flex-col min-h-0">
+        {/* Header - Fixed at top */}
         <Header onMenuClick={toggleSidebar} />
 
+        {/* Main Content Area - Scrollable */}
         <main className="flex-1 relative overflow-y-auto bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50">
+          {/* Background Pattern */}
           <div className="absolute inset-0 bg-grid-pattern opacity-30 pointer-events-none"></div>
 
+          {/* Content Container */}
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            {/* Content with Animation */}
             <div className="animate-fadeIn">
               {children}
             </div>
@@ -56,9 +54,9 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
         </main>
       </div>
 
-      {/* Mobile overlay */}
+      {/* Mobile Sidebar Overlay */}
       {sidebarOpen && (
-        <div
+        <div 
           className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden transition-opacity duration-300"
           onClick={toggleSidebar}
         />
