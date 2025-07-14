@@ -36,7 +36,7 @@ const BidProcessingEngine: React.FC = () => {
       formDataToSend.append('file', blob, 'bid_data.json');
 
       // Call your backend API
-      const response = await fetch('http://localhost:8000/api/process-bid-document', {
+      const response = await fetch('https://pdf-chat-app-h0ew.onrender.com/api/process-bid-document', {
         method: 'POST',
         body: formDataToSend
       });
