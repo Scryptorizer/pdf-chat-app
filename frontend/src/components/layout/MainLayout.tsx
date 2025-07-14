@@ -14,19 +14,56 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     setMounted(true);
   }, []);
 
-  // Close sidebar when clicking outside on mobile
+  // Close sidebar when clicking outside on mobile or when screen resizes
   useEffect(() => {
-    if (sidebarOpen) {
-      const handleResize = () => {
-        if (window.innerWidth >= 1024) {
-          setSidebarOpen(false);
-        }
-      };
+    const handleResize = () => {
+      if (window.innerWidth >= 1024) {
+        setSidebarOpen(false);
+      }
+    };
+    
+    const handleClickOutside = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Element;
+      const sidebar = document.querySelector('[data-sidebar]');
+      const menuButton = document.querySelector('[data-menu-button]');
       
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }
+      if (
+        window.innerWidth < 1024 && 
+        sidebarOpen && 
+        sidebar && 
+        !sidebar.contains(target) && 
+        !menuButton?.contains(target)
+      ) {
+        setSidebarOpen(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
+    
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+    };
   }, [sidebarOpen]);
+
+  // Close sidebar on mobile when navigating
+  useEffect(() => {
+    const handleRouteChange = () => {
+      if (window.innerWidth < 1024) {
+        setSidebarOpen(false);
+      }
+    };
+    
+    // Listen for URL changes (React Router navigation)
+    window.addEventListener('popstate', handleRouteChange);
+    
+    return () => {
+      window.removeEventListener('popstate', handleRouteChange);
+    };
+  }, []);
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
@@ -55,10 +92,20 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       {/* Main Content Container - Enhanced for mobile */}
       <div className="flex-1 flex flex-col min-h-0 lg:ml-0">
         {/* Enhanced Header with mobile-specific styling */}
-        <Header onMenuClick={toggleSidebar} />
+        <div data-menu-button>
+          <Header onMenuClick={toggleSidebar} />
+        </div>
 
         {/* Main Content Area - Mobile-optimized scrolling */}
-        <main className="flex-1 relative overflow-y-auto bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50">
+        <main 
+          className="flex-1 relative overflow-y-auto bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50"
+          onClick={() => {
+            // Close sidebar when clicking on main content on mobile
+            if (window.innerWidth < 1024 && sidebarOpen) {
+              setSidebarOpen(false);
+            }
+          }}
+        >
           {/* Background Pattern */}
           <div className="absolute inset-0 bg-grid-pattern opacity-30 pointer-events-none"></div>
 
@@ -72,12 +119,18 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
         </main>
       </div>
 
-      {/* Enhanced Mobile Sidebar Overlay */}
+      {/* Enhanced Mobile Sidebar Overlay with better touch handling */}
       {sidebarOpen && (
         <div 
           className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden transition-opacity duration-300"
-          onClick={toggleSidebar}
-          onTouchStart={toggleSidebar} // Better mobile touch handling
+          onClick={(e) => {
+            e.preventDefault();
+            setSidebarOpen(false);
+          }}
+          onTouchStart={(e) => {
+            e.preventDefault();
+            setSidebarOpen(false);
+          }}
         />
       )}
       

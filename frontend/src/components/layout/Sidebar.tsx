@@ -58,7 +58,6 @@ const navigation: NavigationItem[] = [
     badgeColor: 'bg-purple-500',
     description: 'Intelligent insights'
   },
-  
   { 
     id: 'settings', 
     name: 'Settings', 
@@ -81,15 +80,18 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
   };
 
   return (
-    <div className={`
-      fixed inset-y-0 left-0 z-50 w-64 
-      bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900
-      transform transition-all duration-300 ease-in-out
-      ${isOpen ? 'translate-x-0' : '-translate-x-full'} 
-      lg:translate-x-0 lg:static lg:inset-0
-      border-r border-slate-700/50
-      shadow-2xl lg:shadow-none
-    `}>
+    <div 
+      data-sidebar
+      className={`
+        fixed inset-y-0 left-0 z-50 w-64 
+        bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900
+        transform transition-all duration-300 ease-in-out
+        ${isOpen ? 'translate-x-0' : '-translate-x-full'} 
+        lg:translate-x-0 lg:static lg:inset-0
+        border-r border-slate-700/50
+        shadow-2xl lg:shadow-none
+      `}
+    >
       
       {/* Enhanced Logo Section */}
       <div className="relative h-20 px-6 bg-gradient-to-r from-slate-800 to-slate-700 border-b border-slate-600/50">
@@ -111,10 +113,14 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
             </div>
           </div>
           
-          {/* Mobile close button */}
+          {/* Mobile close button with enhanced touch target */}
           <button
-            onClick={onToggle}
-            className="lg:hidden text-slate-400 hover:text-white transition-colors p-2 rounded-lg hover:bg-slate-700/50"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              onToggle();
+            }}
+            className="lg:hidden text-slate-400 hover:text-white transition-colors p-3 rounded-lg hover:bg-slate-700/50 min-w-[44px] min-h-[44px] flex items-center justify-center"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -131,10 +137,14 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
           return (
             <div key={item.id} className="relative group">
               <button
-                onClick={() => handleNavigation(item.href)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  handleNavigation(item.href);
+                }}
                 className={`
                   w-full flex items-center px-4 py-3.5 text-sm font-medium rounded-xl
-                  transition-all duration-200 ease-in-out
+                  transition-all duration-200 ease-in-out min-h-[44px]
                   ${isActive 
                     ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg transform scale-[1.02] shadow-blue-500/25' 
                     : 'text-slate-300 hover:text-white hover:bg-slate-700/50'
