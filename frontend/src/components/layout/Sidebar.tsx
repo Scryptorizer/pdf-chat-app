@@ -58,6 +58,7 @@ const navigation: NavigationItem[] = [
     badgeColor: 'bg-purple-500',
     description: 'Intelligent insights'
   },
+  
   { 
     id: 'settings', 
     name: 'Settings', 
@@ -73,32 +74,24 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
 
   const handleNavigation = (href: string) => {
     navigate(href);
-    // ALWAYS close mobile sidebar after navigation
+    // Close mobile sidebar after navigation
     if (window.innerWidth < 1024) {
       onToggle();
     }
   };
 
-  // IMPROVED: Simple close handler
-  const handleClose = () => {
-    onToggle();
-  };
-
   return (
-    <div 
-      data-sidebar
-      className={`
-        fixed inset-y-0 left-0 z-50 w-80 
-        bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900
-        transform transition-all duration-300 ease-in-out
-        ${isOpen ? 'translate-x-0' : '-translate-x-full'} 
-        lg:translate-x-0 lg:static lg:inset-0 lg:w-64
-        border-r border-slate-700/50
-        shadow-2xl lg:shadow-none
-      `}
-    >
+    <div className={`
+      fixed inset-y-0 left-0 z-50 w-64 
+      bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900
+      transform transition-all duration-300 ease-in-out
+      ${isOpen ? 'translate-x-0' : '-translate-x-full'} 
+      lg:translate-x-0 lg:static lg:inset-0
+      border-r border-slate-700/50
+      shadow-2xl lg:shadow-none
+    `}>
       
-      {/* FIXED: Enhanced Logo Section with better mobile close */}
+      {/* Enhanced Logo Section */}
       <div className="relative h-20 px-6 bg-gradient-to-r from-slate-800 to-slate-700 border-b border-slate-600/50">
         <div className="flex items-center justify-between h-full">
           <div className="flex items-center space-x-3">
@@ -118,11 +111,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
             </div>
           </div>
           
-          {/* FIXED: Simplified mobile close button with better touch handling */}
+          {/* Mobile close button */}
           <button
-            onClick={handleClose}
-            className="lg:hidden text-slate-400 hover:text-white transition-colors p-4 rounded-lg hover:bg-slate-700/50 touch-manipulation"
-            aria-label="Close sidebar"
+            onClick={onToggle}
+            className="lg:hidden text-slate-400 hover:text-white transition-colors p-2 rounded-lg hover:bg-slate-700/50"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -141,11 +133,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle }) => {
               <button
                 onClick={() => handleNavigation(item.href)}
                 className={`
-                  w-full flex items-center px-4 py-4 text-sm font-medium rounded-xl
-                  transition-all duration-200 ease-in-out min-h-[56px] touch-manipulation
+                  w-full flex items-center px-4 py-3.5 text-sm font-medium rounded-xl
+                  transition-all duration-200 ease-in-out
                   ${isActive 
                     ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg transform scale-[1.02] shadow-blue-500/25' 
-                    : 'text-slate-300 hover:text-white hover:bg-slate-700/50 active:bg-slate-700/70'
+                    : 'text-slate-300 hover:text-white hover:bg-slate-700/50'
                   }
                   relative overflow-hidden
                 `}
