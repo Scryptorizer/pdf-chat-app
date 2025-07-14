@@ -417,7 +417,11 @@ async def get_business_metrics():
     """Get real-time business metrics for dashboard."""
     try:
         # Get fresh business data
-        business_data = get_enhanced_mock_data()
+        chat_service = get_chat_service()
+        if chat_service and chat_service.ai_client and chat_service.ai_client.business_data:
+            business_data = chat_service.ai_client.business_data
+        else:
+            business_data = get_enhanced_mock_data()
         
         # Calculate real metrics from mock data
         events = business_data['events']
