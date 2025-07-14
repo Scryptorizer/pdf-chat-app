@@ -50,6 +50,15 @@ const navigation: NavigationItem[] = [
     description: 'Business intelligence'
   },
   { 
+    id: 'bid-processor', 
+    name: 'Process New Bid', 
+    href: '/bid-processor', 
+    icon: '🚀',
+    badge: 'New',
+    badgeColor: 'bg-orange-500',
+    description: 'AI-powered bid processing'
+  },
+  { 
     id: 'chat', 
     name: 'AI Assistant', 
     href: '/chat', 
@@ -58,7 +67,6 @@ const navigation: NavigationItem[] = [
     badgeColor: 'bg-purple-500',
     description: 'Intelligent insights'
   },
-  
   { 
     id: 'settings', 
     name: 'Settings', 

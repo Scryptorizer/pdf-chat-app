@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainLayout from './components/layout/MainLayout';
 import Dashboard from './components/business/Dashboard';
 import ChatInterface from './components/ChatInterface';
+import BidProcessingEngine from './components/business/BidProcessingEngine';
 import './App.css';
 
 interface Message {
@@ -89,7 +90,6 @@ const App: React.FC = () => {
     <Router>
       <div className="App min-h-screen bg-slate-50">
         <MainLayout>
-          {/* REMOVED: div with h-screen overflow-hidden - this was blocking scroll */}
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/events" element={<EventsPage />} />
@@ -105,6 +105,8 @@ const App: React.FC = () => {
                 setConversationMessages={setChatMessages}
               />
             } />
+            <Route path="/bid-processor" element={<BidProcessingEngine />} />
+            <Route path="/simulator" element={<BidProcessingEngine />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="*" element={<Dashboard />} />
           </Routes>
