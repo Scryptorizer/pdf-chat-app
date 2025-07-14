@@ -25,8 +25,7 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
     '/hotels': { title: 'Hotel Partners', subtitle: 'Manage relationships and performance metrics' },
     '/analytics': { title: 'Analytics', subtitle: 'Deep insights and business intelligence' },
     '/chat': { title: 'AI Assistant', subtitle: 'Conversational business intelligence' },
-    '/bid-processor': { title: 'Bid Processor', subtitle: 'AI-powered bid processing and analysis' },
-    '/simulator': { title: 'Bid Processor', subtitle: 'AI-powered bid processing and analysis' },
+    '/simulator': { title: 'Email Simulator', subtitle: 'Test and simulate incoming requests' },
     '/settings': { title: 'Settings', subtitle: 'Configure your preferences and integrations' }
   };
 
@@ -46,18 +45,15 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
           </svg>
         </button>
 
-        {/* Mobile-Friendly Page Title */}
-        <div className="min-w-0 flex-1">
-          <h1 className="text-lg lg:text-xl font-semibold text-slate-900 truncate">
-            {window.innerWidth < 768 && currentPage.title.length > 20 ? 
-              currentPage.title.split(' ').slice(0, 2).join(' ') 
-              : currentPage.title
-            }
+        {/* Clean Page Title */}
+        <div>
+          <h1 className="text-xl font-semibold text-slate-900">
+            {currentPage.title}
           </h1>
         </div>
       </div>
 
-      {/* Center Section - Search (Hidden on Mobile) */}
+      {/* Center Section - Clean Search */}
       <div className="hidden md:flex flex-1 max-w-md mx-8">
         <div className="relative w-full">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -73,8 +69,8 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
         </div>
       </div>
 
-      {/* Right Section - Compact */}
-      <div className="flex items-center space-x-2 lg:space-x-4">
+      {/* Right Section - Minimal */}
+      <div className="flex items-center space-x-4">
         {/* Time Display */}
         <div className="hidden lg:block text-right text-sm text-slate-600">
           {currentTime.toLocaleTimeString('en-US', { 
@@ -84,19 +80,19 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
           })}
         </div>
 
-        {/* Compact Action Buttons */}
+        {/* Quick Action Buttons */}
         <button 
           onClick={() => navigate('/chat')}
-          className="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+          className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
         >
-          💬 <span className="hidden md:inline">Ask AI</span>
+          💬 Ask AI
         </button>
 
         <button 
-          onClick={() => navigate('/bid-processor')}
-          className="px-3 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors text-sm font-medium"
+          onClick={() => navigate('/simulator')}
+          className="hidden md:block px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors text-sm font-medium"
         >
-          📧 <span className="hidden md:inline">New RFP</span>
+          📧 New RFP
         </button>
 
         {/* Notifications */}
