@@ -33,7 +33,7 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
   const currentPage = pageTitles[location.pathname] || { title: 'MCW Digital Platform', subtitle: 'Event bidding intelligence' };
 
   return (
-    <header className="bg-white shadow-sm border-b border-slate-200 h-16 flex items-center justify-between px-3 sm:px-6">
+    <header className="bg-white shadow-sm border-b border-slate-200 h-14 sm:h-16 flex items-center justify-between px-3 sm:px-6">
       {/* Left Section */}
       <div className="flex items-center space-x-2 sm:space-x-4 flex-1">
         {/* Mobile Menu Button */}
