@@ -18,42 +18,96 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
     return () => clearInterval(timer);
   }, []);
 
-  // Page titles mapping
-  const pageTitles: { [key: string]: { title: string; subtitle: string } } = {
-    '/': { title: 'Business Intelligence Dashboard', subtitle: 'Real-time insights for event bidding operations' },
-    '/events': { title: 'Events Management', subtitle: 'Track and manage your event opportunities' },
-    '/hotels': { title: 'Hotel Partners', subtitle: 'Manage relationships and performance metrics' },
-    '/analytics': { title: 'Analytics', subtitle: 'Deep insights and business intelligence' },
-    '/chat': { title: 'AI Assistant', subtitle: 'Conversational business intelligence' },
-    '/simulator': { title: 'Email Simulator', subtitle: 'Test and simulate incoming requests' },
-    '/settings': { title: 'Settings', subtitle: 'Configure your preferences and integrations' }
+  // Page titles mapping with mobile-friendly versions
+  const pageTitles: { [key: string]: { 
+    title: string; 
+    mobileTitle: string; 
+    subtitle: string; 
+    mobileSubtitle?: string;
+  } } = {
+    '/': { 
+      title: 'Business Intelligence Dashboard', 
+      mobileTitle: 'Dashboard',
+      subtitle: 'Real-time insights for event bidding operations',
+      mobileSubtitle: 'Real-time insights'
+    },
+    '/events': { 
+      title: 'Events Management', 
+      mobileTitle: 'Events',
+      subtitle: 'Track and manage your event opportunities' 
+    },
+    '/hotels': { 
+      title: 'Hotel Partners', 
+      mobileTitle: 'Hotels',
+      subtitle: 'Manage relationships and performance metrics' 
+    },
+    '/analytics': { 
+      title: 'Analytics', 
+      mobileTitle: 'Analytics',
+      subtitle: 'Deep insights and business intelligence' 
+    },
+    '/chat': { 
+      title: 'AI Assistant', 
+      mobileTitle: 'AI Chat',
+      subtitle: 'Conversational business intelligence' 
+    },
+    '/bid-processor': { 
+      title: 'Bid Processor', 
+      mobileTitle: 'New Bid',
+      subtitle: 'AI-powered bid processing' 
+    },
+    '/simulator': { 
+      title: 'Email Simulator', 
+      mobileTitle: 'Simulator',
+      subtitle: 'Test and simulate incoming requests' 
+    },
+    '/settings': { 
+      title: 'Settings', 
+      mobileTitle: 'Settings',
+      subtitle: 'Configure your preferences and integrations' 
+    }
   };
 
-  const currentPage = pageTitles[location.pathname] || { title: 'MCW Digital Platform', subtitle: 'Event bidding intelligence' };
+  const currentPage = pageTitles[location.pathname] || { 
+    title: 'MCW Digital Platform', 
+    mobileTitle: 'MCW Digital',
+    subtitle: 'Event bidding intelligence' 
+  };
 
   return (
-    <header className="bg-white shadow-sm border-b border-slate-200 h-16 flex items-center justify-between px-6">
+    <header className="bg-white shadow-sm border-b border-slate-200 h-16 flex items-center justify-between px-4 sm:px-6">
       {/* Left Section */}
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-3 sm:space-x-4 flex-1 min-w-0">
         {/* Mobile Menu Button */}
         <button
           onClick={onMenuClick}
-          className="lg:hidden p-2 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors"
+          className="lg:hidden p-2 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors flex-shrink-0"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
 
-        {/* Clean Page Title */}
-        <div>
-          <h1 className="text-xl font-semibold text-slate-900">
+        {/* Page Title - Responsive */}
+        <div className="min-w-0 flex-1">
+          {/* Mobile Title (≤ 640px) */}
+          <h1 className="sm:hidden text-lg font-semibold text-slate-900 truncate">
+            {currentPage.mobileTitle}
+          </h1>
+          
+          {/* Desktop Title (> 640px) */}
+          <h1 className="hidden sm:block text-xl font-semibold text-slate-900">
             {currentPage.title}
           </h1>
+          
+          {/* Optional subtitle for larger screens */}
+          <p className="hidden lg:block text-xs text-slate-500 mt-0.5 truncate">
+            {currentPage.mobileSubtitle || currentPage.subtitle}
+          </p>
         </div>
       </div>
 
-      {/* Center Section - Clean Search */}
+      {/* Center Section - Search (hidden on small mobile) */}
       <div className="hidden md:flex flex-1 max-w-md mx-8">
         <div className="relative w-full">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -69,9 +123,9 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
         </div>
       </div>
 
-      {/* Right Section - Minimal */}
-      <div className="flex items-center space-x-4">
-        {/* Time Display */}
+      {/* Right Section - Compact on mobile */}
+      <div className="flex items-center space-x-2 sm:space-x-4 flex-shrink-0">
+        {/* Time Display - Hidden on mobile */}
         <div className="hidden lg:block text-right text-sm text-slate-600">
           {currentTime.toLocaleTimeString('en-US', { 
             hour: '2-digit', 
@@ -80,35 +134,36 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
           })}
         </div>
 
-        {/* Quick Action Buttons */}
+        {/* Quick Action Buttons - Responsive */}
         <button 
           onClick={() => navigate('/chat')}
-          className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+          className="px-3 sm:px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium flex-shrink-0"
         >
-          💬 Ask AI
+          <span className="sm:hidden">💬</span>
+          <span className="hidden sm:inline">💬 Ask AI</span>
         </button>
 
         <button 
           onClick={() => navigate('/simulator')}
-          className="hidden md:block px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors text-sm font-medium"
+          className="hidden sm:block px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors text-sm font-medium"
         >
           📧 New RFP
         </button>
 
-        {/* Notifications */}
-        <button className="relative p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-colors">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        {/* Notifications - Compact on mobile */}
+        <button className="relative p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-colors flex-shrink-0">
+          <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-5-5V7a5 5 0 00-10 0v5l-5 5h5a5 5 0 0010 0z" />
           </svg>
           <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full"></div>
         </button>
 
-        {/* User Profile */}
-        <div className="flex items-center space-x-3 p-2 rounded-lg hover:bg-slate-100 transition-colors cursor-pointer">
+        {/* User Profile - Compact on mobile */}
+        <div className="flex items-center space-x-2 sm:space-x-3 p-1 sm:p-2 rounded-lg hover:bg-slate-100 transition-colors cursor-pointer flex-shrink-0">
           <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-sm">SJ</span>
           </div>
-          <div className="hidden lg:block text-left">
+          <div className="hidden sm:block text-left">
             <p className="text-sm font-medium text-slate-900">Sarah Johnson</p>
             <p className="text-xs text-slate-600">Senior Event Manager</p>
           </div>
